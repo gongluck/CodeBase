@@ -9,30 +9,51 @@
 *  作者:  gongluck 
 *  说明: 
 * 
-*  修改日期: 
-*  作者:  
-*  说明: 
+*  修改日期: 2017-08-14
+*  作者:  gongluck
+*  说明: 增强SaveBmpWithFileInfo的功能，检查扫描行
 ******************************************************************/
 #include "Bmp.h"
 
 //根据文件头和dib数据保存bmp文件
-bool SaveBmpWithFileInfo(const char* filename,const BITMAPFILEHEADER* fileheader,const BITMAPINFO* bmpinfo,const void* bits)
+bool SaveBmpWithFileInfo(const char* filename,const BITMAPFILEHEADER* fileheader,const BITMAPINFO* bmpinfo,const void* bits,bool needChange)
 {
     FILE* fp = NULL;
     if(filename == NULL || fileheader == NULL || bmpinfo == NULL || bits == NULL)
         return false;
     if((fp = fopen(filename,"wb")) == NULL)
         return false;
+
+    int row_size = (bmpinfo->bmiHeader.biWidth * bmpinfo->bmiHeader.biBitCount + 31)/32*4;//一行数据
+    int les_size = row_size - bmpinfo->bmiHeader.biWidth * bmpinfo->bmiHeader.biBitCount /8;//补全
+    int out_size = bmpinfo->bmiHeader.biWidth * bmpinfo->bmiHeader.biBitCount /8;//一行数据 - 补全
+    int step = bmpinfo->bmiHeader.biBitCount /8;
+    int count = out_size / step;
+
     fwrite(fileheader,sizeof(BITMAPFILEHEADER),1,fp);
     fwrite(bmpinfo,sizeof(BITMAPINFO),1,fp);
-    fwrite(bits,bmpinfo->bmiHeader.biSizeImage,1,fp);
+
+    for(int i=0;i*out_size<bmpinfo->bmiHeader.biSizeImage;++i)
+    {
+        if(needChange)
+        {
+            for(int j = 0;j<count;++j)
+            {
+                for(signed int s = step-1;s>=0;--s)
+                    fwrite((BYTE*)bits+i*out_size+j*step+s,1,1,fp);
+            }
+        }
+        else
+            fwrite((BYTE*)bits+i*out_size,out_size,1,fp);
+        fseek(fp,les_size,SEEK_CUR);
+    }
     fclose(fp);
     return true;
 }
 
 //根据位深度、像素宽、像素高和dib数据保存bmp文件
 //深度24以下的不能处理（没有考虑有调色板的情况）
-bool SaveBmpWithBitscountAndWH(const char* filename,int nBits,int width,int height,const void* bits)
+bool SaveBmpWithBitscountAndWH(const char* filename,int nBits,int width,int height,const void* bits,bool needChange)
 {
     BITMAPFILEHEADER header = {0};
     BITMAPINFO info = {0};
@@ -49,7 +70,7 @@ bool SaveBmpWithBitscountAndWH(const char* filename,int nBits,int width,int heig
     header.bfType = 0x4d42;//"BM"
     header.bfOffBits = sizeof(BITMAPFILEHEADER) + sizeof(BITMAPINFO);
 
-    return SaveBmpWithFileInfo(filename,&header,&info,bits);
+    return SaveBmpWithFileInfo(filename,&header,&info,bits,needChange);
 }
 
 //由位图句柄（HBITMAP）保存成bmp图片
