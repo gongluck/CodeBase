@@ -21,28 +21,28 @@ for k,v in pairs(s) do
 end
 
 print("table.unpack(s)")
-print(table.unpack(s)) --è¾“å‡º 1 2 3 4 5 6 7 8 9 10
+print(table.unpack(s)) --Êä³ö 1 2 3 4 5 6 7 8 9 10
 
 print("table.unpack(s,2)")
-print(table.unpack(s,2)) --è¾“å‡º 2 3 4 5 6 7 8 9 10
+print(table.unpack(s,2)) --Êä³ö 2 3 4 5 6 7 8 9 10
 
 print("r = table.unpack(s)")
 r = table.unpack(s)
-print(r) --è¾“å‡º 1
+print(r) --Êä³ö 1
 
 print("r = table.unpack(s,2)")
 r = table.unpack(s,2)
-print(r) --è¾“å‡º 2
+print(r) --Êä³ö 2
 
 print("select(\"#\",table.unpack(s,2))")
-print(select("#",table.unpack(s,2))) --è¾“å‡º 9
+print(select("#",table.unpack(s,2))) --Êä³ö 9
 
 print("select(5,table.unpack(s,2))")
-print(select(5,table.unpack(s,2))) --è¾“å‡º 6 7 8 9 10
+print(select(5,table.unpack(s,2))) --Êä³ö 6 7 8 9 10
 
-function fun1()--fun1()è¿”å›žçš„æ˜¯åŒ¿åå‡½æ•°
+function fun1()--fun1()·µ»ØµÄÊÇÄäÃûº¯Êý
     local i = 0
-    return function ()      -- åŒ¿åå‡½æ•°ï¼Œè¿”å›žâ€œçœŸæ­£çš„ç»“æžœâ€
+    return function ()      -- ÄäÃûº¯Êý£¬·µ»Ø¡°ÕæÕýµÄ½á¹û¡±
         i = i + 1
         return i
     end
@@ -54,3 +54,31 @@ print(fun())     --> 2
 str1 = "str1: hello lua !"
 str2 = "str2: hello world !"
 print(table.concat({str1,str2},"\n"))
+
+t = {1,2,3,4,5}
+print(getmetatable(t))
+t1 = {}
+setmetatable(t,t1)
+assert(getmetatable(t) == t1)
+t1.__index = function(table,key) return t[key] end
+print(t[2])
+
+print(_G)
+
+print("package.path = " .. package.path)
+print("package.cpath = " .. package.cpath)
+
+require "module"
+print(mymodule.new(1))
+
+s = "this 1 test string for lua ."
+res = string.find(s,"test")
+print(string.find(s,"test"))
+res = string.match(s,"test")
+print(string.match(s,"test"))
+res = string.gsub(s,"test","TEST")
+print(string.gsub(s,"test","TEST"))
+res = string.gmatch(s,"test")
+print(string.gmatch(s,"test")())
+
+print(string.match(s,"(%d+)[%A+](%a+)[%A+](%a+)"))
