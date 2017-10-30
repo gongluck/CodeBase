@@ -1,0 +1,533 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ASCII_END	./builtins.c	387;"	d	file:
+ASCII_PRINTABLE_CHARS	./builtins.c	377;"	d	file:
+ASCII_START	./builtins.c	386;"	d	file:
+BUFFER_SIZE	./builtins.c	42;"	d	file:
+BUFSIZE	./msg.c	38;"	d	file:
+CANT_PARSE	./addr.c	/^typedef enum { CANT_PARSE, PARSED, ERROR } result_e ;$/;"	e	enum:__anon1	file:
+CAP	./addr.c	68;"	d	file:
+CHECK	./access.c	185;"	d	file:
+CHECK_AND_CLEAR	./confparse.c	880;"	d	file:
+CLOSED_CURLY_BRACKET	./addr.c	40;"	d	file:
+COMMA	./addr.c	41;"	d	file:
+COND_FREE	./sconf.c	28;"	d	file:
+DAEMON_DIR_OPTION	./itox.c	17;"	d	file:
+DEFAULT_SYSLOG_LEVEL	./msg.c	40;"	d	file:
+DISABLE	./service.c	59;"	d	file:
+DOT	./addr.c	42;"	d	file:
+EQ	./itox.c	11;"	d	file:
+ERROR	./addr.c	/^typedef enum { CANT_PARSE, PARSED, ERROR } result_e ;$/;"	e	enum:__anon1	file:
+FIELD_WIDTH	./itox.c	16;"	d	file:
+FIXED_VALUES	./parse.c	145;"	d	file:
+FREE_CAP	./addr.c	70;"	d	file:
+FREE_CONN	./connection.c	30;"	d	file:
+FREE_SCONF	./sconf.c	23;"	d	file:
+FREE_SERVER	./server.c	39;"	d	file:
+FREE_SVC	./service.c	57;"	d	file:
+FREE_TI	./time.c	31;"	d	file:
+HOST_ADDR	./addr.c	/^typedef enum {   NUMERIC_ADDR, NET_ADDR, HOST_ADDR } address_e ;$/;"	e	enum:__anon2	file:
+IBUFSIZE	./ident.c	40;"	d	file:
+IDP	./udpint.c	51;"	d	file:
+IN_RANGE	./time.c	21;"	d	file:
+LFILE	./xgetloadavg.c	22;"	d	file:
+LINE_LENGTH	./builtins.c	378;"	d	file:
+LOGBUF_SIZE	./log.c	28;"	d	file:
+MAX	./xgetloadavg.c	23;"	d	file:
+MAX_DATAGRAM_SIZE	./udpint.c	34;"	d	file:
+MAX_INTERVAL_SIGNAL_COUNT	./signals.c	268;"	d	file:
+MAX_SIGNAL_COUNT	./signals.c	267;"	d	file:
+MODIFIABLE	./parse.c	144;"	d	file:
+NAME_MAX	./access.c	48;"	d	file:
+NAME_MAX	./access.c	50;"	d	file:
+NAME_MAX	./includedir.c	27;"	d	file:
+NAME_MAX	./includedir.c	29;"	d	file:
+NAME_MAX	./parse.c	33;"	d	file:
+NET_ADDR	./addr.c	/^typedef enum {   NUMERIC_ADDR, NET_ADDR, HOST_ADDR } address_e ;$/;"	e	enum:__anon2	file:
+NET_BUFFER	./redirect.c	37;"	d	file:
+NEW_CAP	./addr.c	69;"	d	file:
+NEW_CONN	./connection.c	29;"	d	file:
+NEW_SCONF	./sconf.c	22;"	d	file:
+NEW_SERVER	./server.c	38;"	d	file:
+NEW_SET	./parsers.c	43;"	d	file:
+NEW_SVC	./service.c	56;"	d	file:
+NEW_TI	./time.c	30;"	d	file:
+NUL	./itox.c	13;"	d	file:
+NUMERIC_ADDR	./addr.c	/^typedef enum {   NUMERIC_ADDR, NET_ADDR, HOST_ADDR } address_e ;$/;"	e	enum:__anon2	file:
+OPEN_CURLY_BRACKET	./addr.c	39;"	d	file:
+PARSED	./addr.c	/^typedef enum { CANT_PARSE, PARSED, ERROR } result_e ;$/;"	e	enum:__anon1	file:
+PERIODIC	./internals.c	/^enum check_type { PERIODIC, USER_REQUESTED } ;$/;"	e	enum:check_type	file:
+PORT_BITS	./parsers.c	598;"	d	file:
+PORT_MAX	./parsers.c	599;"	d	file:
+RCSid	./itox.c	/^static char RCSid[] = "$Id$" ;$/;"	v	file:
+RING_BUF_SIZE	./builtins.c	380;"	d	file:
+RedirServerFd	./redirect.c	/^static int RedirServerFd = -1;$/;"	v	file:
+SAME_NONRPC	./sconf.c	478;"	d	file:
+SAME_RPC	./sconf.c	477;"	d	file:
+SC_RPCPROGNUM	./sconf.c	476;"	d	file:
+SIGACTION_NULL	./signals.c	62;"	d	file:
+SIGNAL_INTERVAL	./signals.c	269;"	d	file:
+SIGSET_NULL	./signals.c	60;"	d	file:
+SIGVEC_NULL	./signals.c	61;"	d	file:
+SIP	./tcpint.c	38;"	d	file:
+START_TIMER	./ident.c	42;"	d	file:
+STDERR_FD	./init.c	54;"	d	file:
+STOP_TIMER	./ident.c	43;"	d	file:
+SWAP	./reconfig.c	50;"	d	file:
+S_CLIENT_ERR	./tcpint.c	/^typedef enum { S_OK, S_SERVER_ERR, S_CLIENT_ERR } stream_status_e ;$/;"	e	enum:__anon5	file:
+S_OK	./tcpint.c	/^typedef enum { S_OK, S_SERVER_ERR, S_CLIENT_ERR } stream_status_e ;$/;"	e	enum:__anon5	file:
+S_SERVER_ERR	./tcpint.c	/^typedef enum { S_OK, S_SERVER_ERR, S_CLIENT_ERR } stream_status_e ;$/;"	e	enum:__anon5	file:
+TCPD_NAME	./itox.c	18;"	d	file:
+TIME_OFFSET	./builtins.c	312;"	d	file:
+TIP	./time.c	29;"	d	file:
+TMPSIZE	./service.c	614;"	d	file:
+USER_REQUESTED	./internals.c	/^enum check_type { PERIODIC, USER_REQUESTED } ;$/;"	e	enum:check_type	file:
+USE_DEFAULT	./confparse.c	117;"	d	file:
+X_OK	./parsers.c	29;"	d	file:
+_GNU_SOURCE	./signals.c	11;"	d	file:
+_GNU_SOURCE	./xmdns.c	3;"	d	file:
+a	./addr.c	/^   } a;$/;"	m	struct:comp_addr	typeref:union:comp_addr::__anon3	file:
+accepted_connections	./tcpint.c	/^   unsigned accepted_connections ;$/;"	m	struct:istream_private	file:
+access_code_names	./access.c	/^const struct name_value access_code_names[] =$/;"	v	typeref:struct:name_value
+access_control	./access.c	/^access_e access_control( struct service *sp, $/;"	f
+access_times_parser	./parsers.c	/^status_e access_times_parser( pset_h values, $/;"	f
+activate_normal	./service.c	/^static status_e activate_normal( struct service *sp )$/;"	f	file:
+activate_rpc	./service.c	/^static status_e activate_rpc( struct service *sp )$/;"	f	file:
+add	./addr.c	/^static status_e add( pset_h addr_list, const struct comp_addr *cap )$/;"	f	file:
+add_new_string	./parsers.c	/^static status_e add_new_string( pset_h set, char *str )$/;"	f	file:
+addr	./addr.c	/^      uint32_t        addr ;  \/* host byte order *\/$/;"	m	union:comp_addr::__anon3	file:
+addr6	./addr.c	/^      struct in6_addr addr6 ;$/;"	m	union:comp_addr::__anon3	typeref:struct:comp_addr::__anon3::in6_addr	file:
+addr_type	./addr.c	/^   address_e       addr_type ;$/;"	m	struct:comp_addr	file:
+address_e	./addr.c	/^typedef enum {   NUMERIC_ADDR, NET_ADDR, HOST_ADDR } address_e ;$/;"	t	typeref:enum:__anon2	file:
+addrlist_add	./addr.c	/^status_e addrlist_add( pset_h addr_list, const char *str_addr ) $/;"	f
+addrlist_copy	./addr.c	/^status_e addrlist_copy( const pset_h from, pset_h *to )$/;"	f
+addrlist_dump	./addr.c	/^void addrlist_dump( const pset_h addr_list, int fd )$/;"	f
+addrlist_free	./addr.c	/^void addrlist_free( pset_h addr_list )$/;"	f
+addrlist_match	./addr.c	/^int addrlist_match( const pset_h addr_list, $/;"	f
+addrlist_op	./addr.c	/^static status_e addrlist_op( pset_h addr_list, $/;"	f	file:
+addrlist_remove	./addr.c	/^status_e addrlist_remove( pset_h addr_list, const char *str_addr ) $/;"	f
+allow_severity	./access.c	/^int allow_severity = LOG_INFO;$/;"	v
+argv_alloc	./util.c	/^char **argv_alloc( unsigned count )$/;"	f
+attr_lookup	./parse.c	/^static const struct attribute *attr_lookup( $/;"	f	file:
+attr_name_lookup	./parse.c	/^const char *attr_name_lookup( unsigned int id )$/;"	f
+bad_signal	./signals.c	/^static void bad_signal(void)$/;"	f	file:
+banner_always	./service.c	/^static int banner_always( const struct service *sp, const connection_s *cp )$/;"	f	file:
+banner_fail	./service.c	/^static int banner_fail( const struct service *sp, const connection_s *cp )$/;"	f	file:
+banner_fail_parser	./parsers.c	/^status_e banner_fail_parser(pset_h values, $/;"	f
+banner_parser	./parsers.c	/^status_e banner_parser(pset_h values, $/;"	f
+banner_success	./service.c	/^static int banner_success( const struct service *sp, const connection_s *cp )$/;"	f	file:
+banner_success_parser	./parsers.c	/^status_e banner_success_parser(pset_h values, $/;"	f
+become_daemon	./init.c	/^static void become_daemon(void)$/;"	f	file:
+bind_parser	./parsers.c	/^status_e bind_parser( pset_h values, $/;"	f
+builtin_find	./builtins.c	/^const builtin_s *builtin_find( const char *service_name, int type )$/;"	f
+builtin_lookup	./builtins.c	/^const builtin_s *builtin_lookup( const struct builtin_service services[], $/;"	f
+builtin_services	./builtins.c	/^static const struct builtin_service builtin_services[] =$/;"	v	typeref:struct:builtin_service	file:
+cancel_retry	./retry.c	/^static void cancel_retry( struct server *serp )$/;"	f	file:
+cancel_service_retries	./retry.c	/^void cancel_service_retries( struct service *sp )$/;"	f
+check_entry	./confparse.c	/^static status_e check_entry( struct service_config *scp, $/;"	f	file:
+check_hostname	./addr.c	/^int check_hostname( const char *addr )$/;"	f
+check_pipe	./signals.c	/^void check_pipe(void)$/;"	f
+check_sensor	./sensor.c	/^status_e check_sensor( const union xsockaddr *addr)$/;"	f
+check_type	./internals.c	/^enum check_type { PERIODIC, USER_REQUESTED } ;$/;"	g	file:
+child_exit	./child.c	/^void child_exit(void)$/;"	f
+child_process	./child.c	/^void child_process( struct server *serp )$/;"	f
+close_all_svc_descriptors	./service.c	/^void close_all_svc_descriptors(void)$/;"	f
+close_default_log	./reconfig.c	/^static void close_default_log(struct configuration *confp, xlog_h def_log)$/;"	f	file:
+cnf_dump	./conf.c	/^void cnf_dump( struct configuration *confp, int fd )$/;"	f
+cnf_extract	./conf.c	/^struct service_config *cnf_extract( struct configuration *confp, $/;"	f
+cnf_free	./conf.c	/^void cnf_free( struct configuration *confp )$/;"	f
+cnf_get	./confparse.c	/^status_e cnf_get( struct configuration *confp )$/;"	f
+cnf_init	./conf.c	/^status_e cnf_init( struct configuration *confp, int *fdp, psi_h *iterp )$/;"	f
+cnf_start_services	./conf.c	/^unsigned cnf_start_services( struct configuration *confp )$/;"	f
+comp_addr	./addr.c	/^struct comp_addr$/;"	s	file:
+compfunc	./includedir.c	/^static int compfunc( const void *_a, const void *_b )$/;"	f	file:
+conn_addrstr	./connection.c	/^const char *conn_addrstr( const connection_s *cp )$/;"	f
+conn_dump	./connection.c	/^void conn_dump( const connection_s *cp, int fd )$/;"	f
+conn_free	./connection.c	/^void conn_free( connection_s *cp, int release_mem )$/;"	f
+conn_new	./connection.c	/^connection_s *conn_new( struct service *sp )$/;"	f
+connection_request	./tcpint.c	/^static void connection_request( struct intercept_s *ip, channel_s **chpp )$/;"	f	file:
+consistency_check	./internals.c	/^static void consistency_check( enum check_type type )$/;"	f	file:
+copy_pset	./util.c	/^status_e copy_pset( const pset_h from, pset_h *to, unsigned size )$/;"	f
+count_refs	./internals.c	/^static int count_refs( struct service *sp, pset_h servers, unsigned *countp )$/;"	f	file:
+cps_parser	./parsers.c	/^status_e cps_parser( pset_h values, $/;"	f
+cps_service_restart	./access.c	/^static void cps_service_restart(void)$/;"	f	file:
+cps_service_stop	./access.c	/^void cps_service_stop(struct service *sp, const char *reason)$/;"	f
+create_pidfile	./init.c	/^static void create_pidfile(void)$/;"	f	file:
+current_file	./parse.c	/^const char *current_file = NULL;$/;"	v
+data	./udpint.c	/^   char                  *data ;$/;"	m	struct:packet	file:
+daytime_protocol	./builtins.c	/^static void daytime_protocol( char *buf, unsigned int *buflen )$/;"	f	file:
+deactivate	./service.c	/^static void deactivate( const struct service *sp )$/;"	f	file:
+debug	./main.c	/^struct debug debug ;$/;"	v	typeref:struct:debug
+default_attributes	./parse.c	/^static const struct attribute default_attributes[] =$/;"	v	typeref:struct:attribute	file:
+deliver_signal	./reconfig.c	/^static void deliver_signal( struct service *sp, int sig )$/;"	f	file:
+deny_severity	./access.c	/^int deny_severity = LOG_INFO;$/;"	v
+deny_time_parser	./parsers.c	/^status_e deny_time_parser( pset_h values, $/;"	f
+destroy_global_access_list	./sensor.c	/^void destroy_global_access_list( void )$/;"	f
+destroy_service	./conf.c	/^static void destroy_service( struct service *sp )$/;"	f	file:
+dgram_chargen	./builtins.c	/^static void dgram_chargen( const struct server *serp )$/;"	f	file:
+dgram_daytime	./builtins.c	/^static void dgram_daytime( const struct server *serp )$/;"	f	file:
+dgram_discard	./builtins.c	/^static void dgram_discard( const struct server *serp )$/;"	f	file:
+dgram_echo	./builtins.c	/^static void dgram_echo( const struct server *serp )$/;"	f	file:
+dgram_intercept_state	./udpint.c	/^static struct intercept_s dgram_intercept_state ;$/;"	v	typeref:struct:intercept_s	file:
+dgram_time	./builtins.c	/^static void dgram_time( const struct server *serp )$/;"	f	file:
+di_exit	./udpint.c	/^void di_exit(void)$/;"	f
+di_init	./udpint.c	/^struct intercept_s *di_init( struct server *serp )$/;"	f
+di_mux	./udpint.c	/^static void di_mux(void)$/;"	f	file:
+disabled_parser	./parsers.c	/^status_e disabled_parser( pset_h values, $/;"	f
+do_fork	./server.c	43;"	d	file:
+do_fork	./server.c	51;"	d	file:
+dont_fork	./options.c	/^int dont_fork = 0;$/;"	v
+drain	./util.c	/^void drain( int sd )$/;"	f
+dump_internal_state	./internals.c	/^void dump_internal_state(void)$/;"	f
+dump_log_data	./sconf.c	/^static void dump_log_data( int fd, struct service_config *scp, int tab_level )$/;"	f	file:
+dump_services	./internals.c	/^static void dump_services( int fd )$/;"	f	file:
+enable_periodic_check	./internals.c	/^void enable_periodic_check( unsigned interval )$/;"	f
+enabled_parser	./parsers.c	/^status_e enabled_parser( pset_h values, $/;"	f
+env	./ident.c	/^static sigjmp_buf env ;$/;"	v	file:
+env_parser	./parsers.c	/^status_e env_parser( pset_h values, $/;"	f
+exec_server	./child.c	/^void exec_server( const struct server *serp )$/;"	f
+explicit_mask	./addr.c	/^static result_e explicit_mask( const char *str_addr, statfunc op, $/;"	f	file:
+factorized_addr	./addr.c	/^static result_e factorized_addr( const char *str_addr, $/;"	f	file:
+failed_service	./service.c	/^static status_e failed_service(struct service *sp, $/;"	f	file:
+failure_log_options	./nvlists.c	/^const struct name_value failure_log_options[] = $/;"	v	typeref:struct:name_value
+filelog_option	./options.c	/^int filelog_option ;$/;"	v
+filelog_option_arg	./options.c	/^char * filelog_option_arg ;$/;"	v
+fill_attribute	./parse.c	/^static void fill_attribute( unsigned attr_id, $/;"	f	file:
+find_bad_fd	./main.c	/^static void find_bad_fd(void)$/;"	f	file:
+find_initializer	./int.c	/^static initfunc find_initializer( int type )$/;"	f	file:
+find_next_entry	./parse.c	/^static entry_e find_next_entry( int fd, char **snamep )$/;"	f	file:
+fix_server_argv	./confparse.c	/^static status_e fix_server_argv( struct service_config *scp )$/;"	f	file:
+flags_parser	./parsers.c	/^status_e flags_parser( pset_h values, $/;"	f
+from	./udpint.c	/^   union xsockaddr from ;$/;"	m	struct:packet	typeref:union:packet::xsockaddr	file:
+general_handler	./signals.c	/^static void general_handler( int sig )$/;"	f	file:
+generate_line	./builtins.c	/^static char *generate_line( char *buf, unsigned int len )$/;"	f	file:
+get_attr_op	./parsesup.c	/^static char *get_attr_op( char *line, char **attrp, enum assign_op *opp )$/;"	f	file:
+get_conf	./confparse.c	/^static status_e get_conf( int fd, struct configuration *confp )$/;"	f	file:
+get_connection	./connection.c	/^static status_e get_connection( struct service *sp, connection_s *cp )$/;"	f	file:
+get_incoming_packet	./udpint.c	/^static status_e get_incoming_packet( struct intercept_s *ip, packet_s *pp )$/;"	f	file:
+get_limit	./parsers.c	/^static int get_limit( char *limit_str, rlim_t *res )$/;"	f	file:
+get_line	./ident.c	/^static char *get_line( int sd, char *buf, unsigned bufsize )$/;"	f	file:
+get_next_inet_entry	./inet.c	/^static int get_next_inet_entry( int fd, pset_h sconfs, $/;"	f	file:
+get_num	./time.c	/^static int get_num( int *nump, $/;"	f	file:
+get_server_socket	./int.c	/^static int get_server_socket( struct intercept_s *ip )$/;"	f	file:
+get_service_entry	./parse.c	/^static void get_service_entry( int fd, $/;"	f	file:
+global_no_access	./sensor.c	/^static pset_h global_no_access = NULL;        \/* global no_access list   *\/$/;"	v	file:
+global_no_access_time	./sensor.c	/^static pset_h global_no_access_time = NULL;   \/* time of the infraction   *\/$/;"	v	file:
+group_parser	./parsers.c	/^status_e group_parser( pset_h values, $/;"	f
+groups_parser	./parsers.c	/^status_e groups_parser( pset_h values, $/;"	f
+handle_includedir	./includedir.c	/^void handle_includedir(const char *service_name, struct configuration *confp)$/;"	f
+handle_io	./tcpint.c	/^static status_e handle_io( psi_h iter, $/;"	f	file:
+handle_signal	./signals.c	/^static status_e handle_signal( int sig )$/;"	f	file:
+hard_reconfig	./reconfig.c	/^void hard_reconfig( void )$/;"	f
+have_stderr	./init.c	/^static bool_int have_stderr ;$/;"	v	file:
+host_addr	./addr.c	/^static result_e host_addr( const char *str_addr, status_e (*op)(), pset_h addr_list )$/;"	f	file:
+howl_callback	./xmdns.c	/^static sw_result howl_callback(sw_discovery discovery, sw_discovery_oid oid, sw_discovery_publish_status status, sw_opaque extra) {$/;"	f	file:
+id_parser	./parsers.c	/^status_e id_parser( pset_h values, $/;"	f
+identify_attribute	./parse.c	/^static status_e identify_attribute( entry_e entry_type, $/;"	f	file:
+idgram	./udpint.c	/^static struct idgram_private idgram ;$/;"	v	typeref:struct:idgram_private	file:
+idgram_ops	./udpint.c	/^static const struct intercept_ops idgram_ops =$/;"	v	typeref:struct:intercept_ops	file:
+idgram_private	./udpint.c	/^struct idgram_private$/;"	s	file:
+idresult_explain	./ident.c	/^const char *idresult_explain( idresult_e result )$/;"	f
+inetd_compat	./options.c	/^int inetd_compat = 0 ;$/;"	v
+init_common	./init.c	/^static void init_common( int argc, char *argv[] )$/;"	f	file:
+init_daemon	./init.c	/^void init_daemon( int argc, char *argv[] )$/;"	f
+init_rw_state	./init.c	/^static void init_rw_state( void )$/;"	f	file:
+init_sensor	./sensor.c	/^void init_sensor( void )$/;"	f
+init_services	./init.c	/^void init_services( void )$/;"	f
+initenv	./env.c	/^status_e initenv(void)$/;"	f
+initfunc	./int.c	/^typedef struct intercept_s *(*initfunc)() ;$/;"	t	typeref:struct:initfunc	file:
+initializer	./init.c	/^   status_e (*initializer)() ;$/;"	m	struct:module	file:
+initializer	./int.c	/^   initfunc   initializer ;$/;"	m	struct:lookup_table	file:
+instances_parser	./parsers.c	/^status_e instances_parser( pset_h values, $/;"	f
+int_exit	./intcommon.c	/^void int_exit( struct intercept_s *ip )$/;"	f
+int_fail	./intcommon.c	/^void int_fail( const struct intercept_s *ip, const char *lsyscall )$/;"	f
+int_init	./intcommon.c	/^void int_init( struct intercept_s *ip, struct server *serp )$/;"	f
+int_lookupconn	./intcommon.c	/^channel_s *int_lookupconn( struct intercept_s *ip, $/;"	f
+int_newconn	./intcommon.c	/^channel_s *int_newconn( struct intercept_s *ip, $/;"	f
+int_select	./intcommon.c	/^int int_select( int max, fd_set *read_mask )$/;"	f
+int_sighandler	./int.c	/^void int_sighandler( int sig )$/;"	f
+intercept	./int.c	/^void intercept( struct server *serp )$/;"	f
+intercept_lookup_table	./int.c	/^static struct lookup_table intercept_lookup_table[] =$/;"	v	typeref:struct:lookup_table	file:
+intp	./int.c	/^static struct intercept_s *intp = NULL;$/;"	v	typeref:struct:intercept_s	file:
+ipv6_ret	./log.c	/^static char ipv6_ret[NI_MAXHOST];$/;"	v	file:
+istream	./tcpint.c	/^static struct istream_private istream ;$/;"	v	typeref:struct:istream_private	file:
+istream_ops	./tcpint.c	/^static struct intercept_ops istream_ops =$/;"	v	typeref:struct:intercept_ops	file:
+istream_private	./tcpint.c	/^struct istream_private$/;"	s	file:
+iter	./confparse.c	/^static psi_h iter ;$/;"	v	file:
+libwrap_parser	./parsers.c	/^status_e libwrap_parser( pset_h values,$/;"	f
+line_count	./itox.c	/^int line_count ;$/;"	v
+line_count	./parse.c	/^int line_count ;$/;"	v
+line_has_only_1_char	./parsesup.c	/^int line_has_only_1_char( const char *line, char ch )$/;"	f
+log_common	./log.c	/^static int log_common( mask_t *logmask, $/;"	f	file:
+log_end	./logctl.c	/^void log_end( struct log *lp, xlog_h xh )$/;"	f
+log_in_error	./logctl.c	/^static void log_in_error( xlog_h xh, int error_code, void *arg )$/;"	f	file:
+log_on_failure_parser	./parsers.c	/^status_e log_on_failure_parser( pset_h values, $/;"	f
+log_on_success_parser	./parsers.c	/^status_e log_on_success_parser( pset_h values, $/;"	f
+log_remote_user	./ident.c	/^idresult_e log_remote_user( const struct server *serp, unsigned timeout )$/;"	f
+log_start	./logctl.c	/^status_e log_start( struct service *sp, xlog_h *xhp )$/;"	f
+log_type_parser	./parsers.c	/^status_e log_type_parser( pset_h values, $/;"	f
+logprocs_option	./options.c	/^int logprocs_option ;$/;"	v
+logprocs_option_arg	./options.c	/^unsigned logprocs_option_arg ;$/;"	v
+lookup_table	./int.c	/^struct lookup_table$/;"	s	file:
+m	./addr.c	/^   } m;$/;"	m	struct:comp_addr	typeref:union:comp_addr::__anon4	file:
+main	./itox.c	/^int main(int argc, char *argv[] )$/;"	f
+main	./main.c	/^int main( int argc, char *argv[] )$/;"	f
+main_loop	./main.c	/^static void main_loop(void)$/;"	f	file:
+make_env_from_vars	./env.c	/^static status_e make_env_from_vars( struct environment *ep, $/;"	f	file:
+make_env_with_strings	./env.c	/^static status_e make_env_with_strings( struct environment *ep, $/;"	f	file:
+make_pathname	./itox.c	/^static char *make_pathname( const unsigned count, ... )$/;"	f	file:
+make_string_cat	./itox.c	/^static char *make_string_cat( const unsigned count, ... )$/;"	f	file:
+mask	./addr.c	/^      uint32_t        mask ;$/;"	m	union:comp_addr::__anon4	file:
+mask6	./addr.c	/^      struct in6_addr mask6 ;$/;"	m	union:comp_addr::__anon4	typeref:struct:comp_addr::__anon4::in6_addr	file:
+max_load_parser	./parsers.c	/^status_e max_load_parser(pset_h values, $/;"	f
+mdns_callback	./xmdns.c	/^static void mdns_callback(DNSServiceRegistrationReplyErrorType err, void *d)$/;"	f	file:
+mdns_parser	./parsers.c	/^status_e mdns_parser( pset_h values, $/;"	f
+min	./builtins.c	389;"	d	file:
+min_end	./time.c	/^   int16_t min_end ;$/;"	m	struct:time_interval	file:
+min_start	./time.c	/^   int16_t min_start ;$/;"	m	struct:time_interval	file:
+missing_attr_msg	./parsers.c	/^static void missing_attr_msg(const char *par, const char *item)$/;"	f	file:
+module	./init.c	/^struct module$/;"	s	file:
+msg	./msg.c	/^void msg( int level, const char *func, const char *fmt, ...)$/;"	f
+msg_init	./msg.c	/^const char *msg_init(void)$/;"	f
+msg_resume	./msg.c	/^void msg_resume(void)$/;"	f
+msg_suspend	./msg.c	/^void msg_suspend(void)$/;"	f
+my_handler	./signals.c	/^static void my_handler( int sig )$/;"	f	file:
+name	./addr.c	/^   char            name[MAXHOSTNAMELEN+1] ;$/;"	m	struct:comp_addr	file:
+name	./init.c	/^   const char *name ;$/;"	m	struct:module	file:
+net_addr	./addr.c	/^static result_e net_addr( const char *str_addr, statfunc op, pset_h addr_list )$/;"	f	file:
+new_table	./init.c	/^static pset_h new_table( unsigned size )$/;"	f	file:
+next_line	./parsesup.c	/^char *next_line( int fd )$/;"	f
+next_word	./itox.c	/^static char *next_word( const char *description )$/;"	f	file:
+nice_parser	./parsers.c	/^status_e nice_parser( pset_h values, $/;"	f
+no_access_parser	./parsers.c	/^status_e no_access_parser( pset_h values, $/;"	f
+no_control_tty	./util.c	/^void no_control_tty(void)$/;"	f
+nsig	./signals.c	/^static int nsig ;$/;"	v	file:
+numeric_addr	./addr.c	/^static result_e numeric_addr( const char *str_addr, $/;"	f	file:
+nv_find_name	./util.c	/^const struct name_value *nv_find_name( const struct name_value nv_array[], int value )$/;"	f
+nv_find_value	./util.c	/^const struct name_value *nv_find_value( const struct name_value nv_array[], const char *name )$/;"	f
+nv_get_name	./util.c	/^const char *nv_get_name( const struct name_value nv_array[], int value )$/;"	f
+only_from_parser	./parsers.c	/^status_e only_from_parser( pset_h values, $/;"	f
+opt_recognize	./options.c	/^int opt_recognize( int argc, char *argv[] )$/;"	f
+out_of_memory	./util.c	/^void out_of_memory( const char *func )$/;"	f
+packet	./udpint.c	/^struct packet$/;"	s	file:
+packet_s	./udpint.c	/^typedef struct packet packet_s ;$/;"	t	typeref:struct:packet	file:
+parent_access_control	./access.c	/^access_e parent_access_control( struct service *sp, const connection_s *cp )$/;"	f
+parse_all_digits	./util.c	/^bool_int parse_all_digits(const char *ptr)$/;"	f
+parse_base10	./util.c	/^int parse_base10(const char *str, int *res)$/;"	f
+parse_conf_file	./parse.c	/^void parse_conf_file( int fd, struct configuration *confp, const char *filename)$/;"	f
+parse_end	./parse.c	/^void parse_end(void)$/;"	f
+parse_entry	./parse.c	/^static status_e parse_entry( entry_e entry_type, $/;"	f	file:
+parse_filelog	./parsers.c	/^static status_e parse_filelog( struct filelog *flp, pset_h values )$/;"	f	file:
+parse_inet_addresses	./parsers.c	/^static status_e parse_inet_addresses( pset_h values, $/;"	f	file:
+parse_inet_conf_file	./inet.c	/^void parse_inet_conf_file( int fd, struct configuration *confp )$/;"	f
+parse_int	./util.c	/^int parse_int(const char *str, int base, int term, int *res)$/;"	f
+parse_line	./parsesup.c	/^status_e parse_line( char *line, $/;"	f
+parse_log_flags	./parsers.c	/^static status_e parse_log_flags( pset_h values, $/;"	f	file:
+parse_syslog	./parsers.c	/^static status_e parse_syslog( struct syslog *slp, pset_h values )$/;"	f	file:
+parse_ubase10	./util.c	/^int parse_ubase10(const char *str, unsigned int *res)$/;"	f
+parse_uint	./util.c	/^int parse_uint(const char *str, int base, int term, unsigned int *res)$/;"	f
+parse_ull	./util.c	/^int parse_ull(const char *str, int base, int term, unsigned long long *res)$/;"	f
+parse_value_list	./parsers.c	/^static status_e parse_value_list( pset_h values, $/;"	f	file:
+parsemsg	./msg.c	/^void parsemsg( int msg_level, const char *func, const char *fmt, ...)$/;"	f
+passenv_parser	./parsers.c	/^status_e passenv_parser( pset_h values, $/;"	f
+per_source_parser	./parsers.c	/^status_e per_source_parser( pset_h values, $/;"	f
+periodic_check	./internals.c	/^static void periodic_check(void)$/;"	f	file:
+port_parser	./parsers.c	/^status_e port_parser( pset_h values, $/;"	f
+prepare_buffer	./msg.c	/^prepare_buffer( int level, $/;"	f	file:
+print_line	./itox.c	/^static void print_line( const char *name, const char *value )$/;"	f	file:
+priorities	./msg.c	/^static const struct name_value priorities[] =$/;"	v	typeref:struct:name_value	file:
+process_sensor	./sensor.c	/^void process_sensor( const struct service *sp, const union xsockaddr *addr)$/;"	f
+program_modules	./init.c	/^static const struct module program_modules[] = $/;"	v	typeref:struct:module	file:
+program_name	./options.c	/^char *program_name ;$/;"	v
+program_version	./main.c	/^char program_version[] = XINETD_VERSION ;$/;"	v
+protocol_parser	./parsers.c	/^status_e protocol_parser( pset_h values, $/;"	f
+ps	./main.c	/^struct program_state ps ;$/;"	v	typeref:struct:program_state
+quit_program	./main.c	/^void quit_program(void)$/;"	f
+readjust	./reconfig.c	/^static status_e readjust( struct service *sp, $/;"	f	file:
+readjust_rpc_service	./reconfig.c	/^static status_e readjust_rpc_service( struct service_config *old_scp, $/;"	f	file:
+received_packets	./udpint.c	/^   unsigned received_packets ;$/;"	m	struct:idgram_private	file:
+redir_handler	./redirect.c	/^void redir_handler( struct server *serp )$/;"	f
+redir_parser	./parsers.c	/^status_e redir_parser(pset_h values, $/;"	f
+redir_sigpipe	./redirect.c	/^static void redir_sigpipe( int signum ) $/;"	f	file:
+refcount_check	./internals.c	/^static unsigned refcount_check( struct service *sp, $/;"	f	file:
+release_string_pset	./sconf.c	/^static void release_string_pset( pset_h pset )$/;"	f	file:
+remote_address_check	./access.c	/^static status_e remote_address_check(const struct service *sp, $/;"	f	file:
+remove_disabled_services	./confparse.c	/^static void remove_disabled_services( struct configuration *confp )$/;"	f	file:
+rename_process	./child.c	/^static void rename_process( const char *name )$/;"	f	file:
+reset_sigs	./signals.c	/^static sigset_t reset_sigs ;$/;"	v	file:
+restart_log	./reconfig.c	/^static status_e restart_log( struct service *sp, $/;"	f	file:
+result_e	./addr.c	/^typedef enum { CANT_PARSE, PARSED, ERROR } result_e ;$/;"	t	typeref:enum:__anon1	file:
+retry_timer_running	./retry.c	/^static int retry_timer_running ;$/;"	v	file:
+ring	./builtins.c	/^static char *ring ;$/;"	v	file:
+ring_buf	./builtins.c	/^static char *ring_buf = NULL ;$/;"	v	file:
+rlim_as_parser	./parsers.c	/^status_e rlim_as_parser( pset_h values, $/;"	f
+rlim_cpu_parser	./parsers.c	/^status_e rlim_cpu_parser( pset_h values, $/;"	f
+rlim_data_parser	./parsers.c	/^status_e rlim_data_parser( pset_h values, $/;"	f
+rlim_rss_parser	./parsers.c	/^status_e rlim_rss_parser( pset_h values, $/;"	f
+rlim_stack_parser	./parsers.c	/^status_e rlim_stack_parser( pset_h values, $/;"	f
+rpc_number_parser	./parsers.c	/^status_e rpc_number_parser( pset_h values, $/;"	f
+rpc_version_parser	./parsers.c	/^status_e rpc_version_parser( pset_h values, $/;"	f
+sa_flags	./signals.c	/^   int          sa_flags ;$/;"	m	struct:sigaction	file:
+sa_handler	./signals.c	/^   void         (*sa_handler)(int) ;$/;"	m	struct:sigaction	file:
+sa_mask	./signals.c	/^   sigset_t     sa_mask ;$/;"	m	struct:sigaction	file:
+sc_alloc	./sconf.c	/^struct service_config *sc_alloc( const char *name )$/;"	f
+sc_different_confs	./sconf.c	/^bool_int sc_different_confs( struct service_config *scp1, $/;"	f
+sc_dump	./sconf.c	/^void sc_dump( struct service_config *scp, $/;"	f
+sc_free	./sconf.c	/^void sc_free( struct service_config *scp )$/;"	f
+sc_make_special	./sconf.c	/^struct service_config *sc_make_special( const char *service_name, $/;"	f
+schedule_retry	./retry.c	/^status_e schedule_retry( struct server *serp )$/;"	f
+scrub_global_access_list	./sensor.c	/^static void scrub_global_access_list( void )$/;"	f	file:
+send_data	./udpint.c	/^static void send_data( int sd, char *buf, int len, union xsockaddr *addr )$/;"	f	file:
+sendsig	./reconfig.c	/^static void sendsig( struct server *serp, int sig )$/;"	f	file:
+server_alloc	./server.c	/^struct server *server_alloc( const struct server *init_serp )$/;"	f
+server_args_parser	./parsers.c	/^status_e server_args_parser( pset_h values, $/;"	f
+server_dump	./server.c	/^void server_dump( const struct server *serp, int fd )$/;"	f
+server_end	./server.c	/^void server_end( struct server *serp )$/;"	f
+server_internal	./server.c	/^static void server_internal( struct server *serp )$/;"	f	file:
+server_lookup	./server.c	/^struct server *server_lookup( pid_t pid )$/;"	f
+server_parser	./parsers.c	/^status_e server_parser( pset_h values, $/;"	f
+server_release	./server.c	/^void server_release( struct server *serp )$/;"	f
+server_retry	./retry.c	/^static void server_retry(void)$/;"	f	file:
+server_run	./server.c	/^status_e server_run( struct service *sp, connection_s *cp )$/;"	f
+server_start	./server.c	/^status_e server_start( struct server *serp )$/;"	f
+service_attr_check	./confparse.c	/^static status_e service_attr_check( struct service_config *scp )$/;"	f	file:
+service_attributes	./parse.c	/^static const struct attribute service_attributes[] =$/;"	v	typeref:struct:attribute	file:
+service_count_check	./internals.c	/^static unsigned service_count_check( struct service *sp, $/;"	f	file:
+service_fill	./confparse.c	/^static status_e service_fill( struct service_config *scp, $/;"	f	file:
+service_flags	./nvlists.c	/^const struct name_value service_flags[] =$/;"	v	typeref:struct:name_value
+service_states	./service.c	/^static const struct name_value service_states[] =$/;"	v	typeref:struct:name_value	file:
+service_types	./nvlists.c	/^const struct name_value service_types[] =$/;"	v	typeref:struct:name_value
+set_context	./child.c	/^static int set_context( security_context_t cntx )$/;"	f	file:
+set_context_from_socket	./child.c	/^static int set_context_from_socket( const struct service_config *scp, int fd )$/;"	f	file:
+set_credentials	./child.c	/^static void set_credentials( const struct service_config *scp )$/;"	f	file:
+set_fd_limit	./init.c	/^static void set_fd_limit(void)$/;"	f	file:
+set_fd_modes	./service.c	/^static status_e set_fd_modes( struct service *sp )$/;"	f	file:
+setup_environ	./env.c	/^status_e setup_environ( struct service_config *scp, struct service_config *def )$/;"	f
+setup_file_descriptors	./init.c	/^static void setup_file_descriptors(void)$/;"	f	file:
+si_exit	./tcpint.c	/^void si_exit(void)$/;"	f
+si_init	./tcpint.c	/^struct intercept_s *si_init( struct server *serp )$/;"	f
+si_mux	./tcpint.c	/^static void si_mux(void)$/;"	f	file:
+sig_name	./signals.c	/^char *sig_name( int sig )$/;"	f
+sigaction	./signals.c	/^int sigaction( int sig, struct sigaction *sap, struct sigaction *osap )$/;"	f
+sigaction	./signals.c	/^struct sigaction$/;"	s	file:
+sigaddset	./signals.c	75;"	d	file:
+sigalrm_handler	./ident.c	/^static void sigalrm_handler(int signum)$/;"	f	file:
+sigemptyset	./signals.c	74;"	d	file:
+sigfunc	./signals.c	/^typedef void sigfunc( int );$/;"	t	file:
+sighandler_type	./signals.c	/^typedef int (*sighandler_type)() ;$/;"	t	file:
+sigismember	./signals.c	76;"	d	file:
+sigmask	./signals.c	67;"	d	file:
+signal_default_state	./signals.c	/^void signal_default_state(void)$/;"	f
+signal_init	./signals.c	/^status_e signal_init(void)$/;"	f
+signals_pending	./main.c	/^int signals_pending[2] = {-1, -1} ;$/;"	v
+sigpause	./signals.c	69;"	d	file:
+sigprocmask	./signals.c	/^int sigprocmask( int how, sigset_t *set, sigset_t *oset )$/;"	f
+sigset_t	./signals.c	/^typedef int sigset_t ;$/;"	t	file:
+sigsetmask	./signals.c	70;"	d	file:
+sigsuspend	./signals.c	73;"	d	file:
+size	./udpint.c	/^   int                  size ;$/;"	m	struct:packet	file:
+skip_entry	./parsesup.c	/^void skip_entry( int fd )$/;"	f
+socket_type	./int.c	/^   int        socket_type ;$/;"	m	struct:lookup_table	file:
+socket_type_parser	./parsers.c	/^status_e socket_type_parser( const pset_h values, $/;"	f
+socket_types	./nvlists.c	/^const struct name_value socket_types[] =$/;"	v	typeref:struct:name_value
+spec_find	./special.c	/^const builtin_s *spec_find( const char *service_name, int type )$/;"	f
+spec_include	./special.c	/^void spec_include(void)$/;"	f
+spec_service_handler	./special.c	/^status_e spec_service_handler( struct service *sp, connection_s *cp )$/;"	f
+spec_setup	./special.c	/^static struct service *spec_setup( const char *name, int socket_type, $/;"	f	file:
+special_services	./special.c	/^static const struct builtin_service special_services[] =$/;"	v	typeref:struct:builtin_service	file:
+start_filelog	./logctl.c	/^static xlog_h start_filelog( const char *id, struct filelog *flp )$/;"	f	file:
+start_retry_timer	./retry.c	/^static void start_retry_timer(void)$/;"	f	file:
+start_server	./int.c	/^static void start_server( struct intercept_s *ip )$/;"	f	file:
+static	./itox.c	14;"	d	file:
+stayalive_option	./options.c	/^int stayalive_option=0;$/;"	v
+std_env	./env.c	/^env_h std_env ;            \/* created from environ *\/$/;"	v
+stop_interception	./reconfig.c	/^static void stop_interception( struct service *sp )$/;"	f	file:
+stop_log	./reconfig.c	/^static void stop_log( struct service *sp, $/;"	f	file:
+stop_retry_timer	./retry.c	/^static void stop_retry_timer(void)$/;"	f	file:
+stream_chargen	./builtins.c	/^static void stream_chargen( const struct server *serp )$/;"	f	file:
+stream_daytime	./builtins.c	/^static void stream_daytime( const struct server *serp )$/;"	f	file:
+stream_discard	./builtins.c	/^static void stream_discard( const struct server *serp )$/;"	f	file:
+stream_echo	./builtins.c	/^static void stream_echo( const struct server *serp )$/;"	f	file:
+stream_intercept_state	./tcpint.c	/^static struct intercept_s stream_intercept_state ;$/;"	v	typeref:struct:intercept_s	file:
+stream_logging	./special.c	/^static void stream_logging( struct server *serp )$/;"	f	file:
+stream_status_e	./tcpint.c	/^typedef enum { S_OK, S_SERVER_ERR, S_CLIENT_ERR } stream_status_e ;$/;"	t	typeref:enum:__anon5	file:
+stream_time	./builtins.c	/^static void stream_time( const struct server *serp )$/;"	f	file:
+strp	./itox.c	/^str_h strp ;$/;"	v
+success_log_options	./nvlists.c	/^const struct name_value success_log_options[] =$/;"	v	typeref:struct:name_value
+svc_activate	./service.c	/^status_e svc_activate( struct service *sp )$/;"	f
+svc_child_access_control	./service.c	/^status_e svc_child_access_control( struct service *sp, connection_s *cp )$/;"	f
+svc_deactivate	./service.c	/^void svc_deactivate( struct service *sp )$/;"	f
+svc_dump	./service.c	/^void svc_dump( const struct service *sp, int fd )$/;"	f
+svc_free	./service.c	/^void svc_free( struct service *sp )$/;"	f
+svc_generic_handler	./service.c	/^status_e svc_generic_handler( struct service *sp, connection_s *cp )$/;"	f
+svc_log_exit	./log.c	/^void svc_log_exit( struct service *sp, const struct server *serp )$/;"	f
+svc_log_failure	./log.c	/^void svc_log_failure( struct service *sp, $/;"	f
+svc_log_success	./log.c	/^void svc_log_success( struct service *sp, const connection_s *cp, pid_t pid )$/;"	f
+svc_logprint	./log.c	/^void svc_logprint( struct service *sp, const char *line_id, $/;"	f
+svc_make_special	./service.c	/^struct service *svc_make_special( struct service_config *scp )$/;"	f
+svc_new	./service.c	/^struct service *svc_new( struct service_config *scp )$/;"	f
+svc_parent_access_control	./service.c	/^status_e svc_parent_access_control( struct service *sp, connection_s *cp )$/;"	f
+svc_postmortem	./service.c	/^void svc_postmortem( struct service *sp, struct server *serp )$/;"	f
+svc_release	./service.c	/^int svc_release( struct service *sp )$/;"	f
+svc_request	./service.c	/^void svc_request( struct service *sp )$/;"	f
+svc_resume	./service.c	/^void svc_resume( struct service *sp )$/;"	f
+svc_suspend	./service.c	/^void svc_suspend( struct service *sp )$/;"	f
+svcdisable_parser	./parsers.c	/^status_e svcdisable_parser( pset_h values, $/;"	f
+swap_defaults	./reconfig.c	/^static void swap_defaults( struct configuration *new_conf )$/;"	f	file:
+syscall_failed	./init.c	/^static void syscall_failed( const char *call )$/;"	f	file:
+syslog_facilities	./nvlists.c	/^const struct name_value syslog_facilities[] =$/;"	v	typeref:struct:name_value
+syslog_levels	./nvlists.c	/^const struct name_value syslog_levels[] = $/;"	v	typeref:struct:name_value
+syslog_option	./options.c	/^int syslog_option ;$/;"	v
+syslog_option_arg	./options.c	/^char * syslog_option_arg ;$/;"	v
+tabprint	./util.c	/^void tabprint( int fd, int tab_level, const char *fmt, ...)$/;"	f
+tcp_local_to_remote	./tcpint.c	/^static stream_status_e tcp_local_to_remote( channel_s *chp )$/;"	f	file:
+tcp_remote_to_local	./tcpint.c	/^static stream_status_e tcp_remote_to_local( channel_s *chp )$/;"	f	file:
+tcpmux_handler	./builtins.c	/^static void tcpmux_handler( const struct server *serp )$/;"	f	file:
+terminate_program	./main.c	/^void terminate_program(void)$/;"	f
+terminate_server	./int.c	/^static void terminate_server( struct intercept_s *ip )$/;"	f	file:
+terminate_servers	./reconfig.c	/^void terminate_servers( struct service *sp )$/;"	f
+thread_check	./internals.c	/^static unsigned thread_check( struct service *sp, $/;"	f	file:
+ti_add	./time.c	/^status_e ti_add( pset_h iset, const char *interval_str )$/;"	f
+ti_current_time_check	./time.c	/^bool_int ti_current_time_check( const pset_h intervals )$/;"	f
+ti_dump	./time.c	/^void ti_dump( pset_h iset, int fd )$/;"	f
+ti_free	./time.c	/^void ti_free( pset_h iset )$/;"	f
+time_interval	./time.c	/^struct time_interval$/;"	s	file:
+time_protocol	./builtins.c	/^static void time_protocol( unsigned char *timep )$/;"	f	file:
+timer_id	./sensor.c	/^static int timer_id = 0;		      \/* Timer ID *\/$/;"	v	file:
+type_parser	./parsers.c	/^status_e type_parser( pset_h values, $/;"	f
+udp_local_to_remote	./udpint.c	/^static status_e udp_local_to_remote( channel_s *chp )$/;"	f	file:
+udp_remote_to_local	./udpint.c	/^static void udp_remote_to_local( struct intercept_s *ip, channel_s **chpp )$/;"	f	file:
+umask_parser	./parsers.c	/^status_e umask_parser( pset_h values, $/;"	f
+update_env_with_strings	./env.c	/^static status_e update_env_with_strings( env_h env, pset_h strings )$/;"	f	file:
+usage	./options.c	/^static void usage(void)$/;"	f	file:
+user_parser	./parsers.c	/^status_e user_parser( pset_h values, $/;"	f
+user_requested_check	./internals.c	/^void user_requested_check(void)$/;"	f
+v6only_parser	./parsers.c	/^status_e v6only_parser( pset_h values, $/;"	f
+verify_line	./ident.c	/^static char *verify_line( char *line, $/;"	f	file:
+version	./addr.c	/^   char            version;   \/* v4 vs. v6 addresses\/masks *\/$/;"	m	struct:comp_addr	file:
+wait_child	./int.c	/^static status_e wait_child( struct intercept_s *ip )$/;"	f	file:
+wait_parser	./parsers.c	/^status_e wait_parser( pset_h values, $/;"	f
+write_buf	./util.c	/^status_e write_buf( int fd, const char *buf, int len )$/;"	f
+xaddrname	./log.c	/^const char *xaddrname(const union xsockaddr *inaddr)$/;"	f
+xaddrport	./log.c	/^uint16_t xaddrport(const union xsockaddr *inaddr)$/;"	f
+xgetloadavg	./xgetloadavg.c	/^double xgetloadavg(void)$/;"	f
+xinetd_mdns_deregister	./xmdns.c	/^int xinetd_mdns_deregister(struct service_config *scp) {$/;"	f
+xinetd_mdns_init	./xmdns.c	/^int xinetd_mdns_init(void) {$/;"	f
+xinetd_mdns_poll	./xmdns.c	/^int xinetd_mdns_poll(void) {$/;"	f
+xinetd_mdns_register	./xmdns.c	/^int xinetd_mdns_register(struct service_config *scp) {$/;"	f
+xinetd_mdns_svc_free	./xmdns.c	/^int xinetd_mdns_svc_free(struct service_config *scp) {$/;"	f
+xinetd_mdns_svc_init	./xmdns.c	/^int xinetd_mdns_svc_init(struct service_config *scp) {$/;"	f
+xmatch	./addr.c	/^static bool_int xmatch(const char *addr1, const char *mask1, $/;"	f	file:
+xremove	./addr.c	/^static status_e xremove( pset_h addr_list, const struct comp_addr *cap )$/;"	f	file:
+xsetmask	./addr.c	/^static void xsetmask(char *mask, unsigned int bits, unsigned int len)$/;"	f	file:
+xtimer_add	./xtimer.c	/^int xtimer_add( void (*func)(void), time_t secs )$/;"	f
+xtimer_compfunc	./xtimer.c	/^static int xtimer_compfunc( const void *_a, const void *_b )$/;"	f	file:
+xtimer_init	./xtimer.c	/^static int xtimer_init( void )$/;"	f	file:
+xtimer_list	./xtimer.c	/^static pset_h xtimer_list = NULL;$/;"	v	file:
+xtimer_nexttime	./xtimer.c	/^time_t xtimer_nexttime(void)$/;"	f
+xtimer_poll	./xtimer.c	/^int xtimer_poll(void)$/;"	f
+xtimer_remove	./xtimer.c	/^int xtimer_remove(int xtid)$/;"	f

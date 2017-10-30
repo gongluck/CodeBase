@@ -1,0 +1,1735 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACCESS_EXPLAIN	xinetd-master/xinetd/access.h	46;"	d
+ACCESS_H	xinetd-master/xinetd/access.h	9;"	d
+AC_ADDRESS	xinetd-master/xinetd/access.h	/^      AC_ADDRESS,          \/* we do not accept requests from that address  *\/$/;"	e	enum:__anon19
+AC_CPS	xinetd-master/xinetd/access.h	/^      AC_CPS$/;"	e	enum:__anon19
+AC_FORK	xinetd-master/xinetd/access.h	/^      AC_FORK,             \/* tried to start a server but fork failed      *\/$/;"	e	enum:__anon19
+AC_LIBWRAP	xinetd-master/xinetd/access.h	/^      AC_LIBWRAP,$/;"	e	enum:__anon19
+AC_LOAD	xinetd-master/xinetd/access.h	/^      AC_LOAD,$/;"	e	enum:__anon19
+AC_OK	xinetd-master/xinetd/access.h	/^      AC_OK,               \/* ok to start a server                         *\/$/;"	e	enum:__anon19
+AC_PER_SOURCE_LIMIT	xinetd-master/xinetd/access.h	/^      AC_PER_SOURCE_LIMIT, \/* server limit would be exceeded for this      *\/$/;"	e	enum:__anon19
+AC_PROCESS_LIMIT	xinetd-master/xinetd/access.h	/^      AC_PROCESS_LIMIT,    \/* total process limit would be exceeded        *\/$/;"	e	enum:__anon19
+AC_SERVICE_LIMIT	xinetd-master/xinetd/access.h	/^      AC_SERVICE_LIMIT,    \/* server limit would be exceeded for this      *\/$/;"	e	enum:__anon19
+AC_TIME	xinetd-master/xinetd/access.h	/^      AC_TIME,             \/* we do not accept requests at this time       *\/$/;"	e	enum:__anon19
+ADDR_H	xinetd-master/xinetd/addr.h	9;"	d
+AF_INET6	xinetd-master/libs/src/portable/libportable.h	107;"	d
+AI_CANONNAME	xinetd-master/libs/src/portable/fake-getaddrinfo.h	12;"	d
+AI_PASSIVE	xinetd-master/libs/src/portable/fake-getaddrinfo.h	11;"	d
+ALLOC_START	xinetd-master/libs/src/pset/pset.c	13;"	d	file:
+ALLOC_STEP	xinetd-master/libs/src/pset/pset.c	14;"	d	file:
+APPEND	xinetd-master/libs/src/portable/cvt.c	/^APPEND (FUNC_PREFIX, ecvt) (FLOAT_TYPE value, $/;"	f
+APPEND	xinetd-master/libs/src/portable/cvt.c	/^APPEND (FUNC_PREFIX, fcvt) (FLOAT_TYPE value, $/;"	f
+APPEND	xinetd-master/libs/src/portable/cvt.c	/^APPEND (FUNC_PREFIX, fcvt_r) (FLOAT_TYPE value, $/;"	f
+APPEND	xinetd-master/libs/src/portable/cvt.c	/^APPEND (FUNC_PREFIX, gcvt) (FLOAT_TYPE value, $/;"	f
+APPEND	xinetd-master/libs/src/portable/cvt.c	28;"	d	file:
+APPEND	xinetd-master/libs/src/portable/libportable.h	44;"	d
+APPEND2	xinetd-master/libs/src/portable/cvt.c	32;"	d	file:
+APPEND2	xinetd-master/libs/src/portable/libportable.h	48;"	d
+ASCII_END	xinetd-master/xinetd/builtins.c	387;"	d	file:
+ASCII_PRINTABLE_CHARS	xinetd-master/xinetd/builtins.c	377;"	d	file:
+ASCII_START	xinetd-master/xinetd/builtins.c	386;"	d	file:
+ASSERT	xinetd-master/libs/src/sio/impl.h	119;"	d
+ASSERT	xinetd-master/libs/src/sio/impl.h	135;"	d
+ATTR_H	xinetd-master/xinetd/attr.h	9;"	d
+A_ACCESS_TIMES	xinetd-master/xinetd/attr.h	29;"	d
+A_BANNER	xinetd-master/xinetd/attr.h	44;"	d
+A_BANNER_FAIL	xinetd-master/xinetd/attr.h	48;"	d
+A_BANNER_SUCCESS	xinetd-master/xinetd/attr.h	47;"	d
+A_BIND	xinetd-master/xinetd/attr.h	43;"	d
+A_CPS	xinetd-master/xinetd/attr.h	50;"	d
+A_DENY_TIME	xinetd-master/xinetd/attr.h	58;"	d
+A_DISABLED	xinetd-master/xinetd/attr.h	61;"	d
+A_ENABLED	xinetd-master/xinetd/attr.h	60;"	d
+A_ENV	xinetd-master/xinetd/attr.h	36;"	d
+A_FLAGS	xinetd-master/xinetd/attr.h	39;"	d
+A_GROUP	xinetd-master/xinetd/attr.h	23;"	d
+A_GROUPS	xinetd-master/xinetd/attr.h	46;"	d
+A_ID	xinetd-master/xinetd/attr.h	27;"	d
+A_INSTANCES	xinetd-master/xinetd/attr.h	26;"	d
+A_LIBWRAP	xinetd-master/xinetd/attr.h	63;"	d
+A_LOG_ON_FAILURE	xinetd-master/xinetd/attr.h	34;"	d
+A_LOG_ON_SUCCESS	xinetd-master/xinetd/attr.h	35;"	d
+A_LOG_TYPE	xinetd-master/xinetd/attr.h	31;"	d
+A_MAX_LOAD	xinetd-master/xinetd/attr.h	49;"	d
+A_MDNS	xinetd-master/xinetd/attr.h	62;"	d
+A_NICE	xinetd-master/xinetd/attr.h	41;"	d
+A_NONE	xinetd-master/xinetd/attr.h	18;"	d
+A_NO_ACCESS	xinetd-master/xinetd/attr.h	32;"	d
+A_ONLY_FROM	xinetd-master/xinetd/attr.h	28;"	d
+A_PASSENV	xinetd-master/xinetd/attr.h	38;"	d
+A_PER_SOURCE	xinetd-master/xinetd/attr.h	45;"	d
+A_PORT	xinetd-master/xinetd/attr.h	37;"	d
+A_PROTOCOL	xinetd-master/xinetd/attr.h	21;"	d
+A_REDIR	xinetd-master/xinetd/attr.h	42;"	d
+A_RLIMIT_AS	xinetd-master/xinetd/attr.h	52;"	d
+A_RLIMIT_CPU	xinetd-master/xinetd/attr.h	53;"	d
+A_RLIMIT_DATA	xinetd-master/xinetd/attr.h	54;"	d
+A_RLIMIT_RSS	xinetd-master/xinetd/attr.h	55;"	d
+A_RLIMIT_STACK	xinetd-master/xinetd/attr.h	56;"	d
+A_RPC_NUMBER	xinetd-master/xinetd/attr.h	40;"	d
+A_RPC_VERSION	xinetd-master/xinetd/attr.h	30;"	d
+A_SERVER	xinetd-master/xinetd/attr.h	24;"	d
+A_SERVER_ARGS	xinetd-master/xinetd/attr.h	25;"	d
+A_SOCKET_TYPE	xinetd-master/xinetd/attr.h	20;"	d
+A_SVCDISABLE	xinetd-master/xinetd/attr.h	51;"	d
+A_TYPE	xinetd-master/xinetd/attr.h	33;"	d
+A_UMASK	xinetd-master/xinetd/attr.h	59;"	d
+A_USER	xinetd-master/xinetd/attr.h	22;"	d
+A_V6ONLY	xinetd-master/xinetd/attr.h	57;"	d
+A_WAIT	xinetd-master/xinetd/attr.h	19;"	d
+Accept	wrap.c	/^int Accept(int fd, struct sockaddr *sa, socklen_t *salenptr)$/;"	f
+Argc	xinetd-master/xinetd/state.h	/^   int         Argc ;$/;"	m	struct:read_only_state
+Argv	xinetd-master/xinetd/state.h	/^   char      **Argv ;$/;"	m	struct:read_only_state
+BAD_CHANNEL	xinetd-master/xinetd/int.h	/^typedef enum { GOOD_CHANNEL, BAD_CHANNEL } channel_state_e ;$/;"	e	enum:__anon10
+BAD_ENTRY	xinetd-master/xinetd/parse.h	/^               BAD_ENTRY, $/;"	e	enum:__anon7
+BUFFER_SIZE	xinetd-master/xinetd/builtins.c	42;"	d	file:
+BUFSIZE	xinetd-master/xinetd/msg.c	38;"	d	file:
+BUILTINS_H	xinetd-master/xinetd/builtins.h	9;"	d
+BUILTIN_FORKS	xinetd-master/xinetd/builtins.h	34;"	d
+BUILTIN_HANDLER	xinetd-master/xinetd/builtins.h	32;"	d
+BUILTIN_INVOKE	xinetd-master/xinetd/builtins.h	33;"	d
+Bind	wrap.c	/^int Bind(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+CALLBACK	xinetd-master/libs/src/xlog/xlog.c	35;"	d	file:
+CANT_PARSE	xinetd-master/xinetd/addr.c	/^typedef enum { CANT_PARSE, PARSED, ERROR } result_e ;$/;"	e	enum:__anon15	file:
+CAP	xinetd-master/xinetd/addr.c	68;"	d	file:
+CF_ADDRESS	xinetd-master/xinetd/access.h	25;"	d
+CF_SERVICE_LIMIT	xinetd-master/xinetd/access.h	27;"	d
+CF_TIME	xinetd-master/xinetd/access.h	26;"	d
+CHANNEL_NULL	xinetd-master/xinetd/int.h	36;"	d
+CHAR_NULL	xinetd-master/libs/src/sio/siosup.c	48;"	d	file:
+CHAR_NULL	xinetd-master/xinetd/defs.h	40;"	d
+CHECK	xinetd-master/xinetd/access.c	185;"	d	file:
+CHECK_AND_CLEAR	xinetd-master/xinetd/confparse.c	880;"	d	file:
+CHP	xinetd-master/xinetd/int.h	34;"	d
+CLEAR	xinetd-master/xinetd/defs.h	47;"	d
+CLOSED_CURLY_BRACKET	xinetd-master/xinetd/addr.c	40;"	d	file:
+CNF_DEFAULTS	xinetd-master/xinetd/conf.h	26;"	d
+CNF_SERVICE_CONFS	xinetd-master/xinetd/conf.h	27;"	d
+COF_HAVE_ADDRESS	xinetd-master/xinetd/connection.h	43;"	d
+COF_NEW_DESCRIPTOR	xinetd-master/xinetd/connection.h	44;"	d
+COMMA	xinetd-master/xinetd/addr.c	41;"	d	file:
+COMMENT_BEGIN	xinetd-master/xinetd/parse.h	40;"	d
+COMPAT_H	xinetd-master/libs/src/portable/compat.h	7;"	d
+COND_FREE	xinetd-master/xinetd/sconf.c	28;"	d	file:
+CONFPARSE_H	xinetd-master/xinetd/confparse.h	2;"	d
+CONF_H	xinetd-master/xinetd/conf.h	9;"	d
+CONNECTION_H	xinetd-master/xinetd/connection.h	9;"	d
+CONN_ADDRESS	xinetd-master/xinetd/connection.h	73;"	d
+CONN_CLOSE	xinetd-master/xinetd/connection.h	54;"	d
+CONN_DESCRIPTOR	xinetd-master/xinetd/connection.h	62;"	d
+CONN_NULL	xinetd-master/xinetd/connection.h	57;"	d
+CONN_SERVICE	xinetd-master/xinetd/connection.h	63;"	d
+CONN_SETADDR	xinetd-master/xinetd/connection.h	67;"	d
+CONN_SET_DESCRIPTOR	xinetd-master/xinetd/connection.h	65;"	d
+CONN_SET_FLAG	xinetd-master/xinetd/connection.h	64;"	d
+CONN_XADDRESS	xinetd-master/xinetd/connection.h	79;"	d
+CONSISTENCY_CHECK_SIG	xinetd-master/xinetd/xconfig.h	77;"	d
+COP	xinetd-master/xinetd/connection.h	56;"	d
+CSA	xinetd-master/xinetd/defs.h	56;"	d
+CSAIN	xinetd-master/xinetd/defs.h	57;"	d
+CSAIN6	xinetd-master/xinetd/defs.h	58;"	d
+CUSTOM_ENV	xinetd-master/xinetd/sconf.h	/^typedef enum { NO_ENV = 0, STD_ENV, DEF_ENV, CUSTOM_ENV } environ_e ;$/;"	e	enum:__anon8
+Close	wrap.c	/^int Close(int fd)$/;"	f
+Connect	wrap.c	/^int Connect(int fd, const struct sockaddr *sa, socklen_t salen)$/;"	f
+DAEMON_DIR_OPTION	xinetd-master/xinetd/itox.c	17;"	d	file:
+DATAGRAM_SIZE	xinetd-master/xinetd/xconfig.h	172;"	d
+DEFAULTS	xinetd-master/xinetd/state.h	82;"	d
+DEFAULTS_ENTRY	xinetd-master/xinetd/parse.h	/^               DEFAULTS_ENTRY, $/;"	e	enum:__anon7
+DEFAULT_CONFIG_FILE	xinetd-master/xinetd/xconfig.h	32;"	d
+DEFAULT_INSTANCE_LIMIT	xinetd-master/xinetd/xconfig.h	119;"	d
+DEFAULT_LOG	xinetd-master/xinetd/state.h	83;"	d
+DEFAULT_LOGPROCS	xinetd-master/xinetd/xconfig.h	48;"	d
+DEFAULT_LOG_ERROR	xinetd-master/xinetd/state.h	84;"	d
+DEFAULT_LOOP_RATE	xinetd-master/xinetd/xconfig.h	54;"	d
+DEFAULT_LOOP_TIME	xinetd-master/xinetd/xconfig.h	59;"	d
+DEFAULT_SERVICE_SYSLOG_LEVEL	xinetd-master/xinetd/xconfig.h	42;"	d
+DEFAULT_SYSLOG_FACILITY	xinetd-master/xinetd/xconfig.h	37;"	d
+DEFAULT_SYSLOG_LEVEL	xinetd-master/xinetd/msg.c	40;"	d	file:
+DEFINE_LINK_TYPE	xinetd-master/libs/src/xlog/impl.h	17;"	d
+DEFS_H	xinetd-master/xinetd/defs.h	9;"	d
+DEF_ENV	xinetd-master/xinetd/sconf.h	/^typedef enum { NO_ENV = 0, STD_ENV, DEF_ENV, CUSTOM_ENV } environ_e ;$/;"	e	enum:__anon8
+DESCRIPTORS_RESERVED	xinetd-master/xinetd/defs.h	109;"	d
+DESCRIPTOR_INITIALIZED	xinetd-master/libs/src/sio/impl.h	74;"	d
+DGRAM_IGNORE_TIME	xinetd-master/xinetd/xconfig.h	157;"	d
+DISABLE	xinetd-master/xinetd/service.c	59;"	d	file:
+DOT	xinetd-master/xinetd/addr.c	42;"	d	file:
+DUMP_FILE	xinetd-master/xinetd/xconfig.h	19;"	d
+DUMP_FILE	xinetd-master/xinetd/xconfig.h	91;"	d
+DUMP_FILE_MODE	xinetd-master/xinetd/xconfig.h	161;"	d
+EAI_MEMORY	xinetd-master/libs/src/portable/fake-getaddrinfo.h	26;"	d
+EAI_NODATA	xinetd-master/libs/src/portable/fake-getaddrinfo.h	22;"	d
+EINVAL	xinetd-master/libs/src/portable/cvt.c	55;"	d	file:
+ENTRY_BEGIN	xinetd-master/xinetd/parse.h	38;"	d
+ENTRY_END	xinetd-master/xinetd/parse.h	39;"	d
+ENV_EBADSTRING	xinetd-master/libs/src/misc/m_env.h	36;"	d
+ENV_EBADVAR	xinetd-master/libs/src/misc/m_env.h	35;"	d
+ENV_ENOMEM	xinetd-master/libs/src/misc/m_env.h	34;"	d
+ENV_ERR	xinetd-master/libs/src/misc/m_env.h	28;"	d
+ENV_NULL	xinetd-master/libs/src/misc/m_env.h	23;"	d
+ENV_OK	xinetd-master/libs/src/misc/m_env.h	29;"	d
+EQ	xinetd-master/xinetd/defs.h	46;"	d
+EQ	xinetd-master/xinetd/itox.c	11;"	d	file:
+ERROR	xinetd-master/xinetd/addr.c	/^typedef enum { CANT_PARSE, PARSED, ERROR } result_e ;$/;"	e	enum:__anon15	file:
+ES_NOMEM	xinetd-master/xinetd/defs.h	37;"	d
+EXIT_ENTRY	xinetd-master/xinetd/sconst.h	27;"	d
+EXP	xinetd-master/libs/src/portable/cvt.c	45;"	d	file:
+EXPONENT_LENGTH	xinetd-master/libs/src/sio/sprint.c	28;"	d	file:
+FABS	xinetd-master/libs/src/portable/cvt.c	39;"	d	file:
+FAILED	xinetd-master/xinetd/defs.h	/^typedef enum { FAILED = 0, OK } status_e ;$/;"	e	enum:__anon12
+FAILURE	xinetd-master/libs/src/sio/impl.h	/^typedef enum { FAILURE, SUCCESS } sio_status_e ;$/;"	e	enum:__anon4
+FAIL_ENTRY	xinetd-master/xinetd/sconst.h	26;"	d
+FALSE	xinetd-master/libs/src/sio/impl.h	85;"	d
+FALSE	xinetd-master/libs/src/str/strparse.h	30;"	d
+FALSE	xinetd-master/libs/src/xlog/impl.h	92;"	d
+FALSE	xinetd-master/xinetd/defs.h	31;"	d
+FD_SET_NULL	xinetd-master/xinetd/defs.h	42;"	d
+FIELD_WIDTH	xinetd-master/xinetd/itox.c	16;"	d	file:
+FILELOG	xinetd-master/libs/src/xlog/filelog.h	43;"	d
+FILELOG_DISABLE_SIZE_CONTROL	xinetd-master/libs/src/xlog/filelog.h	40;"	d
+FILELOG_ENABLE_SIZE_CONTROL	xinetd-master/libs/src/xlog/filelog.h	39;"	d
+FILELOG_SIZE_CONTROL	xinetd-master/libs/src/xlog/filelog.h	41;"	d
+FILELOG_SIZE_CONTROL	xinetd-master/xinetd/log.h	37;"	d
+FIRST_TIME	xinetd-master/libs/src/sio/siosup.c	90;"	d	file:
+FIXED_VALUES	xinetd-master/xinetd/parse.c	145;"	d	file:
+FIX_PRECISION	xinetd-master/libs/src/sio/sprint.c	99;"	d	file:
+FLOAT_DIGITS	xinetd-master/libs/src/sio/sprint.c	26;"	d	file:
+FLOAT_FMT_FLAG	xinetd-master/libs/src/portable/cvt.c	19;"	d	file:
+FLOAT_NAME_EXT	xinetd-master/libs/src/portable/cvt.c	20;"	d	file:
+FLOAT_TYPE	xinetd-master/libs/src/portable/cvt.c	17;"	d	file:
+FLOAT_TYPE	xinetd-master/libs/src/portable/libportable.h	52;"	d
+FLOOR	xinetd-master/libs/src/portable/cvt.c	36;"	d	file:
+FL_CLOSED	xinetd-master/libs/src/xlog/filelog.h	/^typedef enum { FL_CLOSED = 0, FL_OPEN, FL_SIZE, FL_ERROR } filelog_state_e ;$/;"	e	enum:__anon3
+FL_ERROR	xinetd-master/libs/src/xlog/filelog.h	/^typedef enum { FL_CLOSED = 0, FL_OPEN, FL_SIZE, FL_ERROR } filelog_state_e ;$/;"	e	enum:__anon3
+FL_OPEN	xinetd-master/libs/src/xlog/filelog.h	/^typedef enum { FL_CLOSED = 0, FL_OPEN, FL_SIZE, FL_ERROR } filelog_state_e ;$/;"	e	enum:__anon3
+FL_SIZE	xinetd-master/libs/src/xlog/filelog.h	/^typedef enum { FL_CLOSED = 0, FL_OPEN, FL_SIZE, FL_ERROR } filelog_state_e ;$/;"	e	enum:__anon3
+FORK	xinetd-master/xinetd/builtins.h	18;"	d
+FREE	xinetd-master/xinetd/defs.h	60;"	d
+FREE_CAP	xinetd-master/xinetd/addr.c	70;"	d	file:
+FREE_CHANNEL	xinetd-master/xinetd/int.h	39;"	d
+FREE_CONN	xinetd-master/xinetd/connection.c	30;"	d	file:
+FREE_SCONF	xinetd-master/xinetd/sconf.c	23;"	d	file:
+FREE_SERVER	xinetd-master/xinetd/server.c	39;"	d	file:
+FREE_SVC	xinetd-master/xinetd/service.c	57;"	d	file:
+FREE_TI	xinetd-master/xinetd/time.c	31;"	d	file:
+FUNC_PREFIX	xinetd-master/libs/src/portable/cvt.c	18;"	d	file:
+FUNC_PREFIX	xinetd-master/libs/src/portable/libportable.h	56;"	d
+GOOD_CHANNEL	xinetd-master/xinetd/int.h	/^typedef enum { GOOD_CHANNEL, BAD_CHANNEL } channel_state_e ;$/;"	e	enum:__anon10
+HANDLE_ERROR	xinetd-master/libs/src/str/strparse.c	18;"	d	file:
+HAVE_BCOPY	xinetd-master/libs/src/sio/sioconf.h	145;"	d
+HAVE_BSDTTY	xinetd-master/libs/src/sio/sioconf.h	169;"	d
+HAVE_FINALIZATION_FUNCTION	xinetd-master/libs/src/sio/sioconf.h	118;"	d
+HAVE_MMAP	xinetd-master/libs/src/sio/sio.c	14;"	d	file:
+HAVE_MMAP	xinetd-master/libs/src/sio/siosup.c	17;"	d	file:
+HAVE_ONEXIT	xinetd-master/libs/src/sio/sioconf.h	121;"	d
+HAVE_SYSVTTY	xinetd-master/libs/src/sio/sioconf.h	170;"	d
+HOST_ADDR	xinetd-master/xinetd/addr.c	/^typedef enum {   NUMERIC_ADDR, NET_ADDR, HOST_ADDR } address_e ;$/;"	e	enum:__anon16	file:
+IBUFSIZE	xinetd-master/xinetd/ident.c	40;"	d	file:
+IDENTITY_SERVICE_PORT	xinetd-master/xinetd/defs.h	75;"	d
+IDENT_H	xinetd-master/xinetd/ident.h	2;"	d
+IDP	xinetd-master/libs/src/sio/impl.h	71;"	d
+IDP	xinetd-master/xinetd/udpint.c	51;"	d	file:
+IDR_BADRESP	xinetd-master/xinetd/defs.h	/^      IDR_BADRESP,$/;"	e	enum:__anon14
+IDR_ERROR	xinetd-master/xinetd/defs.h	/^      IDR_ERROR$/;"	e	enum:__anon14
+IDR_NOSERVER	xinetd-master/xinetd/defs.h	/^      IDR_NOSERVER,$/;"	e	enum:__anon14
+IDR_OK	xinetd-master/xinetd/defs.h	/^      IDR_OK,$/;"	e	enum:__anon14
+IDR_RESPERR	xinetd-master/xinetd/defs.h	/^      IDR_RESPERR,$/;"	e	enum:__anon14
+IDR_TIMEDOUT	xinetd-master/xinetd/defs.h	/^      IDR_TIMEDOUT,$/;"	e	enum:__anon14
+IN6ADDRSZ	xinetd-master/libs/src/portable/inet_ntop.c	44;"	d	file:
+IN6_IS_ADDR_LOOPBACK	xinetd-master/libs/src/portable/libportable.h	85;"	d
+IN6_IS_ADDR_V4COMPAT	xinetd-master/xinetd/connection.h	35;"	d
+IN6_IS_ADDR_V4MAPPED	xinetd-master/xinetd/connection.h	30;"	d
+INCLUDEDIR_ENTRY	xinetd-master/xinetd/parse.h	/^               INCLUDEDIR_ENTRY$/;"	e	enum:__anon7
+INCLUDEDIR_H	xinetd-master/xinetd/includedir.h	2;"	d
+INCLUDE_ENTRY	xinetd-master/xinetd/parse.h	/^               INCLUDE_ENTRY,$/;"	e	enum:__anon7
+INCREASE	xinetd-master/libs/src/misc/m_env.c	20;"	d	file:
+INITIAL_VARS	xinetd-master/libs/src/misc/m_env.c	19;"	d	file:
+INIT_H	xinetd-master/xinetd/init.h	2;"	d
+INIT_LINKS	xinetd-master/libs/src/xlog/impl.h	23;"	d
+INS_CHAR	xinetd-master/libs/src/sio/sprint.c	51;"	d	file:
+INT16SZ	xinetd-master/libs/src/portable/inet_ntop.c	48;"	d	file:
+INTCOMMON_H	xinetd-master/xinetd/intcommon.h	2;"	d
+INTERCEPT	xinetd-master/xinetd/int.h	71;"	d
+INTERCEPT_SERVICE_NAME	xinetd-master/xinetd/sconst.h	18;"	d
+INTERCEPT_SIG	xinetd-master/xinetd/defs.h	81;"	d
+INTERNALS_H	xinetd-master/xinetd/internals.h	2;"	d
+INT_CONNECTIONS	xinetd-master/xinetd/int.h	70;"	d
+INT_H	xinetd-master/xinetd/int.h	9;"	d
+INT_LOCALADDR	xinetd-master/xinetd/int.h	68;"	d
+INT_NULL	xinetd-master/libs/src/str/strprint.c	16;"	d	file:
+INT_NULL	xinetd-master/xinetd/defs.h	39;"	d
+INT_REMOTE	xinetd-master/xinetd/int.h	69;"	d
+INT_SERVER	xinetd-master/xinetd/int.h	67;"	d
+IN_RANGE	xinetd-master/xinetd/time.c	21;"	d	file:
+IPV6_ADDRFORM	xinetd-master/libs/src/portable/libportable.h	11;"	d
+ISINF	xinetd-master/libs/src/portable/cvt.c	48;"	d	file:
+ISNAN	xinetd-master/libs/src/portable/cvt.c	51;"	d	file:
+KW_DEFAULTS	xinetd-master/xinetd/parse.h	42;"	d
+KW_INCLUDE	xinetd-master/xinetd/parse.h	43;"	d
+KW_INCLUDEDIR	xinetd-master/xinetd/parse.h	44;"	d
+KW_SERVICE	xinetd-master/xinetd/parse.h	41;"	d
+LEN	xhttpd.c	11;"	d	file:
+LFILE	xinetd-master/xinetd/xgetloadavg.c	22;"	d	file:
+LINE_LENGTH	xinetd-master/xinetd/builtins.c	378;"	d	file:
+LINK	xinetd-master/libs/src/xlog/impl.h	32;"	d
+LISTEN_BACKLOG	xinetd-master/xinetd/defs.h	114;"	d
+LOG10	xinetd-master/libs/src/portable/cvt.c	42;"	d	file:
+LOGBUF_SIZE	xinetd-master/xinetd/log.c	28;"	d	file:
+LOGCTL_H	xinetd-master/xinetd/logctl.h	2;"	d
+LOGS_ANY	xinetd-master/xinetd/sconf.h	262;"	d
+LOGS_USERID	xinetd-master/xinetd/sconf.h	259;"	d
+LOGUSER_FAILURE_TIMEOUT	xinetd-master/xinetd/xconfig.h	110;"	d
+LOGUSER_SUCCESS_TIMEOUT	xinetd-master/xinetd/xconfig.h	107;"	d
+LOG_ALERT	xinetd-master/libs/src/xlog/filelog.c	21;"	d	file:
+LOG_EXTRA_MAX	xinetd-master/xinetd/xconfig.h	190;"	d
+LOG_EXTRA_MIN	xinetd-master/xinetd/xconfig.h	187;"	d
+LOG_FILE_MODE	xinetd-master/xinetd/xconfig.h	165;"	d
+LOG_GET_FILELOG	xinetd-master/xinetd/log.h	56;"	d
+LOG_GET_SYSLOG	xinetd-master/xinetd/log.h	57;"	d
+LOG_GET_TYPE	xinetd-master/xinetd/log.h	53;"	d
+LOG_H	xinetd-master/xinetd/log.h	9;"	d
+LOG_OPEN_FLAGS	xinetd-master/xinetd/xconfig.h	135;"	d
+LOG_SERVICE	xinetd-master/xinetd/state.h	85;"	d
+LOG_SERVICE_NAME	xinetd-master/xinetd/sconst.h	19;"	d
+LOG_SET_TYPE	xinetd-master/xinetd/log.h	54;"	d
+LOOP_INTERVAL	xinetd-master/xinetd/xconfig.h	127;"	d
+LOWER_CASE	xinetd-master/libs/src/str/strutil.c	19;"	d	file:
+LO_ATTEMPT	xinetd-master/xinetd/sconf.h	68;"	d
+LO_DURATION	xinetd-master/xinetd/sconf.h	67;"	d
+LO_EXIT	xinetd-master/xinetd/sconf.h	69;"	d
+LO_HOST	xinetd-master/xinetd/sconf.h	66;"	d
+LO_PID	xinetd-master/xinetd/sconf.h	70;"	d
+LO_TRAFFIC	xinetd-master/xinetd/sconf.h	72;"	d
+LO_USERID	xinetd-master/xinetd/sconf.h	71;"	d
+L_COMMON_FILE	xinetd-master/xinetd/log.h	/^typedef enum { L_NONE = 0, L_FILE, L_SYSLOG, L_COMMON_FILE } logtype_e ;$/;"	e	enum:__anon11
+L_FILE	xinetd-master/xinetd/log.h	/^typedef enum { L_NONE = 0, L_FILE, L_SYSLOG, L_COMMON_FILE } logtype_e ;$/;"	e	enum:__anon11
+L_NONE	xinetd-master/xinetd/log.h	/^typedef enum { L_NONE = 0, L_FILE, L_SYSLOG, L_COMMON_FILE } logtype_e ;$/;"	e	enum:__anon11
+L_SYSLOG	xinetd-master/xinetd/log.h	/^typedef enum { L_NONE = 0, L_FILE, L_SYSLOG, L_COMMON_FILE } logtype_e ;$/;"	e	enum:__anon11
+Listen	wrap.c	/^int Listen(int fd, int backlog)$/;"	f
+MAIN_H	xinetd-master/xinetd/main.h	2;"	d
+MAP_FAILED	xinetd-master/libs/src/sio/siosup.c	29;"	d	file:
+MASK_H	xinetd-master/xinetd/mask.h	9;"	d
+MASK_NULL	xinetd-master/xinetd/mask.h	26;"	d
+MAX	xinetd-master/libs/src/portable/cvt.c	59;"	d	file:
+MAX	xinetd-master/xinetd/xgetloadavg.c	23;"	d	file:
+MAXDIG	xinetd-master/libs/src/portable/cvt.c	24;"	d	file:
+MAXLINE	simple.c	9;"	d	file:
+MAX_ALTERNATIVES	xinetd-master/xinetd/connection.h	40;"	d
+MAX_DATAGRAM_SIZE	xinetd-master/xinetd/udpint.c	34;"	d	file:
+MAX_FLOAT_DIGITS	xinetd-master/libs/src/sio/sprint.c	27;"	d	file:
+MAX_FORK_FAILURES	xinetd-master/xinetd/xconfig.h	143;"	d
+MAX_GLOBAL_NO_ACCESS	xinetd-master/xinetd/xconfig.h	198;"	d
+MAX_INTERVAL_SIGNAL_COUNT	xinetd-master/xinetd/signals.c	268;"	d	file:
+MAX_PASS_FD	xinetd-master/xinetd/defs.h	70;"	d
+MAX_SIGNAL_COUNT	xinetd-master/xinetd/signals.c	267;"	d	file:
+MDP	xinetd-master/libs/src/sio/siosup.c	60;"	d	file:
+MIN	xinetd-master/libs/src/sio/impl.h	94;"	d
+MIN	xinetd-master/libs/src/sio/impl.h	96;"	d
+MINUS_EQ	xinetd-master/xinetd/parse.h	/^enum assign_op { SET_EQ, PLUS_EQ, MINUS_EQ } ;$/;"	e	enum:assign_op
+MODIFIABLE	xinetd-master/xinetd/parse.c	144;"	d	file:
+MSGBUFSIZE	xinetd-master/libs/src/xlog/slog.c	19;"	d	file:
+MSG_H	xinetd-master/xinetd/msg.h	2;"	d
+M_AND	xinetd-master/xinetd/mask.h	38;"	d
+M_ARE_ALL_CLEAR	xinetd-master/xinetd/mask.h	32;"	d
+M_ASSIGN	xinetd-master/xinetd/mask.h	31;"	d
+M_CLEAR	xinetd-master/xinetd/mask.h	34;"	d
+M_CLEAR_ALL	xinetd-master/xinetd/mask.h	30;"	d
+M_IS_CLEAR	xinetd-master/xinetd/mask.h	36;"	d
+M_IS_SET	xinetd-master/xinetd/mask.h	35;"	d
+M_OR	xinetd-master/xinetd/mask.h	39;"	d
+M_SET	xinetd-master/xinetd/mask.h	33;"	d
+M_XOR	xinetd-master/xinetd/mask.h	40;"	d
+NAME_MAX	xinetd-master/xinetd/access.c	48;"	d	file:
+NAME_MAX	xinetd-master/xinetd/access.c	50;"	d	file:
+NAME_MAX	xinetd-master/xinetd/includedir.c	27;"	d	file:
+NAME_MAX	xinetd-master/xinetd/includedir.c	29;"	d	file:
+NAME_MAX	xinetd-master/xinetd/parse.c	33;"	d	file:
+NECESSARY_ATTRS	xinetd-master/xinetd/attr.h	74;"	d
+NECESSARY_ATTRS_EXTERNAL	xinetd-master/xinetd/attr.h	75;"	d
+NECESSARY_ATTRS_RPC	xinetd-master/xinetd/attr.h	78;"	d
+NECESSARY_ATTRS_RPC_UNLISTED	xinetd-master/xinetd/attr.h	80;"	d
+NECESSARY_ATTRS_UNLISTED	xinetd-master/xinetd/attr.h	76;"	d
+NECESSARY_ATTRS_UNLISTED_MUX	xinetd-master/xinetd/attr.h	77;"	d
+NEED_MEMCOPY	xinetd-master/libs/src/sio/impl.h	161;"	d
+NET_ADDR	xinetd-master/xinetd/addr.c	/^typedef enum {   NUMERIC_ADDR, NET_ADDR, HOST_ADDR } address_e ;$/;"	e	enum:__anon16	file:
+NET_BUFFER	xinetd-master/xinetd/redirect.c	37;"	d	file:
+NEW	xinetd-master/libs/src/xlog/impl.h	100;"	d
+NEW	xinetd-master/xinetd/defs.h	59;"	d
+NEW_CAP	xinetd-master/xinetd/addr.c	69;"	d	file:
+NEW_CHANNEL	xinetd-master/xinetd/int.h	38;"	d
+NEW_CONN	xinetd-master/xinetd/connection.c	29;"	d	file:
+NEW_SCONF	xinetd-master/xinetd/sconf.c	22;"	d	file:
+NEW_SERVER	xinetd-master/xinetd/server.c	38;"	d	file:
+NEW_SET	xinetd-master/xinetd/parsers.c	43;"	d	file:
+NEW_SVC	xinetd-master/xinetd/service.c	56;"	d	file:
+NEW_TI	xinetd-master/xinetd/time.c	30;"	d	file:
+NEXT	xinetd-master/libs/src/xlog/impl.h	20;"	d
+NI_MAXHOST	xinetd-master/libs/src/portable/libportable.h	15;"	d
+NI_NAMEREQD	xinetd-master/libs/src/portable/fake-getaddrinfo.h	17;"	d
+NI_NUMERICHOST	xinetd-master/libs/src/portable/fake-getaddrinfo.h	16;"	d
+NI_NUMERICSERV	xinetd-master/libs/src/portable/fake-getaddrinfo.h	18;"	d
+NO	xinetd-master/libs/src/sio/impl.h	/^typedef enum { NO = 0, YES = 1 } boolean_e ;$/;"	e	enum:__anon5
+NO	xinetd-master/xinetd/defs.h	/^typedef enum { NO = 0, YES } boolean_e ;$/;"	e	enum:__anon13
+NOID_ENTRY	xinetd-master/xinetd/sconst.h	29;"	d
+NO_ENTRY	xinetd-master/xinetd/parse.h	/^typedef enum { NO_ENTRY, $/;"	e	enum:__anon7
+NO_ENV	xinetd-master/xinetd/sconf.h	/^typedef enum { NO_ENV = 0, STD_ENV, DEF_ENV, CUSTOM_ENV } environ_e ;$/;"	e	enum:__anon8
+NO_FORK	xinetd-master/xinetd/builtins.h	19;"	d
+NUL	xinetd-master/libs/src/sio/impl.h	98;"	d
+NUL	xinetd-master/xinetd/defs.h	35;"	d
+NUL	xinetd-master/xinetd/itox.c	13;"	d	file:
+NULL	xinetd-master/libs/src/sio/impl.h	90;"	d
+NULL	xinetd-master/libs/src/str/strparse.h	26;"	d
+NULL	xinetd-master/libs/src/str/strutil.c	12;"	d	file:
+NULL	xinetd-master/libs/src/xlog/impl.h	97;"	d
+NUM	xinetd-master/libs/src/sio/sprint.c	83;"	d	file:
+NUMBUF_SIZE	xinetd-master/libs/src/sio/impl.h	105;"	d
+NUMERIC_ADDR	xinetd-master/xinetd/addr.c	/^typedef enum {   NUMERIC_ADDR, NET_ADDR, HOST_ADDR } address_e ;$/;"	e	enum:__anon16	file:
+NUM_BUF_SIZE	xinetd-master/libs/src/sio/sprint.c	35;"	d	file:
+NVLISTS_H	xinetd-master/xinetd/nvlists.h	2;"	d
+N_SIO_DESCRIPTORS	xinetd-master/libs/src/sio/sioconf.h	90;"	d
+N_SIO_DESCRIPTORS	xinetd-master/libs/src/sio/sioconf.h	92;"	d
+ODP	xinetd-master/libs/src/sio/impl.h	72;"	d
+OK	xinetd-master/xinetd/defs.h	/^typedef enum { FAILED = 0, OK } status_e ;$/;"	e	enum:__anon12
+OLD_RECONFIG_HARD_SIG	xinetd-master/xinetd/xconfig.h	68;"	d
+OPEN_CURLY_BRACKET	xinetd-master/xinetd/addr.c	39;"	d	file:
+OPTIONS_H	xinetd-master/xinetd/options.h	9;"	d
+PAD	xinetd-master/libs/src/sio/sprint.c	111;"	d	file:
+PAGES_MAPPED	xinetd-master/libs/src/sio/siosup.c	53;"	d	file:
+PARSED	xinetd-master/xinetd/addr.c	/^typedef enum { CANT_PARSE, PARSED, ERROR } result_e ;$/;"	e	enum:__anon15	file:
+PARSESUP_H	xinetd-master/xinetd/parsesup.h	2;"	d
+PARSE_H	xinetd-master/xinetd/parse.h	9;"	d
+PERIODIC	xinetd-master/xinetd/internals.c	/^enum check_type { PERIODIC, USER_REQUESTED } ;$/;"	e	enum:check_type	file:
+PLUS_EQ	xinetd-master/xinetd/parse.h	/^enum assign_op { SET_EQ, PLUS_EQ, MINUS_EQ } ;$/;"	e	enum:assign_op
+POINTER	xinetd-master/libs/src/pset/ops.c	12;"	d	file:
+PORT	simple.c	10;"	d	file:
+PORT_BITS	xinetd-master/xinetd/parsers.c	598;"	d	file:
+PORT_MAX	xinetd-master/xinetd/parsers.c	599;"	d	file:
+PREV	xinetd-master/libs/src/xlog/impl.h	21;"	d
+PRINTF_FORMAT	xinetd-master/libs/src/str/str.h	18;"	d
+PRINTF_FORMAT	xinetd-master/libs/src/str/str.h	21;"	d
+PROC_EXITED	xinetd-master/xinetd/server.h	70;"	d
+PROC_EXITED	xinetd-master/xinetd/server.h	76;"	d
+PROC_EXITSTATUS	xinetd-master/xinetd/server.h	73;"	d
+PROC_EXITSTATUS	xinetd-master/xinetd/server.h	79;"	d
+PROC_SIGNALED	xinetd-master/xinetd/server.h	71;"	d
+PROC_SIGNALED	xinetd-master/xinetd/server.h	77;"	d
+PROC_STOPPED	xinetd-master/xinetd/server.h	72;"	d
+PROC_STOPPED	xinetd-master/xinetd/server.h	78;"	d
+PROC_TERMSIG	xinetd-master/xinetd/server.h	74;"	d
+PROC_TERMSIG	xinetd-master/xinetd/server.h	80;"	d
+QUIT_SIG	xinetd-master/xinetd/xconfig.h	83;"	d
+RCSid	xinetd-master/xinetd/itox.c	/^static char RCSid[] = "$Id$" ;$/;"	v	file:
+RD_MAXVERS	xinetd-master/xinetd/sconf.h	82;"	d
+RD_MINVERS	xinetd-master/xinetd/sconf.h	81;"	d
+RD_PROGNUM	xinetd-master/xinetd/sconf.h	83;"	d
+RECONFIG_H	xinetd-master/xinetd/reconfig.h	2;"	d
+RECONFIG_HARD_SIG	xinetd-master/xinetd/xconfig.h	65;"	d
+REDIRECT_H	xinetd-master/xinetd/redirect.h	2;"	d
+RESUME	xinetd-master/xinetd/service.h	66;"	d
+RETRIES	xinetd-master/xinetd/state.h	88;"	d
+RETRY_H	xinetd-master/xinetd/retry.h	2;"	d
+RETRY_INTERVAL	xinetd-master/xinetd/xconfig.h	179;"	d
+RING_BUF_SIZE	xinetd-master/xinetd/builtins.c	380;"	d	file:
+RUSAGE_NULL	xinetd-master/xinetd/defs.h	43;"	d
+Read	wrap.c	/^ssize_t Read(int fd, void *ptr, size_t nbytes)$/;"	f
+Readline	wrap.c	/^ssize_t Readline(int fd, void *vptr, size_t maxlen)$/;"	f
+Readn	wrap.c	/^ssize_t Readn(int fd, void *vptr, size_t n)$/;"	f
+RedirServerFd	xinetd-master/xinetd/redirect.c	/^static int RedirServerFd = -1;$/;"	v	file:
+SA	xinetd-master/xinetd/defs.h	51;"	d
+SA	xinetd-master/xinetd/defs.h	53;"	d
+SAIN	xinetd-master/xinetd/defs.h	54;"	d
+SAIN6	xinetd-master/xinetd/defs.h	55;"	d
+SAME_NONRPC	xinetd-master/xinetd/sconf.c	478;"	d	file:
+SAME_RPC	xinetd-master/xinetd/sconf.c	477;"	d	file:
+SCONF_H	xinetd-master/xinetd/sconf.h	9;"	d
+SCONST_H	xinetd-master/xinetd/sconst.h	9;"	d
+SCP	xinetd-master/xinetd/sconf.h	163;"	d
+SC_ACCEPTS_CONNECTIONS	xinetd-master/xinetd/sconf.h	279;"	d
+SC_ACCESS_TIMES	xinetd-master/xinetd/sconf.h	187;"	d
+SC_BANNER	xinetd-master/xinetd/sconf.h	206;"	d
+SC_BANNER_FAIL	xinetd-master/xinetd/sconf.h	208;"	d
+SC_BANNER_SUCCESS	xinetd-master/xinetd/sconf.h	207;"	d
+SC_BIND_ADDR	xinetd-master/xinetd/sconf.h	205;"	d
+SC_BUILTIN	xinetd-master/xinetd/sconf.h	202;"	d
+SC_DENY_TIME	xinetd-master/xinetd/sconf.h	217;"	d
+SC_DISABLE	xinetd-master/xinetd/sconf.h	250;"	d
+SC_DISABLED	xinetd-master/xinetd/sconf.h	201;"	d
+SC_ENABLE	xinetd-master/xinetd/sconf.h	251;"	d
+SC_ENABLED	xinetd-master/xinetd/sconf.h	200;"	d
+SC_ENV	xinetd-master/xinetd/sconf.h	170;"	d
+SC_ENV_VAR_DEFS	xinetd-master/xinetd/sconf.h	171;"	d
+SC_FORKS	xinetd-master/xinetd/sconf.h	230;"	d
+SC_GETGID	xinetd-master/xinetd/sconf.h	295;"	d
+SC_GID	xinetd-master/xinetd/sconf.h	181;"	d
+SC_GROUPS	xinetd-master/xinetd/sconf.h	209;"	d
+SC_ID	xinetd-master/xinetd/sconf.h	175;"	d
+SC_INSTANCES	xinetd-master/xinetd/sconf.h	179;"	d
+SC_INTERNAL	xinetd-master/xinetd/sconf.h	297;"	d
+SC_IPV4	xinetd-master/xinetd/sconf.h	241;"	d
+SC_IPV6	xinetd-master/xinetd/sconf.h	242;"	d
+SC_IS_DISABLED	xinetd-master/xinetd/sconf.h	249;"	d
+SC_IS_INTERCEPTED	xinetd-master/xinetd/sconf.h	239;"	d
+SC_IS_INTERNAL	xinetd-master/xinetd/sconf.h	246;"	d
+SC_IS_MUXCLIENT	xinetd-master/xinetd/sconf.h	252;"	d
+SC_IS_MUXPLUSCLIENT	xinetd-master/xinetd/sconf.h	254;"	d
+SC_IS_PRESENT	xinetd-master/xinetd/sconf.h	290;"	d
+SC_IS_RPC	xinetd-master/xinetd/sconf.h	245;"	d
+SC_IS_SPECIAL	xinetd-master/xinetd/sconf.h	247;"	d
+SC_IS_TCPMUX	xinetd-master/xinetd/sconf.h	255;"	d
+SC_IS_UNLISTED	xinetd-master/xinetd/sconf.h	248;"	d
+SC_KEEPALIVE	xinetd-master/xinetd/sconf.h	237;"	d
+SC_LABELED_NET	xinetd-master/xinetd/sconf.h	243;"	d
+SC_LIBWRAP	xinetd-master/xinetd/sconf.h	221;"	d
+SC_LOG	xinetd-master/xinetd/sconf.h	168;"	d
+SC_LOGS_DURATION	xinetd-master/xinetd/sconf.h	273;"	d
+SC_LOGS_EXITS	xinetd-master/xinetd/sconf.h	272;"	d
+SC_LOGS_ON_EXIT	xinetd-master/xinetd/sconf.h	268;"	d
+SC_LOGS_ON_FAILURE	xinetd-master/xinetd/sconf.h	265;"	d
+SC_LOGS_ON_SUCCESS	xinetd-master/xinetd/sconf.h	264;"	d
+SC_LOGS_PID	xinetd-master/xinetd/sconf.h	271;"	d
+SC_LOGS_USERID_ON_FAILURE	xinetd-master/xinetd/sconf.h	266;"	d
+SC_LOGS_USERID_ON_SUCCESS	xinetd-master/xinetd/sconf.h	267;"	d
+SC_LOG_ON_FAILURE	xinetd-master/xinetd/sconf.h	189;"	d
+SC_LOG_ON_SUCCESS	xinetd-master/xinetd/sconf.h	188;"	d
+SC_MAKE_EXTERNAL	xinetd-master/xinetd/sconf.h	298;"	d
+SC_MAX_LOAD	xinetd-master/xinetd/sconf.h	210;"	d
+SC_MDNS	xinetd-master/xinetd/sconf.h	219;"	d
+SC_MDNS_NAME	xinetd-master/xinetd/sconf.h	218;"	d
+SC_MUST_IDENTIFY	xinetd-master/xinetd/sconf.h	234;"	d
+SC_MUST_LISTEN	xinetd-master/xinetd/sconf.h	277;"	d
+SC_NAME	xinetd-master/xinetd/sconf.h	176;"	d
+SC_NAMEINARGS	xinetd-master/xinetd/sconf.h	235;"	d
+SC_NICE	xinetd-master/xinetd/sconf.h	173;"	d
+SC_NODELAY	xinetd-master/xinetd/sconf.h	236;"	d
+SC_NOLIBWRAP	xinetd-master/xinetd/sconf.h	238;"	d
+SC_NO_ACCESS	xinetd-master/xinetd/sconf.h	186;"	d
+SC_ONLY_FROM	xinetd-master/xinetd/sconf.h	185;"	d
+SC_ORIG_BIND_ADDR	xinetd-master/xinetd/sconf.h	204;"	d
+SC_PASS_ENV_VARS	xinetd-master/xinetd/sconf.h	190;"	d
+SC_PER_SOURCE	xinetd-master/xinetd/sconf.h	220;"	d
+SC_PORT	xinetd-master/xinetd/sconf.h	172;"	d
+SC_PRESENT	xinetd-master/xinetd/sconf.h	292;"	d
+SC_PROTONAME	xinetd-master/xinetd/sconf.h	178;"	d
+SC_PROTOVAL	xinetd-master/xinetd/sconf.h	177;"	d
+SC_REDIR_ADDR	xinetd-master/xinetd/sconf.h	203;"	d
+SC_RETRY	xinetd-master/xinetd/sconf.h	233;"	d
+SC_RLIM_AS	xinetd-master/xinetd/sconf.h	191;"	d
+SC_RLIM_CPU	xinetd-master/xinetd/sconf.h	192;"	d
+SC_RLIM_DATA	xinetd-master/xinetd/sconf.h	193;"	d
+SC_RLIM_RSS	xinetd-master/xinetd/sconf.h	194;"	d
+SC_RLIM_STACK	xinetd-master/xinetd/sconf.h	195;"	d
+SC_RPCDATA	xinetd-master/xinetd/sconf.h	169;"	d
+SC_RPCPROGNUM	xinetd-master/xinetd/sconf.c	476;"	d	file:
+SC_SENSOR	xinetd-master/xinetd/sconf.h	240;"	d
+SC_SERVER	xinetd-master/xinetd/sconf.h	183;"	d
+SC_SERVER_ARGV	xinetd-master/xinetd/sconf.h	184;"	d
+SC_SET_PORT	xinetd-master/xinetd/sconf.h	225;"	d
+SC_SOCKET_TYPE	xinetd-master/xinetd/sconf.h	174;"	d
+SC_SPECIFIED	xinetd-master/xinetd/sconf.h	282;"	d
+SC_SPECIFY	xinetd-master/xinetd/sconf.h	284;"	d
+SC_TIME_CONN	xinetd-master/xinetd/sconf.h	212;"	d
+SC_TIME_CONN_MAX	xinetd-master/xinetd/sconf.h	213;"	d
+SC_TIME_LIMIT	xinetd-master/xinetd/sconf.h	211;"	d
+SC_TIME_REENABLE	xinetd-master/xinetd/sconf.h	215;"	d
+SC_TIME_WAIT	xinetd-master/xinetd/sconf.h	214;"	d
+SC_TYPE	xinetd-master/xinetd/sconf.h	196;"	d
+SC_UID	xinetd-master/xinetd/sconf.h	180;"	d
+SC_UMASK	xinetd-master/xinetd/sconf.h	216;"	d
+SC_USER_GID	xinetd-master/xinetd/sconf.h	182;"	d
+SC_V6ONLY	xinetd-master/xinetd/sconf.h	199;"	d
+SC_WAIT	xinetd-master/xinetd/sconf.h	197;"	d
+SC_WAITS	xinetd-master/xinetd/sconf.h	232;"	d
+SC_XFLAGS	xinetd-master/xinetd/sconf.h	198;"	d
+SENSOR_H	xinetd-master/xinetd/sensor.h	8;"	d
+SERP	xinetd-master/xinetd/server.h	45;"	d
+SERVERS	xinetd-master/xinetd/state.h	87;"	d
+SERVER_CONNECTION	xinetd-master/xinetd/server.h	48;"	d
+SERVER_CONNSERVICE	xinetd-master/xinetd/server.h	49;"	d
+SERVER_EXITSTATUS	xinetd-master/xinetd/server.h	52;"	d
+SERVER_EXIT_SIG	xinetd-master/xinetd/xconfig.h	80;"	d
+SERVER_FD	xinetd-master/xinetd/server.h	50;"	d
+SERVER_FORKLIMIT	xinetd-master/xinetd/server.h	58;"	d
+SERVER_FORK_FAILURES	xinetd-master/xinetd/server.h	55;"	d
+SERVER_H	xinetd-master/xinetd/server.h	9;"	d
+SERVER_LOGUSER	xinetd-master/xinetd/server.h	54;"	d
+SERVER_PID	xinetd-master/xinetd/server.h	51;"	d
+SERVER_SERVICE	xinetd-master/xinetd/server.h	47;"	d
+SERVER_SET_EXIT_STATUS	xinetd-master/xinetd/server.h	62;"	d
+SERVER_SET_PID	xinetd-master/xinetd/server.h	61;"	d
+SERVER_STARTTIME	xinetd-master/xinetd/server.h	53;"	d
+SERVER_WRITES_TO_LOG	xinetd-master/xinetd/server.h	56;"	d
+SERVICES	xinetd-master/xinetd/state.h	86;"	d
+SERVICE_ATTRIBUTES	xinetd-master/xinetd/attr.h	69;"	d
+SERVICE_ENTRY	xinetd-master/xinetd/parse.h	/^               SERVICE_ENTRY, $/;"	e	enum:__anon7
+SERVICE_H	xinetd-master/xinetd/service.h	9;"	d
+SET_EQ	xinetd-master/xinetd/parse.h	/^enum assign_op { SET_EQ, PLUS_EQ, MINUS_EQ } ;$/;"	e	enum:assign_op
+SF_IDONLY	xinetd-master/xinetd/sconf.h	53;"	d
+SF_INTERCEPT	xinetd-master/xinetd/sconf.h	50;"	d
+SF_IPV4	xinetd-master/xinetd/sconf.h	59;"	d
+SF_IPV6	xinetd-master/xinetd/sconf.h	60;"	d
+SF_KEEPALIVE	xinetd-master/xinetd/sconf.h	56;"	d
+SF_LABELED	xinetd-master/xinetd/sconf.h	61;"	d
+SF_NAMEINARGS	xinetd-master/xinetd/sconf.h	54;"	d
+SF_NODELAY	xinetd-master/xinetd/sconf.h	55;"	d
+SF_NOLIBWRAP	xinetd-master/xinetd/sconf.h	57;"	d
+SF_NORETRY	xinetd-master/xinetd/sconf.h	52;"	d
+SF_REUSE	xinetd-master/xinetd/sconf.h	51;"	d
+SF_SENSOR	xinetd-master/xinetd/sconf.h	58;"	d
+SIGACTION_NULL	xinetd-master/xinetd/signals.c	62;"	d	file:
+SIGNAL_INTERVAL	xinetd-master/xinetd/signals.c	269;"	d	file:
+SIGSET_NULL	xinetd-master/xinetd/signals.c	60;"	d	file:
+SIGVEC_NULL	xinetd-master/xinetd/signals.c	61;"	d	file:
+SIOLINELEN	xinetd-master/libs/src/sio/sio.h	158;"	d
+SIO_BUFFER_SIZE	xinetd-master/libs/src/sio/impl.h	79;"	d
+SIO_DEFINE_FIN	xinetd-master/libs/src/sio/sioconf.h	126;"	d
+SIO_DEFINE_FIN	xinetd-master/libs/src/sio/sioconf.h	133;"	d
+SIO_DEFINE_FIN	xinetd-master/libs/src/sio/siosup.c	/^SIO_DEFINE_FIN( sio_cleanup )$/;"	f
+SIO_ERR	xinetd-master/libs/src/sio/sio.h	39;"	d
+SIO_FINALIZE	xinetd-master/libs/src/sio/sioconf.h	125;"	d
+SIO_FINALIZE	xinetd-master/libs/src/sio/sioconf.h	132;"	d
+SIO_FLUSH_ALL	xinetd-master/libs/src/sio/sio.h	38;"	d
+SIO_FULLBUF	xinetd-master/libs/src/sio/sio.h	44;"	d
+SIO_LINEBUF	xinetd-master/libs/src/sio/sio.h	45;"	d
+SIO_MMAP	xinetd-master/libs/src/sio/sioconf.h	64;"	d
+SIO_MNEED	xinetd-master/libs/src/sio/sioconf.h	76;"	d
+SIO_MNEED	xinetd-master/libs/src/sio/sioconf.h	78;"	d
+SIO_MUNMAP	xinetd-master/libs/src/sio/sioconf.h	71;"	d
+SIO_NOBUF	xinetd-master/libs/src/sio/sio.h	46;"	d
+SIO_NO_TIED_FD	xinetd-master/libs/src/sio/impl.h	80;"	d
+SIP	xinetd-master/xinetd/tcpint.c	38;"	d	file:
+SP	xinetd-master/xinetd/service.h	64;"	d
+SPECIAL_H	xinetd-master/xinetd/special.h	2;"	d
+START_ENTRY	xinetd-master/xinetd/sconst.h	25;"	d
+START_TIMER	xinetd-master/xinetd/ident.c	42;"	d	file:
+STATE_DUMP_SIG	xinetd-master/xinetd/xconfig.h	74;"	d
+STATE_H	xinetd-master/xinetd/state.h	9;"	d
+STDERR_FD	xinetd-master/xinetd/init.c	54;"	d	file:
+STD_ENV	xinetd-master/xinetd/sconf.h	/^typedef enum { NO_ENV = 0, STD_ENV, DEF_ENV, CUSTOM_ENV } environ_e ;$/;"	e	enum:__anon8
+STOP_TIMER	xinetd-master/xinetd/ident.c	43;"	d	file:
+STR_ENOMEM	xinetd-master/libs/src/str/str.h	68;"	d
+STR_ENULLSEPAR	xinetd-master/libs/src/str/str.h	66;"	d
+STR_ENULLSTRING	xinetd-master/libs/src/str/str.h	67;"	d
+STR_ERR	xinetd-master/libs/src/str/str.h	51;"	d
+STR_MALLOC	xinetd-master/libs/src/str/str.h	61;"	d
+STR_NOFLAGS	xinetd-master/libs/src/str/str.h	57;"	d
+STR_NULL_END	xinetd-master/libs/src/str/str.h	60;"	d
+STR_NULL_START	xinetd-master/libs/src/str/str.h	59;"	d
+STR_OK	xinetd-master/libs/src/str/str.h	50;"	d
+STR_RETURN_ERROR	xinetd-master/libs/src/str/str.h	58;"	d
+STR_TO_DEC	xinetd-master/libs/src/sio/sprint.c	85;"	d	file:
+ST_DISABLED	xinetd-master/xinetd/sconf.h	43;"	d
+ST_INTERNAL	xinetd-master/xinetd/sconf.h	40;"	d
+ST_RPC	xinetd-master/xinetd/sconf.h	39;"	d
+ST_SPECIAL	xinetd-master/xinetd/sconf.h	42;"	d
+ST_TCPMUX	xinetd-master/xinetd/sconf.h	44;"	d
+ST_TCPMUXPLUS	xinetd-master/xinetd/sconf.h	45;"	d
+ST_UNLISTED	xinetd-master/xinetd/sconf.h	41;"	d
+SUCCESS	xinetd-master/libs/src/sio/impl.h	/^typedef enum { FAILURE, SUCCESS } sio_status_e ;$/;"	e	enum:__anon4
+SUSPEND	xinetd-master/xinetd/service.h	65;"	d
+SVC_ACCEPTS_CONNECTIONS	xinetd-master/xinetd/service.h	103;"	d
+SVC_ACTIVE	xinetd-master/xinetd/service.h	/^      SVC_ACTIVE,                \/* service is available             *\/$/;"	e	enum:__anon20
+SVC_ATTEMPTS	xinetd-master/xinetd/service.h	81;"	d
+SVC_CONF	xinetd-master/xinetd/service.h	72;"	d
+SVC_DEC_RETRIES	xinetd-master/xinetd/service.h	140;"	d
+SVC_DEC_RUNNING_SERVERS	xinetd-master/xinetd/service.h	128;"	d
+SVC_DISABLED	xinetd-master/xinetd/service.h	/^      SVC_DISABLED               \/* service disabled                 *\/$/;"	e	enum:__anon20
+SVC_FD	xinetd-master/xinetd/service.h	73;"	d
+SVC_FORKS	xinetd-master/xinetd/service.h	99;"	d
+SVC_HOLD	xinetd-master/xinetd/service.h	121;"	d
+SVC_ID	xinetd-master/xinetd/service.h	78;"	d
+SVC_INC_RETRIES	xinetd-master/xinetd/service.h	139;"	d
+SVC_INC_RUNNING_SERVERS	xinetd-master/xinetd/service.h	137;"	d
+SVC_INTERNAL	xinetd-master/xinetd/service.h	125;"	d
+SVC_IS_ACTIVE	xinetd-master/xinetd/service.h	86;"	d
+SVC_IS_AVAILABLE	xinetd-master/xinetd/service.h	88;"	d
+SVC_IS_DISABLED	xinetd-master/xinetd/service.h	89;"	d
+SVC_IS_INTERCEPTED	xinetd-master/xinetd/service.h	102;"	d
+SVC_IS_LOGGING	xinetd-master/xinetd/service.h	106;"	d
+SVC_IS_MUXCLIENT	xinetd-master/xinetd/service.h	90;"	d
+SVC_IS_MUXPLUSCLIENT	xinetd-master/xinetd/service.h	91;"	d
+SVC_IS_SUSPENDED	xinetd-master/xinetd/service.h	87;"	d
+SVC_IS_TCPMUX	xinetd-master/xinetd/service.h	92;"	d
+SVC_LAST_DGRAM_ADDR	xinetd-master/xinetd/service.h	82;"	d
+SVC_LAST_DGRAM_TIME	xinetd-master/xinetd/service.h	83;"	d
+SVC_LOG	xinetd-master/xinetd/service.h	76;"	d
+SVC_LOGS_ON_EXIT	xinetd-master/xinetd/service.h	111;"	d
+SVC_LOGS_ON_FAILURE	xinetd-master/xinetd/service.h	109;"	d
+SVC_LOGS_ON_SUCCESS	xinetd-master/xinetd/service.h	107;"	d
+SVC_LOGS_USERID_ON_FAILURE	xinetd-master/xinetd/service.h	115;"	d
+SVC_LOGS_USERID_ON_SUCCESS	xinetd-master/xinetd/service.h	113;"	d
+SVC_MAKE_EXTERNAL	xinetd-master/xinetd/service.h	126;"	d
+SVC_NOT_GENERIC	xinetd-master/xinetd/service.h	84;"	d
+SVC_NOT_STARTED	xinetd-master/xinetd/service.h	/^      SVC_NOT_STARTED = 0,       \/* no attempt to start it yet       *\/$/;"	e	enum:__anon20
+SVC_REFCOUNT	xinetd-master/xinetd/service.h	77;"	d
+SVC_RELE	xinetd-master/xinetd/service.h	122;"	d
+SVC_RETRIES	xinetd-master/xinetd/service.h	75;"	d
+SVC_RETRY	xinetd-master/xinetd/service.h	100;"	d
+SVC_RUNNING_SERVERS	xinetd-master/xinetd/service.h	74;"	d
+SVC_SOCKET_TYPE	xinetd-master/xinetd/service.h	79;"	d
+SVC_STATE	xinetd-master/xinetd/service.h	80;"	d
+SVC_SUSPENDED	xinetd-master/xinetd/service.h	/^      SVC_SUSPENDED,             \/* service is suspended             *\/$/;"	e	enum:__anon20
+SVC_WAITS	xinetd-master/xinetd/service.h	101;"	d
+SWAP	xinetd-master/xinetd/reconfig.c	50;"	d	file:
+SYSLOG	xinetd-master/libs/src/xlog/slog.h	30;"	d
+S_CLIENT_ERR	xinetd-master/xinetd/tcpint.c	/^typedef enum { S_OK, S_SERVER_ERR, S_CLIENT_ERR } stream_status_e ;$/;"	e	enum:__anon9	file:
+S_NULL	xinetd-master/libs/src/sio/sprint.c	/^static char S_NULL[S_NULL_LEN+1] = "(null)";$/;"	v	file:
+S_NULL_LEN	xinetd-master/libs/src/sio/sprint.c	23;"	d	file:
+S_OK	xinetd-master/xinetd/tcpint.c	/^typedef enum { S_OK, S_SERVER_ERR, S_CLIENT_ERR } stream_status_e ;$/;"	e	enum:__anon9	file:
+S_SERVER_ERR	xinetd-master/xinetd/tcpint.c	/^typedef enum { S_OK, S_SERVER_ERR, S_CLIENT_ERR } stream_status_e ;$/;"	e	enum:__anon9	file:
+Sbuftype	xinetd-master/libs/src/sio/sio.c	/^int Sbuftype( int fd, int type )$/;"	f
+Sclose	xinetd-master/libs/src/sio/sio.c	/^int Sclose( int fd )$/;"	f
+Sdone	xinetd-master/libs/src/sio/siosup.c	/^int Sdone( int fd )$/;"	f
+Sflush	xinetd-master/libs/src/sio/sio.c	/^int Sflush( int fd )$/;"	f
+Smorefds	xinetd-master/libs/src/sio/siosup.c	/^int Smorefds(int fd)$/;"	f
+Socket	wrap.c	/^int Socket(int family, int type, int protocol)$/;"	f
+Sprint	xinetd-master/libs/src/sio/sprint.c	/^ssize_t Sprint( int fd, const char *fmt, ...) $/;"	f
+Sprintv	xinetd-master/libs/src/sio/sprint.c	/^ssize_t Sprintv( int fd, const char *fmt, va_list ap)$/;"	f
+Sputc	xinetd-master/libs/src/sio/sio.c	/^static int Sputc( int fd, char c )$/;"	f	file:
+Sputchar	xinetd-master/libs/src/sio/sio.c	/^int Sputchar( int fd, char c )$/;"	f
+Srdline	xinetd-master/libs/src/sio/sio.c	/^char *Srdline( int fd )$/;"	f
+Swrite	xinetd-master/libs/src/sio/sio.c	/^ssize_t Swrite( int fd, const char *addr, size_t nbytes )$/;"	f
+TCPD_NAME	xinetd-master/xinetd/itox.c	18;"	d	file:
+TCPINT_H	xinetd-master/xinetd/tcpint.h	2;"	d
+TCPMUX_ACK	xinetd-master/xinetd/service.h	94;"	d
+TCPMUX_NOT_FOUND	xinetd-master/xinetd/service.h	95;"	d
+TERMINATION_SIG	xinetd-master/xinetd/xconfig.h	71;"	d
+TIMEVAL_NULL	xinetd-master/xinetd/defs.h	44;"	d
+TIME_OFFSET	xinetd-master/xinetd/builtins.c	312;"	d	file:
+TIP	xinetd-master/xinetd/time.c	29;"	d	file:
+TMPSIZE	xinetd-master/xinetd/service.c	614;"	d	file:
+TRIVIAL_STR_FIND	xinetd-master/libs/src/str/strutil.c	15;"	d	file:
+TRUE	xinetd-master/libs/src/sio/impl.h	86;"	d
+TRUE	xinetd-master/libs/src/str/strparse.h	31;"	d
+TRUE	xinetd-master/libs/src/xlog/impl.h	93;"	d
+TRUE	xinetd-master/xinetd/defs.h	32;"	d
+UDPINT_H	xinetd-master/xinetd/udpint.h	2;"	d
+UNLIMITED	xinetd-master/xinetd/defs.h	65;"	d
+UNLINK	xinetd-master/libs/src/xlog/impl.h	40;"	d
+UPREFIX	xinetd-master/libs/src/portable/strerror.c	48;"	d	file:
+USERID_ENTRY	xinetd-master/xinetd/sconst.h	28;"	d
+USER_REQUESTED	xinetd-master/xinetd/internals.c	/^enum check_type { PERIODIC, USER_REQUESTED } ;$/;"	e	enum:check_type	file:
+USE_DEFAULT	xinetd-master/xinetd/confparse.c	117;"	d	file:
+UTIL_H	xinetd-master/xinetd/util.h	2;"	d
+VOID_NULL	xinetd-master/xinetd/defs.h	41;"	d
+Write	wrap.c	/^ssize_t Write(int fd, const void *ptr, size_t nbytes)$/;"	f
+Writen	wrap.c	/^ssize_t Writen(int fd, const void *vptr, size_t n)$/;"	f
+XCONFIG_H	xinetd-master/xinetd/xconfig.h	9;"	d
+XGETLOADAVG_H	xinetd-master/xinetd/xgetloadavg.h	2;"	d
+XLOG_CALLBACK	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_CALLBACK,			\/* generic: call this function in case of error *\/$/;"	e	enum:__anon2
+XLOG_EFSTAT	xinetd-master/libs/src/xlog/xlog.h	31;"	d
+XLOG_ENOERROR	xinetd-master/libs/src/xlog/xlog.h	28;"	d
+XLOG_ENOMEM	xinetd-master/libs/src/xlog/xlog.h	32;"	d
+XLOG_EOPEN	xinetd-master/libs/src/xlog/xlog.h	30;"	d
+XLOG_ESIZE	xinetd-master/libs/src/xlog/xlog.h	29;"	d
+XLOG_EWRITE	xinetd-master/libs/src/xlog/xlog.h	33;"	d
+XLOG_FACILITY	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_FACILITY,			\/* syslog:  set the default syslog facility		*\/$/;"	e	enum:__anon2
+XLOG_FILELOG	xinetd-master/libs/src/xlog/xlog.h	/^typedef enum { XLOG_SYSLOG, XLOG_FILELOG } xlog_e ;$/;"	e	enum:__anon1
+XLOG_GETFD	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_GETFD,				\/* filelog: get file descriptor of log file		*\/$/;"	e	enum:__anon2
+XLOG_GETFLAG	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_GETFLAG,			\/* generic:	get value of specified flag			*\/$/;"	e	enum:__anon2
+XLOG_LEVEL	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_LEVEL,				\/* syslog:  set the default syslog level			*\/$/;"	e	enum:__anon2
+XLOG_LIMITS	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_LIMITS 			\/* filelog: set (new) soft\/hard limits				*\/$/;"	e	enum:__anon2
+XLOG_LINK	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_LINK,				\/* generic: link this log to another log 			*\/$/;"	e	enum:__anon2
+XLOG_NOFLAGS	xinetd-master/libs/src/xlog/xlog.h	17;"	d
+XLOG_NO_ERRNO	xinetd-master/libs/src/xlog/xlog.h	20;"	d
+XLOG_NO_SIZECHECK	xinetd-master/libs/src/xlog/xlog.h	19;"	d
+XLOG_NULL	xinetd-master/libs/src/xlog/impl.h	89;"	d
+XLOG_POSTEXEC	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_POSTEXEC,			\/* syslog:	exec(2) failed								*\/$/;"	e	enum:__anon2
+XLOG_PREEXEC	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_PREEXEC,			\/* syslog:	prepare the log for an exec(2)		*\/$/;"	e	enum:__anon2
+XLOG_PRINT_ID	xinetd-master/libs/src/xlog/xlog.h	22;"	d
+XLOG_PRINT_PID	xinetd-master/libs/src/xlog/xlog.h	23;"	d
+XLOG_SETFLAG	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_SETFLAG,			\/* generic:	set value of specified flag			*\/$/;"	e	enum:__anon2
+XLOG_SET_LEVEL	xinetd-master/libs/src/xlog/xlog.h	18;"	d
+XLOG_SIZECHECK	xinetd-master/libs/src/xlog/xlog.h	/^		XLOG_SIZECHECK,		\/* filelog: check file size 							*\/$/;"	e	enum:__anon2
+XLOG_SYSLOG	xinetd-master/libs/src/xlog/xlog.h	/^typedef enum { XLOG_SYSLOG, XLOG_FILELOG } xlog_e ;$/;"	e	enum:__anon1
+XL_CONTROL	xinetd-master/libs/src/xlog/impl.h	79;"	d
+XL_FINI	xinetd-master/libs/src/xlog/impl.h	76;"	d
+XL_INIT	xinetd-master/libs/src/xlog/impl.h	75;"	d
+XL_WRITE	xinetd-master/libs/src/xlog/impl.h	77;"	d
+XMASK	xinetd-master/xinetd/mask.h	28;"	d
+XP	xinetd-master/libs/src/xlog/impl.h	87;"	d
+X_ENV_H	xinetd-master/xinetd/env.h	2;"	d
+X_INET_H	xinetd-master/xinetd/inet.h	2;"	d
+X_OK	xinetd-master/xinetd/parsers.c	29;"	d	file:
+YES	xinetd-master/libs/src/sio/impl.h	/^typedef enum { NO = 0, YES = 1 } boolean_e ;$/;"	e	enum:__anon5
+YES	xinetd-master/xinetd/defs.h	/^typedef enum { NO = 0, YES } boolean_e ;$/;"	e	enum:__anon13
+_FAKE_GETADDRINFO_H	xinetd-master/libs/src/portable/fake-getaddrinfo.h	2;"	d
+_GNU_SOURCE	xinetd-master/xinetd/signals.c	11;"	d	file:
+_GNU_SOURCE	xinetd-master/xinetd/xmdns.c	3;"	d	file:
+_SS_MAXSIZE	xinetd-master/libs/src/portable/libportable.h	74;"	d
+_SS_PADSIZE	xinetd-master/libs/src/portable/libportable.h	75;"	d
+_XINETD_LIBPORTABLE	xinetd-master/libs/src/portable/libportable.h	2;"	d
+_XMDNS_H_	xinetd-master/xinetd/xmdns.h	2;"	d
+_X_CHILD	xinetd-master/xinetd/child.h	7;"	d
+_X_PARSERS	xinetd-master/xinetd/parsers.h	7;"	d
+_X_SIGNALS	xinetd-master/xinetd/signals.h	7;"	d
+_X_TIME	xinetd-master/xinetd/timex.h	7;"	d
+_X_TIMER_H	xinetd-master/xinetd/xtimer.h	8;"	d
+__FILELOG_H	xinetd-master/libs/src/xlog/filelog.h	13;"	d
+__MISC_H	xinetd-master/libs/src/misc/misc.h	9;"	d
+__M_ENV_H	xinetd-master/libs/src/misc/m_env.h	8;"	d
+__PSET_H	xinetd-master/libs/src/pset/pset.h	8;"	d
+__SIO_FD_INITIALIZED	xinetd-master/libs/src/sio/sio.h	137;"	d
+__SIO_H	xinetd-master/libs/src/sio/sio.h	12;"	d
+__SIO_ID	xinetd-master/libs/src/sio/sio.h	139;"	d
+__SIO_INPUT_STREAM	xinetd-master/libs/src/sio/sio.h	/^enum __sio_stream { __SIO_INPUT_STREAM, __SIO_OUTPUT_STREAM } ;$/;"	e	enum:__sio_stream
+__SIO_MUST_FLUSH	xinetd-master/libs/src/sio/sio.h	141;"	d
+__SIO_OD	xinetd-master/libs/src/sio/sio.h	140;"	d
+__SIO_OUTPUT_STREAM	xinetd-master/libs/src/sio/sio.h	/^enum __sio_stream { __SIO_INPUT_STREAM, __SIO_OUTPUT_STREAM } ;$/;"	e	enum:__sio_stream
+__SLOG_H	xinetd-master/libs/src/xlog/slog.h	12;"	d
+__STRPARSE_H	xinetd-master/libs/src/str/strparse.h	8;"	d
+__STR_H	xinetd-master/libs/src/str/str.h	9;"	d
+__WRAP_H_	wrap.h	2;"	d
+__XLOG_H	xinetd-master/libs/src/xlog/xlog.h	8;"	d
+__XLOG_IMPL_H	xinetd-master/libs/src/xlog/impl.h	13;"	d
+__env	xinetd-master/libs/src/misc/m_env.h	/^struct __env$/;"	s
+__pset	xinetd-master/libs/src/pset/pset.h	/^struct __pset$/;"	s
+__pset_iterator	xinetd-master/libs/src/pset/pset.h	/^struct __pset_iterator$/;"	s
+__pset_pointer	xinetd-master/libs/src/pset/pset.h	/^typedef void *__pset_pointer ;$/;"	t
+__psi_current	xinetd-master/libs/src/pset/pset.h	79;"	d
+__set_errno	xinetd-master/libs/src/portable/cvt.c	63;"	d	file:
+__sio_converter	xinetd-master/libs/src/sio/sprint.c	/^ssize_t __sio_converter( __sio_od_t *odp, int fd, const char *fmt, va_list ap )$/;"	f
+__sio_descriptor	xinetd-master/libs/src/sio/sio.h	/^struct __sio_descriptor$/;"	s
+__sio_descriptor_t	xinetd-master/libs/src/sio/sio.h	/^typedef struct __sio_descriptor __sio_descriptor_t ;$/;"	t	typeref:struct:__sio_descriptor
+__sio_descriptors	xinetd-master/libs/src/sio/siosup.c	/^__sio_descriptor_t *__sio_descriptors = NULL ;$/;"	v
+__sio_extend_buffer	xinetd-master/libs/src/sio/siosup.c	/^ssize_t __sio_extend_buffer( __sio_id_t *idp, int fd, size_t b_left )$/;"	f
+__sio_id_t	xinetd-master/libs/src/sio/sio.h	/^typedef struct __sio_input_descriptor __sio_id_t ;$/;"	t	typeref:struct:__sio_input_descriptor
+__sio_init	xinetd-master/libs/src/sio/siosup.c	/^int __sio_init( __sio_descriptor_t *dp, int fd, enum __sio_stream stream_type )$/;"	f
+__sio_input_descriptor	xinetd-master/libs/src/sio/sio.h	/^struct __sio_input_descriptor$/;"	s
+__sio_memcopy	xinetd-master/libs/src/sio/sio.c	/^void __sio_memcopy( const char *from, char *to, size_t nbytes )$/;"	f
+__sio_more	xinetd-master/libs/src/sio/siosup.c	/^ssize_t __sio_more( __sio_id_t *idp, int fd )$/;"	f
+__sio_n_descriptors	xinetd-master/libs/src/sio/siosup.c	/^int __sio_n_descriptors = 0 ;$/;"	v
+__sio_od_t	xinetd-master/libs/src/sio/sio.h	/^typedef struct __sio_output_descriptor __sio_od_t ;$/;"	t	typeref:struct:__sio_output_descriptor
+__sio_output_descriptor	xinetd-master/libs/src/sio/sio.h	/^struct __sio_output_descriptor$/;"	s
+__sio_readf	xinetd-master/libs/src/sio/siosup.c	/^static ssize_t __sio_readf( __sio_id_t *idp, int fd )$/;"	f	file:
+__sio_stream	xinetd-master/libs/src/sio/sio.h	/^enum __sio_stream { __SIO_INPUT_STREAM, __SIO_OUTPUT_STREAM } ;$/;"	g
+__sio_switch	xinetd-master/libs/src/sio/siosup.c	/^sio_status_e __sio_switch( __sio_id_t *idp, int fd )$/;"	f
+__sio_writef	xinetd-master/libs/src/sio/siosup.c	/^int __sio_writef( __sio_od_t *odp, int fd )$/;"	f
+__ss_pad2	xinetd-master/libs/src/portable/libportable.h	/^	char		__ss_pad2[_SS_PADSIZE];$/;"	m	struct:sockaddr_storage
+__xlog_add_errno	xinetd-master/libs/src/xlog/util.c	/^int __xlog_add_errno( const char *buf, int len )$/;"	f
+__xlog_explain_errno	xinetd-master/libs/src/xlog/util.c	/^char *__xlog_explain_errno( char *buf, unsigned *size )$/;"	f
+__xlog_filelog_ops	xinetd-master/libs/src/xlog/filelog.c	/^struct xlog_ops __xlog_filelog_ops = $/;"	v	typeref:struct:xlog_ops
+__xlog_new_string	xinetd-master/libs/src/xlog/util.c	/^char *__xlog_new_string( const char *s )$/;"	f
+__xlog_syslog_ops	xinetd-master/libs/src/xlog/slog.c	/^struct xlog_ops __xlog_syslog_ops =$/;"	v	typeref:struct:xlog_ops
+a	xinetd-master/xinetd/addr.c	/^   } a;$/;"	m	struct:comp_addr	typeref:union:comp_addr::__anon17	file:
+a_id	xinetd-master/xinetd/parse.h	/^   unsigned     a_id ;          \/* attribute id	       *\/$/;"	m	struct:attribute
+a_name	xinetd-master/xinetd/parse.h	/^   const char  *a_name ;        \/* name of attribute   *\/$/;"	m	struct:attribute
+a_nvalues	xinetd-master/xinetd/parse.h	/^   int		a_nvalues ;	\/* number of values    *\/$/;"	m	struct:attribute
+a_parser	xinetd-master/xinetd/parse.h	/^   status_e    (*a_parser)() ;	\/* function that parses the attribute	*\/$/;"	m	struct:attribute
+accepted_connections	xinetd-master/xinetd/tcpint.c	/^   unsigned accepted_connections ;$/;"	m	struct:istream_private	file:
+access_code_names	xinetd-master/xinetd/access.c	/^const struct name_value access_code_names[] =$/;"	v	typeref:struct:name_value
+access_control	xinetd-master/xinetd/access.c	/^access_e access_control( struct service *sp, $/;"	f
+access_e	xinetd-master/xinetd/access.h	/^   } access_e ;$/;"	t	typeref:enum:__anon19
+access_times_parser	xinetd-master/xinetd/parsers.c	/^status_e access_times_parser( pset_h values, $/;"	f
+activate_normal	xinetd-master/xinetd/service.c	/^static status_e activate_normal( struct service *sp )$/;"	f	file:
+activate_rpc	xinetd-master/xinetd/service.c	/^static status_e activate_rpc( struct service *sp )$/;"	f	file:
+active_services	xinetd-master/xinetd/state.h	/^   int              active_services ;      \/* services with descriptors set *\/$/;"	m	struct:read_write_state
+add	xinetd-master/xinetd/addr.c	/^static status_e add( pset_h addr_list, const struct comp_addr *cap )$/;"	f	file:
+add_new_string	xinetd-master/xinetd/parsers.c	/^static status_e add_new_string( pset_h set, char *str )$/;"	f	file:
+addr	xinetd-master/libs/src/sio/impl.h	/^	caddr_t addr ;$/;"	m	struct:map_unit
+addr	xinetd-master/xinetd/addr.c	/^      uint32_t        addr ;  \/* host byte order *\/$/;"	m	union:comp_addr::__anon17	file:
+addr6	xinetd-master/xinetd/addr.c	/^      struct in6_addr addr6 ;$/;"	m	union:comp_addr::__anon17	typeref:struct:comp_addr::__anon17::in6_addr	file:
+addr_type	xinetd-master/xinetd/addr.c	/^   address_e       addr_type ;$/;"	m	struct:comp_addr	file:
+address_e	xinetd-master/xinetd/addr.c	/^typedef enum {   NUMERIC_ADDR, NET_ADDR, HOST_ADDR } address_e ;$/;"	t	typeref:enum:__anon16	file:
+addrinfo	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^struct addrinfo {$/;"	s
+addrlist_add	xinetd-master/xinetd/addr.c	/^status_e addrlist_add( pset_h addr_list, const char *str_addr ) $/;"	f
+addrlist_copy	xinetd-master/xinetd/addr.c	/^status_e addrlist_copy( const pset_h from, pset_h *to )$/;"	f
+addrlist_dump	xinetd-master/xinetd/addr.c	/^void addrlist_dump( const pset_h addr_list, int fd )$/;"	f
+addrlist_free	xinetd-master/xinetd/addr.c	/^void addrlist_free( pset_h addr_list )$/;"	f
+addrlist_match	xinetd-master/xinetd/addr.c	/^int addrlist_match( const pset_h addr_list, $/;"	f
+addrlist_op	xinetd-master/xinetd/addr.c	/^static status_e addrlist_op( pset_h addr_list, $/;"	f	file:
+addrlist_remove	xinetd-master/xinetd/addr.c	/^status_e addrlist_remove( pset_h addr_list, const char *str_addr ) $/;"	f
+addstring	xinetd-master/libs/src/misc/m_env.c	/^static int addstring( env_s *ep, const char *var_string, unsigned int len )$/;"	f	file:
+ai_addr	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^	struct sockaddr *ai_addr;	\/* binary address *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::sockaddr
+ai_addrlen	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^	size_t	ai_addrlen;	\/* length of ai_addr *\/$/;"	m	struct:addrinfo
+ai_canonname	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^	char	*ai_canonname;	\/* canonical name for hostname *\/$/;"	m	struct:addrinfo
+ai_family	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^	int	ai_family;	\/* PF_xxx *\/$/;"	m	struct:addrinfo
+ai_flags	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^	int	ai_flags;	\/* AI_PASSIVE, AI_CANONNAME *\/$/;"	m	struct:addrinfo
+ai_next	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^	struct addrinfo *ai_next;	\/* next structure in linked list *\/$/;"	m	struct:addrinfo	typeref:struct:addrinfo::addrinfo
+ai_protocol	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^	int	ai_protocol;	\/* 0 or IPPROTO_xxx for IPv4 and IPv6 *\/$/;"	m	struct:addrinfo
+ai_socktype	xinetd-master/libs/src/portable/fake-getaddrinfo.h	/^	int	ai_socktype;	\/* SOCK_xxx *\/$/;"	m	struct:addrinfo
+alloc_env	xinetd-master/libs/src/misc/m_env.c	/^static env_s *alloc_env( unsigned max_vars )$/;"	f	file:
+alloc_step	xinetd-master/libs/src/pset/pset.h	/^   unsigned alloc_step ;$/;"	m	struct:__pset
+allow_severity	xinetd-master/xinetd/access.c	/^int allow_severity = LOG_INFO;$/;"	v
+argv_alloc	xinetd-master/xinetd/util.c	/^char **argv_alloc( unsigned count )$/;"	f
+assign_op	xinetd-master/xinetd/parse.h	/^enum assign_op { SET_EQ, PLUS_EQ, MINUS_EQ } ;$/;"	g
+attr_lookup	xinetd-master/xinetd/parse.c	/^static const struct attribute *attr_lookup( $/;"	f	file:
+attr_name_lookup	xinetd-master/xinetd/parse.c	/^const char *attr_name_lookup( unsigned int id )$/;"	f
+attribute	xinetd-master/xinetd/parse.h	/^struct attribute$/;"	s
+available_services	xinetd-master/xinetd/state.h	/^   int              available_services ;   \/* # of available services       *\/$/;"	m	struct:read_write_state
+b_fork_server	xinetd-master/xinetd/builtins.h	/^   boolean_e   b_fork_server ;         \/* whether a server must be forked   *\/$/;"	m	struct:builtin
+b_handler	xinetd-master/xinetd/builtins.h	/^   voidfunc    b_handler ;             \/* builtin service handler           *\/$/;"	m	struct:builtin
+bad_signal	xinetd-master/xinetd/signals.c	/^static void bad_signal(void)$/;"	f	file:
+banner_always	xinetd-master/xinetd/service.c	/^static int banner_always( const struct service *sp, const connection_s *cp )$/;"	f	file:
+banner_fail	xinetd-master/xinetd/service.c	/^static int banner_fail( const struct service *sp, const connection_s *cp )$/;"	f	file:
+banner_fail_parser	xinetd-master/xinetd/parsers.c	/^status_e banner_fail_parser(pset_h values, $/;"	f
+banner_parser	xinetd-master/xinetd/parsers.c	/^status_e banner_parser(pset_h values, $/;"	f
+banner_success	xinetd-master/xinetd/service.c	/^static int banner_success( const struct service *sp, const connection_s *cp )$/;"	f	file:
+banner_success_parser	xinetd-master/xinetd/parsers.c	/^status_e banner_success_parser(pset_h values, $/;"	f
+basename	xinetd-master/libs/src/misc/misc.c	/^char *basename( char *pathname )$/;"	f
+become_daemon	xinetd-master/xinetd/init.c	/^static void become_daemon(void)$/;"	f	file:
+bind_parser	xinetd-master/xinetd/parsers.c	/^status_e bind_parser( pset_h values, $/;"	f
+bool_int	xinetd-master/libs/src/sio/sprint.c	/^typedef int 				bool_int ;$/;"	t	file:
+bool_int	xinetd-master/libs/src/xlog/impl.h	/^typedef int bool_int ;$/;"	t
+bool_int	xinetd-master/xinetd/defs.h	/^typedef int bool_int ;$/;"	t
+boolean_e	xinetd-master/libs/src/sio/impl.h	/^typedef enum { NO = 0, YES = 1 } boolean_e ;$/;"	t	typeref:enum:__anon5
+boolean_e	xinetd-master/xinetd/defs.h	/^typedef enum { NO = 0, YES } boolean_e ;$/;"	t	typeref:enum:__anon13
+bs_handle	xinetd-master/xinetd/builtins.h	/^   builtin_s   bs_handle ;$/;"	m	struct:builtin_service
+bs_name	xinetd-master/xinetd/builtins.h	/^   const char  *bs_name ;               \/* for identification purposes      *\/$/;"	m	struct:builtin_service
+bs_socket_type	xinetd-master/xinetd/builtins.h	/^   int         bs_socket_type ;         \/* for identification purposes      *\/$/;"	m	struct:builtin_service
+buf	xinetd-master/libs/src/sio/sio.h	/^	char *buf ;$/;"	m	struct:__sio_input_descriptor
+buf	xinetd-master/libs/src/sio/sio.h	/^	char *buf ;$/;"	m	struct:__sio_output_descriptor
+buf_end	xinetd-master/libs/src/sio/sio.h	/^	char *buf_end ;$/;"	m	struct:__sio_output_descriptor
+buffer_setup	xinetd-master/libs/src/sio/siosup.c	/^static void buffer_setup( __sio_id_t *idp, int fd, const struct map_unit *mu_cur, const struct map_unit *mu_next )$/;"	f	file:
+buffer_size	xinetd-master/libs/src/sio/sio.h	/^	size_t buffer_size ;$/;"	m	struct:__sio_input_descriptor
+buffer_size	xinetd-master/libs/src/sio/sio.h	/^	unsigned buffer_size ;$/;"	m	struct:__sio_output_descriptor
+buftype	xinetd-master/libs/src/sio/sio.h	/^	int buftype ;						\/* type of buffering 						*\/$/;"	m	struct:__sio_output_descriptor
+builtin	xinetd-master/xinetd/builtins.h	/^struct builtin$/;"	s
+builtin_find	xinetd-master/xinetd/builtins.c	/^const builtin_s *builtin_find( const char *service_name, int type )$/;"	f
+builtin_lookup	xinetd-master/xinetd/builtins.c	/^const builtin_s *builtin_lookup( const struct builtin_service services[], $/;"	f
+builtin_s	xinetd-master/xinetd/builtins.h	/^typedef struct builtin builtin_s ;$/;"	t	typeref:struct:builtin
+builtin_service	xinetd-master/xinetd/builtins.h	/^struct builtin_service$/;"	s
+builtin_services	xinetd-master/xinetd/builtins.c	/^static const struct builtin_service builtin_services[] =$/;"	v	typeref:struct:builtin_service	file:
+cancel_retry	xinetd-master/xinetd/retry.c	/^static void cancel_retry( struct server *serp )$/;"	f	file:
+cancel_service_retries	xinetd-master/xinetd/retry.c	/^void cancel_service_retries( struct service *sp )$/;"	f
+cc_interval	xinetd-master/xinetd/state.h	/^   int         cc_interval ;          \/* # of seconds the cc gets invoked.   *\/$/;"	m	struct:read_only_state
+ch_from	xinetd-master/xinetd/int.h	/^   union xsockaddr      ch_from ;$/;"	m	struct:channel	typeref:union:channel::xsockaddr
+ch_local_socket	xinetd-master/xinetd/int.h	/^   int                  ch_local_socket ;$/;"	m	struct:channel
+ch_remote_socket	xinetd-master/xinetd/int.h	/^   int                  ch_remote_socket ;$/;"	m	struct:channel
+ch_state	xinetd-master/xinetd/int.h	/^   channel_state_e      ch_state ;$/;"	m	struct:channel
+channel	xinetd-master/xinetd/int.h	/^struct channel$/;"	s
+channel_s	xinetd-master/xinetd/int.h	/^typedef struct channel channel_s ;$/;"	t	typeref:struct:channel
+channel_state_e	xinetd-master/xinetd/int.h	/^typedef enum { GOOD_CHANNEL, BAD_CHANNEL } channel_state_e ;$/;"	t	typeref:enum:__anon10
+check	xinetd-master/contrib/xinetd	/^check(){$/;"	f
+check_entry	xinetd-master/xinetd/confparse.c	/^static status_e check_entry( struct service_config *scp, $/;"	f	file:
+check_hostname	xinetd-master/xinetd/addr.c	/^int check_hostname( const char *addr )$/;"	f
+check_pipe	xinetd-master/xinetd/signals.c	/^void check_pipe(void)$/;"	f
+check_sensor	xinetd-master/xinetd/sensor.c	/^status_e check_sensor( const union xsockaddr *addr)$/;"	f
+check_type	xinetd-master/xinetd/internals.c	/^enum check_type { PERIODIC, USER_REQUESTED } ;$/;"	g	file:
+child_exit	xinetd-master/xinetd/child.c	/^void child_exit(void)$/;"	f
+child_process	xinetd-master/xinetd/child.c	/^void child_process( struct server *serp )$/;"	f
+close_all_svc_descriptors	xinetd-master/xinetd/service.c	/^void close_all_svc_descriptors(void)$/;"	f
+close_default_log	xinetd-master/xinetd/reconfig.c	/^static void close_default_log(struct configuration *confp, xlog_h def_log)$/;"	f	file:
+closelog	xinetd-master/libs/src/xlog/slog.c	/^static void closelog()$/;"	f	file:
+cnf_defaults	xinetd-master/xinetd/conf.h	/^   struct service_config *cnf_defaults ;$/;"	m	struct:configuration	typeref:struct:configuration::service_config
+cnf_dump	xinetd-master/xinetd/conf.c	/^void cnf_dump( struct configuration *confp, int fd )$/;"	f
+cnf_extract	xinetd-master/xinetd/conf.c	/^struct service_config *cnf_extract( struct configuration *confp, $/;"	f
+cnf_free	xinetd-master/xinetd/conf.c	/^void cnf_free( struct configuration *confp )$/;"	f
+cnf_get	xinetd-master/xinetd/confparse.c	/^status_e cnf_get( struct configuration *confp )$/;"	f
+cnf_init	xinetd-master/xinetd/conf.c	/^status_e cnf_init( struct configuration *confp, int *fdp, psi_h *iterp )$/;"	f
+cnf_service_confs	xinetd-master/xinetd/conf.h	/^   pset_h cnf_service_confs ;$/;"	m	struct:configuration
+cnf_start_services	xinetd-master/xinetd/conf.c	/^unsigned cnf_start_services( struct configuration *confp )$/;"	f
+co_descriptor	xinetd-master/xinetd/connection.h	/^   int                   co_descriptor ;$/;"	m	struct:connection
+co_flags	xinetd-master/xinetd/connection.h	/^   mask_t                co_flags ;$/;"	m	struct:connection
+co_remote_address	xinetd-master/xinetd/connection.h	/^   union xsockaddr       co_remote_address ;$/;"	m	struct:connection	typeref:union:connection::xsockaddr
+co_sp	xinetd-master/xinetd/connection.h	/^   struct service        *co_sp ;$/;"	m	struct:connection	typeref:struct:connection::service
+comp_addr	xinetd-master/xinetd/addr.c	/^struct comp_addr$/;"	s	file:
+comparator	xinetd-master/libs/src/misc/m_env.c	/^static int comparator( char **p1, char **p2 )$/;"	f	file:
+compfunc	xinetd-master/xinetd/includedir.c	/^static int compfunc( const void *_a, const void *_b )$/;"	f	file:
+condrestart	xinetd-master/contrib/xinetd	/^condrestart(){$/;"	f
+config_file	xinetd-master/xinetd/state.h	/^   const char *config_file ;$/;"	m	struct:read_only_state
+configuration	xinetd-master/xinetd/conf.h	/^struct configuration$/;"	s
+conn_addrstr	xinetd-master/xinetd/connection.c	/^const char *conn_addrstr( const connection_s *cp )$/;"	f
+conn_dump	xinetd-master/xinetd/connection.c	/^void conn_dump( const connection_s *cp, int fd )$/;"	f
+conn_free	xinetd-master/xinetd/connection.c	/^void conn_free( connection_s *cp, int release_mem )$/;"	f
+conn_new	xinetd-master/xinetd/connection.c	/^connection_s *conn_new( struct service *sp )$/;"	f
+connection	xinetd-master/xinetd/connection.h	/^struct connection$/;"	s
+connection_request	xinetd-master/xinetd/tcpint.c	/^static void connection_request( struct intercept_s *ip, channel_s **chpp )$/;"	f	file:
+connection_s	xinetd-master/xinetd/defs.h	/^typedef struct connection connection_s ;$/;"	t	typeref:struct:connection
+consistency_check	xinetd-master/xinetd/internals.c	/^static void consistency_check( enum check_type type )$/;"	f	file:
+control	xinetd-master/libs/src/xlog/impl.h	/^		int	(*control)	( struct xlog *, xlog_cmd_e, va_list ) ;$/;"	m	struct:xlog::xlog_ops
+conv_10	xinetd-master/libs/src/sio/sprint.c	/^static char *conv_10( wide_int num, bool_int is_unsigned, bool_int *is_negative, char *buf_end, ssize_t *len )$/;"	f	file:
+conv_fp	xinetd-master/libs/src/sio/sprint.c	/^static char *conv_fp( char format, double num, boolean_e add_dp, $/;"	f	file:
+conv_p2	xinetd-master/libs/src/sio/sprint.c	/^static char *conv_p2( u_wide_int num, int nbits, char format, char *buf_end, ssize_t *len )$/;"	f	file:
+copy_pset	xinetd-master/xinetd/util.c	/^status_e copy_pset( const pset_h from, pset_h *to, unsigned size )$/;"	f
+count	xinetd-master/libs/src/pset/pset.h	/^   unsigned count ;$/;"	m	struct:__pset
+count_refs	xinetd-master/xinetd/internals.c	/^static int count_refs( struct service *sp, pset_h servers, unsigned *countp )$/;"	f	file:
+cps_parser	xinetd-master/xinetd/parsers.c	/^status_e cps_parser( pset_h values, $/;"	f
+cps_service_restart	xinetd-master/xinetd/access.c	/^static void cps_service_restart(void)$/;"	f	file:
+cps_service_stop	xinetd-master/xinetd/access.c	/^void cps_service_stop(struct service *sp, const char *reason)$/;"	f
+create_pidfile	xinetd-master/xinetd/init.c	/^static void create_pidfile(void)$/;"	f	file:
+crypt	xinetd-master/configure	/^crypt ();$/;"	f
+current	xinetd-master/libs/src/pset/pset.h	/^   unsigned current ;$/;"	m	struct:__pset_iterator
+current_file	xinetd-master/xinetd/parse.c	/^const char *current_file = NULL;$/;"	v
+data	xinetd-master/xinetd/udpint.c	/^   char                  *data ;$/;"	m	struct:packet	file:
+daytime_protocol	xinetd-master/xinetd/builtins.c	/^static void daytime_protocol( char *buf, unsigned int *buflen )$/;"	f	file:
+deactivate	xinetd-master/xinetd/service.c	/^static void deactivate( const struct service *sp )$/;"	f	file:
+debug	xinetd-master/xinetd/defs.h	/^struct debug$/;"	s
+debug	xinetd-master/xinetd/main.c	/^struct debug debug ;$/;"	v	typeref:struct:debug
+decode	xhttpd.c	/^void decode(char* to, char* from)$/;"	f
+def_log	xinetd-master/xinetd/state.h	/^   xlog_h                  def_log ;$/;"	m	struct:defaults
+def_log_creation_failed	xinetd-master/xinetd/state.h	/^   bool_int                def_log_creation_failed ;$/;"	m	struct:defaults
+def_settings	xinetd-master/xinetd/state.h	/^   struct service_config  *def_settings ;$/;"	m	struct:defaults	typeref:struct:defaults::service_config
+default_attributes	xinetd-master/xinetd/parse.c	/^static const struct attribute default_attributes[] =$/;"	v	typeref:struct:attribute	file:
+defaults	xinetd-master/xinetd/state.h	/^struct defaults$/;"	s
+defs	xinetd-master/xinetd/state.h	/^   struct defaults  defs ;$/;"	m	struct:read_write_state	typeref:struct:read_write_state::defaults
+deliver_signal	xinetd-master/xinetd/reconfig.c	/^static void deliver_signal( struct service *sp, int sig )$/;"	f	file:
+deny_severity	xinetd-master/xinetd/access.c	/^int deny_severity = LOG_INFO;$/;"	v
+deny_time_parser	xinetd-master/xinetd/parsers.c	/^status_e deny_time_parser( pset_h values, $/;"	f
+descriptor	xinetd-master/libs/src/sio/sio.h	/^	} descriptor ;$/;"	m	struct:__sio_descriptor	typeref:union:__sio_descriptor::__anon6
+descriptors_free	xinetd-master/xinetd/state.h	/^   int              descriptors_free ;     \/* may be negative (reserved)    *\/$/;"	m	struct:read_write_state
+destroy_global_access_list	xinetd-master/xinetd/sensor.c	/^void destroy_global_access_list( void )$/;"	f
+destroy_service	xinetd-master/xinetd/conf.c	/^static void destroy_service( struct service *sp )$/;"	f	file:
+dgram_chargen	xinetd-master/xinetd/builtins.c	/^static void dgram_chargen( const struct server *serp )$/;"	f	file:
+dgram_daytime	xinetd-master/xinetd/builtins.c	/^static void dgram_daytime( const struct server *serp )$/;"	f	file:
+dgram_discard	xinetd-master/xinetd/builtins.c	/^static void dgram_discard( const struct server *serp )$/;"	f	file:
+dgram_echo	xinetd-master/xinetd/builtins.c	/^static void dgram_echo( const struct server *serp )$/;"	f	file:
+dgram_intercept_state	xinetd-master/xinetd/udpint.c	/^static struct intercept_s dgram_intercept_state ;$/;"	v	typeref:struct:intercept_s	file:
+dgram_time	xinetd-master/xinetd/builtins.c	/^static void dgram_time( const struct server *serp )$/;"	f	file:
+di_exit	xinetd-master/xinetd/udpint.c	/^void di_exit(void)$/;"	f
+di_init	xinetd-master/xinetd/udpint.c	/^struct intercept_s *di_init( struct server *serp )$/;"	f
+di_mux	xinetd-master/xinetd/udpint.c	/^static void di_mux(void)$/;"	f	file:
+difftime	xinetd-master/configure	/^difftime ();$/;"	f
+difftime	xinetd-master/libs/src/portable/difftime.c	/^double difftime( time_t a, time_t b)$/;"	f
+disabled_parser	xinetd-master/xinetd/parsers.c	/^status_e disabled_parser( pset_h values, $/;"	f
+do_fork	xinetd-master/xinetd/server.c	43;"	d	file:
+do_fork	xinetd-master/xinetd/server.c	51;"	d	file:
+dont_fork	xinetd-master/xinetd/options.c	/^int dont_fork = 0;$/;"	v
+drain	xinetd-master/xinetd/util.c	/^void drain( int sd )$/;"	f
+dump	xinetd-master/contrib/xinetd	/^dump(){$/;"	f
+dump_internal_state	xinetd-master/xinetd/internals.c	/^void dump_internal_state(void)$/;"	f
+dump_log_data	xinetd-master/xinetd/sconf.c	/^static void dump_log_data( int fd, struct service_config *scp, int tab_level )$/;"	f	file:
+dump_services	xinetd-master/xinetd/internals.c	/^static void dump_services( int fd )$/;"	f	file:
+ecvt	xinetd-master/configure	/^ecvt ();$/;"	f
+enable_periodic_check	xinetd-master/xinetd/internals.c	/^void enable_periodic_check( unsigned interval )$/;"	f
+enabled_parser	xinetd-master/xinetd/parsers.c	/^status_e enabled_parser( pset_h values, $/;"	f
+encode	xhttpd.c	/^void encode(char* to, char* from)$/;"	f
+end	xinetd-master/libs/src/sio/sio.h	/^	char *end ;                   \/* end of valid buffer contents + 1 	*\/$/;"	m	struct:__sio_input_descriptor
+entry_e	xinetd-master/xinetd/parse.h	/^} entry_e ;$/;"	t	typeref:enum:__anon7
+env	xinetd-master/xinetd/ident.c	/^static sigjmp_buf env ;$/;"	v	file:
+env	xinetd-master/xinetd/state.h	/^   sigjmp_buf       env ;$/;"	m	struct:read_write_state
+env_addstr	xinetd-master/libs/src/misc/m_env.c	/^int env_addstr( env_h env, char *var_string )$/;"	f
+env_addvar	xinetd-master/libs/src/misc/m_env.c	/^int env_addvar( env_h env, env_h from_env, char *var_name )$/;"	f
+env_create	xinetd-master/libs/src/misc/m_env.c	/^env_h env_create( const env_h init_env )$/;"	f
+env_destroy	xinetd-master/libs/src/misc/m_env.c	/^void env_destroy( env_h env )$/;"	f
+env_errno	xinetd-master/libs/src/misc/m_env.c	/^int env_errno ;$/;"	v
+env_getvars	xinetd-master/libs/src/misc/m_env.h	46;"	d
+env_h	xinetd-master/libs/src/misc/m_env.h	/^typedef struct __env *env_h ;$/;"	t	typeref:struct:__env
+env_handle	xinetd-master/xinetd/sconf.h	/^   env_h      env_handle ;$/;"	m	struct:environment
+env_is_valid	xinetd-master/xinetd/state.h	/^   bool_int         env_is_valid ;$/;"	m	struct:read_write_state
+env_lookup	xinetd-master/libs/src/misc/m_env.c	/^char *env_lookup( env_h env, const char *var )$/;"	f
+env_make	xinetd-master/libs/src/misc/m_env.c	/^env_h env_make( char **env_strings )$/;"	f
+env_parser	xinetd-master/xinetd/parsers.c	/^status_e env_parser( pset_h values, $/;"	f
+env_s	xinetd-master/libs/src/misc/m_env.c	/^typedef struct __env env_s ;$/;"	t	typeref:struct:__env	file:
+env_sort	xinetd-master/libs/src/misc/m_env.c	/^void env_sort( env_h env )$/;"	f
+env_type	xinetd-master/xinetd/sconf.h	/^   environ_e  env_type ;$/;"	m	struct:environment
+environ_e	xinetd-master/xinetd/sconf.h	/^typedef enum { NO_ENV = 0, STD_ENV, DEF_ENV, CUSTOM_ENV } environ_e ;$/;"	t	typeref:enum:__anon8
+environment	xinetd-master/xinetd/sconf.h	/^struct environment$/;"	s
+errnop	xinetd-master/libs/src/str/strparse.h	/^   int *errnop ;$/;"	m	struct:str_handle
+exec_server	xinetd-master/xinetd/child.c	/^void exec_server( const struct server *serp )$/;"	f
+exit	xinetd-master/xinetd/int.h	/^   void (*exit)() ;$/;"	m	struct:intercept_ops
+explicit_mask	xinetd-master/xinetd/addr.c	/^static result_e explicit_mask( const char *str_addr, statfunc op, $/;"	f	file:
+factorized_addr	xinetd-master/xinetd/addr.c	/^static result_e factorized_addr( const char *str_addr, $/;"	f	file:
+failed_service	xinetd-master/xinetd/service.c	/^static status_e failed_service(struct service *sp, $/;"	f	file:
+failure_log_options	xinetd-master/xinetd/nvlists.c	/^const struct name_value failure_log_options[] = $/;"	v	typeref:struct:name_value
+fcvt	xinetd-master/configure	/^fcvt ();$/;"	f
+fd	xinetd-master/xinetd/defs.h	/^   int fd ;$/;"	m	struct:debug
+file_offset	xinetd-master/libs/src/sio/impl.h	/^   off_t file_offset ;$/;"	m	struct:mmap_descriptor
+file_size	xinetd-master/libs/src/sio/impl.h	/^   off_t file_size ;$/;"	m	struct:mmap_descriptor
+filelog	xinetd-master/xinetd/log.h	/^struct filelog$/;"	s
+filelog_control	xinetd-master/libs/src/xlog/filelog.c	/^static int filelog_control( xlog_s *xp, xlog_cmd_e cmd, va_list ap )$/;"	f	file:
+filelog_fini	xinetd-master/libs/src/xlog/filelog.c	/^static void filelog_fini( xlog_s *xp )$/;"	f	file:
+filelog_init	xinetd-master/libs/src/xlog/filelog.c	/^static int filelog_init( xlog_s *xp, va_list ap )$/;"	f	file:
+filelog_option	xinetd-master/xinetd/options.c	/^int filelog_option ;$/;"	v
+filelog_option_arg	xinetd-master/xinetd/options.c	/^char * filelog_option_arg ;$/;"	v
+filelog_parms	xinetd-master/libs/src/xlog/filelog.c	/^static int filelog_parms( xlog_e type, va_list ap)$/;"	f	file:
+filelog_s	xinetd-master/libs/src/xlog/filelog.h	/^struct filelog_s$/;"	s
+filelog_state_e	xinetd-master/libs/src/xlog/filelog.h	/^typedef enum { FL_CLOSED = 0, FL_OPEN, FL_SIZE, FL_ERROR } filelog_state_e ;$/;"	t	typeref:enum:__anon3
+filelog_write	xinetd-master/libs/src/xlog/filelog.c	/^static int filelog_write( xlog_s *xp, const char buf[], int len, int flags, $/;"	f	file:
+fill_attribute	xinetd-master/xinetd/parse.c	/^static void fill_attribute( unsigned attr_id, $/;"	f	file:
+finalizer_installed	xinetd-master/libs/src/sio/siosup.c	/^static int finalizer_installed ;$/;"	v	file:
+find_bad_fd	xinetd-master/xinetd/main.c	/^static void find_bad_fd(void)$/;"	f	file:
+find_initializer	xinetd-master/xinetd/int.c	/^static initfunc find_initializer( int type )$/;"	f	file:
+find_next_entry	xinetd-master/xinetd/parse.c	/^static entry_e find_next_entry( int fd, char **snamep )$/;"	f	file:
+fini	xinetd-master/libs/src/xlog/impl.h	/^		void	(*fini) 	( struct xlog * ) ;$/;"	m	struct:xlog::xlog_ops
+first_unit	xinetd-master/libs/src/sio/impl.h	/^	struct map_unit first_unit ;$/;"	m	struct:mmap_descriptor	typeref:struct:mmap_descriptor::map_unit
+fix_server_argv	xinetd-master/xinetd/confparse.c	/^static status_e fix_server_argv( struct service_config *scp )$/;"	f	file:
+fl_error	xinetd-master/libs/src/xlog/filelog.h	/^	int 					fl_error ;				\/* error code when in FL_ERROR		*\/$/;"	m	struct:filelog_s
+fl_fd	xinetd-master/libs/src/xlog/filelog.h	/^	int					fl_fd ;$/;"	m	struct:filelog_s
+fl_filename	xinetd-master/xinetd/log.h	/^   char     *fl_filename ;                  \/* always malloc'ed      *\/$/;"	m	struct:filelog
+fl_hard_limit	xinetd-master/libs/src/xlog/filelog.h	/^	unsigned				fl_hard_limit ;$/;"	m	struct:filelog_s
+fl_hard_limit	xinetd-master/xinetd/log.h	/^   unsigned fl_hard_limit ;$/;"	m	struct:filelog
+fl_issued_warning	xinetd-master/libs/src/xlog/filelog.h	/^	bool_int				fl_issued_warning ;	\/* when the soft limit was exceeded	*\/$/;"	m	struct:filelog_s
+fl_size	xinetd-master/libs/src/xlog/filelog.h	/^	unsigned 			fl_size ;            \/* current size                   	*\/$/;"	m	struct:filelog_s
+fl_size_control	xinetd-master/libs/src/xlog/filelog.h	/^	bool_int				fl_size_control ;		\/* enabled or not							*\/$/;"	m	struct:filelog_s
+fl_soft_limit	xinetd-master/libs/src/xlog/filelog.h	/^	unsigned				fl_soft_limit ;$/;"	m	struct:filelog_s
+fl_soft_limit	xinetd-master/xinetd/log.h	/^   unsigned fl_soft_limit ;$/;"	m	struct:filelog
+fl_state	xinetd-master/libs/src/xlog/filelog.h	/^	filelog_state_e	fl_state ;$/;"	m	struct:filelog_s
+flags	xinetd-master/libs/src/str/strparse.h	/^   int flags ;$/;"	m	struct:str_handle
+flags_parser	xinetd-master/xinetd/parsers.c	/^status_e flags_parser( pset_h values, $/;"	f
+freeaddrinfo	xinetd-master/libs/src/portable/fake-getaddrinfo.c	/^void freeaddrinfo(struct addrinfo *ai)$/;"	f
+from	xinetd-master/xinetd/udpint.c	/^   union xsockaddr from ;$/;"	m	struct:packet	typeref:union:packet::xsockaddr	file:
+gai_strerror	xinetd-master/libs/src/portable/fake-getaddrinfo.c	/^char *gai_strerror(int ecode)$/;"	f
+gcvt	xinetd-master/configure	/^gcvt ();$/;"	f
+general_handler	xinetd-master/xinetd/signals.c	/^static void general_handler( int sig )$/;"	f	file:
+generate_line	xinetd-master/xinetd/builtins.c	/^static char *generate_line( char *buf, unsigned int len )$/;"	f	file:
+get_attr_op	xinetd-master/xinetd/parsesup.c	/^static char *get_attr_op( char *line, char **attrp, enum assign_op *opp )$/;"	f	file:
+get_conf	xinetd-master/xinetd/confparse.c	/^static status_e get_conf( int fd, struct configuration *confp )$/;"	f	file:
+get_connection	xinetd-master/xinetd/connection.c	/^static status_e get_connection( struct service *sp, connection_s *cp )$/;"	f	file:
+get_filetype	xhttpd.c	/^char* get_filetype(const char* file)$/;"	f
+get_incoming_packet	xinetd-master/xinetd/udpint.c	/^static status_e get_incoming_packet( struct intercept_s *ip, packet_s *pp )$/;"	f	file:
+get_limit	xinetd-master/xinetd/parsers.c	/^static int get_limit( char *limit_str, rlim_t *res )$/;"	f	file:
+get_line	xinetd-master/xinetd/ident.c	/^static char *get_line( int sd, char *buf, unsigned bufsize )$/;"	f	file:
+get_next_inet_entry	xinetd-master/xinetd/inet.c	/^static int get_next_inet_entry( int fd, pset_h sconfs, $/;"	f	file:
+get_num	xinetd-master/xinetd/time.c	/^static int get_num( int *nump, $/;"	f	file:
+get_server_socket	xinetd-master/xinetd/int.c	/^static int get_server_socket( struct intercept_s *ip )$/;"	f	file:
+get_service_entry	xinetd-master/xinetd/parse.c	/^static void get_service_entry( int fd, $/;"	f	file:
+getaddrinfo	xinetd-master/libs/src/portable/fake-getaddrinfo.c	/^int getaddrinfo(const char *hostname, const char *servname, $/;"	f
+gethostbyname	xinetd-master/configure	/^gethostbyname ();$/;"	f
+getnameinfo	xinetd-master/configure	/^getnameinfo ();$/;"	f
+getnameinfo	xinetd-master/libs/src/portable/fake-getnameinfo.c	/^int getnameinfo(const struct sockaddr *sa, size_t salen, char *host, $/;"	f
+global_no_access	xinetd-master/xinetd/sensor.c	/^static pset_h global_no_access = NULL;        \/* global no_access list   *\/$/;"	v	file:
+global_no_access_time	xinetd-master/xinetd/sensor.c	/^static pset_h global_no_access_time = NULL;   \/* time of the infraction   *\/$/;"	v	file:
+group_parser	xinetd-master/xinetd/parsers.c	/^status_e group_parser( pset_h values, $/;"	f
+groups_parser	xinetd-master/xinetd/parsers.c	/^status_e groups_parser( pset_h values, $/;"	f
+grow	xinetd-master/libs/src/misc/m_env.c	/^static int grow( env_s *ep )$/;"	f	file:
+handle_includedir	xinetd-master/xinetd/includedir.c	/^void handle_includedir(const char *service_name, struct configuration *confp)$/;"	f
+handle_io	xinetd-master/xinetd/tcpint.c	/^static status_e handle_io( psi_h iter, $/;"	f	file:
+handle_signal	xinetd-master/xinetd/signals.c	/^static status_e handle_signal( int sig )$/;"	f	file:
+hard_reconfig	xinetd-master/xinetd/reconfig.c	/^void hard_reconfig( void )$/;"	f
+have_stderr	xinetd-master/xinetd/init.c	/^static bool_int have_stderr ;$/;"	v	file:
+hex2d	xhttpd.c	/^int hex2d(char hex)$/;"	f
+host_addr	xinetd-master/xinetd/addr.c	/^static result_e host_addr( const char *str_addr, status_e (*op)(), pset_h addr_list )$/;"	f	file:
+hosts_access	xinetd-master/configure	/^ hosts_access();$/;"	f
+howl_callback	xinetd-master/xinetd/xmdns.c	/^static sw_result howl_callback(sw_discovery discovery, sw_discovery_oid oid, sw_discovery_publish_status status, sw_opaque extra) {$/;"	f	file:
+ic_connections	xinetd-master/xinetd/int.h	/^   pset_h               ic_connections ;$/;"	m	struct:intercept_common
+ic_intercept	xinetd-master/xinetd/int.h	/^   bool_int             ic_intercept ;$/;"	m	struct:intercept_common
+ic_local_addr	xinetd-master/xinetd/int.h	/^   union xsockaddr      ic_local_addr ;$/;"	m	struct:intercept_common	typeref:union:intercept_common::xsockaddr
+ic_remote_socket	xinetd-master/xinetd/int.h	/^   int                  ic_remote_socket ;$/;"	m	struct:intercept_common
+ic_server	xinetd-master/xinetd/int.h	/^   struct server        ic_server ;$/;"	m	struct:intercept_common	typeref:struct:intercept_common::server
+id_parser	xinetd-master/xinetd/parsers.c	/^status_e id_parser( pset_h values, $/;"	f
+identify_attribute	xinetd-master/xinetd/parse.c	/^static status_e identify_attribute( entry_e entry_type, $/;"	f	file:
+idgram	xinetd-master/xinetd/udpint.c	/^static struct idgram_private idgram ;$/;"	v	typeref:struct:idgram_private	file:
+idgram_ops	xinetd-master/xinetd/udpint.c	/^static const struct intercept_ops idgram_ops =$/;"	v	typeref:struct:intercept_ops	file:
+idgram_private	xinetd-master/xinetd/udpint.c	/^struct idgram_private$/;"	s	file:
+idresult_e	xinetd-master/xinetd/defs.h	/^   } idresult_e ;$/;"	t	typeref:enum:__anon14
+idresult_explain	xinetd-master/xinetd/ident.c	/^const char *idresult_explain( idresult_e result )$/;"	f
+in6_addr	xinetd-master/libs/src/portable/libportable.h	/^struct in6_addr {$/;"	s
+inet_aton	xinetd-master/configure	/^inet_aton ();$/;"	f
+inet_aton	xinetd-master/libs/src/portable/inet_aton.c	/^inet_aton(const char *cp, struct in_addr *addr)$/;"	f
+inet_ntop	xinetd-master/configure	/^inet_ntop ();$/;"	f
+inet_ntop	xinetd-master/libs/src/portable/inet_ntop.c	/^inet_ntop(af, src, dst, size)$/;"	f
+inet_ntop4	xinetd-master/libs/src/portable/inet_ntop.c	/^inet_ntop4(src, dst, size)$/;"	f	file:
+inet_ntop6	xinetd-master/libs/src/portable/inet_ntop.c	/^inet_ntop6(src, dst, size)$/;"	f	file:
+inetd_compat	xinetd-master/xinetd/options.c	/^int inetd_compat = 0 ;$/;"	v
+init	xinetd-master/libs/src/xlog/impl.h	/^		int 	(*init)		( struct xlog *, va_list ) ;$/;"	m	struct:xlog::xlog_ops
+init_common	xinetd-master/xinetd/init.c	/^static void init_common( int argc, char *argv[] )$/;"	f	file:
+init_daemon	xinetd-master/xinetd/init.c	/^void init_daemon( int argc, char *argv[] )$/;"	f
+init_input_stream	xinetd-master/libs/src/sio/siosup.c	/^static sio_status_e init_input_stream( __sio_id_t *idp, int fd, const struct stat *stp )$/;"	f	file:
+init_output_stream	xinetd-master/libs/src/sio/siosup.c	/^static sio_status_e init_output_stream( __sio_od_t *odp, int fd, $/;"	f	file:
+init_rw_state	xinetd-master/xinetd/init.c	/^static void init_rw_state( void )$/;"	f	file:
+init_sensor	xinetd-master/xinetd/sensor.c	/^void init_sensor( void )$/;"	f
+init_services	xinetd-master/xinetd/init.c	/^void init_services( void )$/;"	f
+initenv	xinetd-master/xinetd/env.c	/^status_e initenv(void)$/;"	f
+initfunc	xinetd-master/xinetd/int.c	/^typedef struct intercept_s *(*initfunc)() ;$/;"	t	typeref:struct:initfunc	file:
+initial_map	xinetd-master/libs/src/sio/siosup.c	/^static int initial_map( mapd_s *mdp, int fd )$/;"	f	file:
+initialized	xinetd-master/libs/src/sio/sio.h	/^	int initialized ;$/;"	m	struct:__sio_descriptor
+initializer	xinetd-master/xinetd/init.c	/^   status_e (*initializer)() ;$/;"	m	struct:module	file:
+initializer	xinetd-master/xinetd/int.c	/^   initfunc   initializer ;$/;"	m	struct:lookup_table	file:
+input_descriptor	xinetd-master/libs/src/sio/sio.h	/^		__sio_id_t input_descriptor ;$/;"	m	union:__sio_descriptor::__anon6
+instances_parser	xinetd-master/xinetd/parsers.c	/^status_e instances_parser( pset_h values, $/;"	f
+int_common	xinetd-master/xinetd/int.h	/^   struct intercept_common    int_common ;$/;"	m	struct:intercept_s	typeref:struct:intercept_s::intercept_common
+int_exit	xinetd-master/xinetd/intcommon.c	/^void int_exit( struct intercept_s *ip )$/;"	f
+int_fail	xinetd-master/xinetd/intcommon.c	/^void int_fail( const struct intercept_s *ip, const char *lsyscall )$/;"	f
+int_init	xinetd-master/xinetd/intcommon.c	/^void int_init( struct intercept_s *ip, struct server *serp )$/;"	f
+int_lookupconn	xinetd-master/xinetd/intcommon.c	/^channel_s *int_lookupconn( struct intercept_s *ip, $/;"	f
+int_newconn	xinetd-master/xinetd/intcommon.c	/^channel_s *int_newconn( struct intercept_s *ip, $/;"	f
+int_ops	xinetd-master/xinetd/int.h	/^   const struct intercept_ops *int_ops ;$/;"	m	struct:intercept_s	typeref:struct:intercept_s::intercept_ops
+int_priv	xinetd-master/xinetd/int.h	/^   void                      *int_priv ;$/;"	m	struct:intercept_s
+int_select	xinetd-master/xinetd/intcommon.c	/^int int_select( int max, fd_set *read_mask )$/;"	f
+int_sighandler	xinetd-master/xinetd/int.c	/^void int_sighandler( int sig )$/;"	f
+int_socket_type	xinetd-master/xinetd/int.h	/^   int                        int_socket_type ;$/;"	m	struct:intercept_s
+intercept	xinetd-master/xinetd/int.c	/^void intercept( struct server *serp )$/;"	f
+intercept_common	xinetd-master/xinetd/int.h	/^struct intercept_common$/;"	s
+intercept_lookup_table	xinetd-master/xinetd/int.c	/^static struct lookup_table intercept_lookup_table[] =$/;"	v	typeref:struct:lookup_table	file:
+intercept_ops	xinetd-master/xinetd/int.h	/^struct intercept_ops$/;"	s
+intercept_s	xinetd-master/xinetd/int.h	/^struct intercept_s$/;"	s
+intp	xinetd-master/xinetd/int.c	/^static struct intercept_s *intp = NULL;$/;"	v	typeref:struct:intercept_s	file:
+ipv6_ret	xinetd-master/xinetd/log.c	/^static char ipv6_ret[NI_MAXHOST];$/;"	v	file:
+is_superuser	xinetd-master/xinetd/state.h	/^   int         is_superuser ;$/;"	m	struct:read_only_state
+isatty	xinetd-master/libs/src/sio/siosup.c	/^static int isatty( int fd )$/;"	f	file:
+istream	xinetd-master/xinetd/tcpint.c	/^static struct istream_private istream ;$/;"	v	typeref:struct:istream_private	file:
+istream_ops	xinetd-master/xinetd/tcpint.c	/^static struct intercept_ops istream_ops =$/;"	v	typeref:struct:intercept_ops	file:
+istream_private	xinetd-master/xinetd/tcpint.c	/^struct istream_private$/;"	s	file:
+iter	xinetd-master/xinetd/confparse.c	/^static psi_h iter ;$/;"	v	file:
+l_fl	xinetd-master/xinetd/log.h	/^   struct filelog l_fl ;$/;"	m	struct:log	typeref:struct:log::filelog
+l_sl	xinetd-master/xinetd/log.h	/^   struct syslog  l_sl ;$/;"	m	struct:log	typeref:struct:log::syslog
+l_type	xinetd-master/xinetd/log.h	/^   logtype_e      l_type ;$/;"	m	struct:log
+libwrap_parser	xinetd-master/xinetd/parsers.c	/^status_e libwrap_parser( pset_h values,$/;"	f
+limit_checks	xinetd-master/libs/src/xlog/filelog.c	/^static int limit_checks( const xlog_s *xp )$/;"	f	file:
+line_count	xinetd-master/xinetd/itox.c	/^int line_count ;$/;"	v
+line_count	xinetd-master/xinetd/parse.c	/^int line_count ;$/;"	v
+line_has_only_1_char	xinetd-master/xinetd/parsesup.c	/^int line_has_only_1_char( const char *line, char ch )$/;"	f
+line_length	xinetd-master/libs/src/sio/sio.h	/^	unsigned line_length ;$/;"	m	struct:__sio_input_descriptor
+log	xinetd-master/xinetd/log.h	/^struct log$/;"	s
+log10	xinetd-master/configure	/^log10 ();$/;"	f
+log_common	xinetd-master/xinetd/log.c	/^static int log_common( mask_t *logmask, $/;"	f	file:
+log_end	xinetd-master/xinetd/logctl.c	/^void log_end( struct log *lp, xlog_h xh )$/;"	f
+log_in_error	xinetd-master/xinetd/logctl.c	/^static void log_in_error( xlog_h xh, int error_code, void *arg )$/;"	f	file:
+log_on_failure_parser	xinetd-master/xinetd/parsers.c	/^status_e log_on_failure_parser( pset_h values, $/;"	f
+log_on_success_parser	xinetd-master/xinetd/parsers.c	/^status_e log_on_success_parser( pset_h values, $/;"	f
+log_remote_user	xinetd-master/xinetd/ident.c	/^idresult_e log_remote_user( const struct server *serp, unsigned timeout )$/;"	f
+log_start	xinetd-master/xinetd/logctl.c	/^status_e log_start( struct service *sp, xlog_h *xhp )$/;"	f
+log_type_parser	xinetd-master/xinetd/parsers.c	/^status_e log_type_parser( pset_h values, $/;"	f
+logging	xinetd-master/xinetd/state.h	/^   struct service  *logging ;$/;"	m	struct:read_write_state	typeref:struct:read_write_state::service
+logprocs_option	xinetd-master/xinetd/options.c	/^int logprocs_option ;$/;"	v
+logprocs_option_arg	xinetd-master/xinetd/options.c	/^unsigned logprocs_option_arg ;$/;"	v
+logtype_e	xinetd-master/xinetd/log.h	/^typedef enum { L_NONE = 0, L_FILE, L_SYSLOG, L_COMMON_FILE } logtype_e ;$/;"	t	typeref:enum:__anon11
+lookup	xinetd-master/libs/src/misc/m_env.c	/^static char **lookup( const env_h env, const char * var, $/;"	f	file:
+lookup_table	xinetd-master/libs/src/xlog/xlog.c	/^struct lookup_table$/;"	s	file:
+lookup_table	xinetd-master/xinetd/int.c	/^struct lookup_table$/;"	s	file:
+m	xinetd-master/xinetd/addr.c	/^   } m;$/;"	m	struct:comp_addr	typeref:union:comp_addr::__anon18	file:
+main	mulprocess.c	/^int main(int argc, const char* argv[])$/;"	f
+main	simple.c	/^int main(int argc, const char* argv[])$/;"	f
+main	xhttpd.c	/^int main(int argc,const char* argv[])$/;"	f
+main	xinetd-master/config.guess	/^		main()$/;"	f
+main	xinetd-master/config.guess	/^	main ()$/;"	f
+main	xinetd-master/config.guess	/^main ()$/;"	f
+main	xinetd-master/xinetd/itox.c	/^int main(int argc, char *argv[] )$/;"	f
+main	xinetd-master/xinetd/main.c	/^int main( int argc, char *argv[] )$/;"	f
+main_loop	xinetd-master/xinetd/main.c	/^static void main_loop(void)$/;"	f	file:
+make_env_from_vars	xinetd-master/xinetd/env.c	/^static status_e make_env_from_vars( struct environment *ep, $/;"	f	file:
+make_env_with_strings	xinetd-master/xinetd/env.c	/^static status_e make_env_with_strings( struct environment *ep, $/;"	f	file:
+make_pathname	xinetd-master/xinetd/itox.c	/^static char *make_pathname( const unsigned count, ... )$/;"	f	file:
+make_string_cat	xinetd-master/xinetd/itox.c	/^static char *make_string_cat( const unsigned count, ... )$/;"	f	file:
+malloc_ai	xinetd-master/libs/src/portable/fake-getaddrinfo.c	/^static struct addrinfo *malloc_ai(int port, u_long addr)$/;"	f	file:
+map_unit	xinetd-master/libs/src/sio/impl.h	/^struct map_unit$/;"	s
+map_unit	xinetd-master/libs/src/sio/siosup.c	/^static sio_status_e map_unit( mapd_s *mdp, int fd, struct map_unit *mup )$/;"	f	file:
+map_unit_size	xinetd-master/libs/src/sio/siosup.c	/^static size_t map_unit_size = 0 ;         \/* bytes *\/$/;"	v	file:
+mapd_s	xinetd-master/libs/src/sio/impl.h	/^typedef struct mmap_descriptor mapd_s ;$/;"	t	typeref:struct:mmap_descriptor
+mapped_bytes	xinetd-master/libs/src/sio/impl.h	/^	size_t mapped_bytes ;$/;"	m	struct:map_unit
+mask	xinetd-master/xinetd/addr.c	/^      uint32_t        mask ;$/;"	m	union:comp_addr::__anon18	file:
+mask6	xinetd-master/xinetd/addr.c	/^      struct in6_addr mask6 ;$/;"	m	union:comp_addr::__anon18	typeref:struct:comp_addr::__anon18::in6_addr	file:
+mask_max	xinetd-master/xinetd/state.h	/^   int              mask_max ;$/;"	m	struct:read_write_state
+mask_t	xinetd-master/xinetd/mask.h	/^typedef uint64_t mask_t;$/;"	t
+max	xinetd-master/libs/src/pset/pset.h	/^   unsigned max ;$/;"	m	struct:__pset
+max_descriptors	xinetd-master/xinetd/state.h	/^   rlim_t      max_descriptors ;      \/* original hard rlimit or OPEN_MAX    *\/$/;"	m	struct:read_only_state
+max_line_length	xinetd-master/libs/src/sio/sio.h	/^	int max_line_length ;$/;"	m	struct:__sio_input_descriptor
+max_load_parser	xinetd-master/xinetd/parsers.c	/^status_e max_load_parser(pset_h values, $/;"	f
+max_vars	xinetd-master/libs/src/misc/m_env.h	/^   unsigned max_vars ;$/;"	m	struct:__env
+mdns_callback	xinetd-master/xinetd/xmdns.c	/^static void mdns_callback(DNSServiceRegistrationReplyErrorType err, void *d)$/;"	f	file:
+mdns_parser	xinetd-master/xinetd/parsers.c	/^status_e mdns_parser( pset_h values, $/;"	f
+mdns_state	xinetd-master/xinetd/sconf.h	/^   void                *mdns_state;$/;"	m	struct:service_config
+mdns_state	xinetd-master/xinetd/state.h	/^   void            *mdns_state ;$/;"	m	struct:read_write_state
+memory_mapped	xinetd-master/libs/src/sio/sio.h	/^	int memory_mapped ;				\/* flag to denote if we use				*\/$/;"	m	struct:__sio_input_descriptor
+min	xinetd-master/xinetd/builtins.c	389;"	d	file:
+min_end	xinetd-master/xinetd/time.c	/^   int16_t min_end ;$/;"	m	struct:time_interval	file:
+min_start	xinetd-master/xinetd/time.c	/^   int16_t min_start ;$/;"	m	struct:time_interval	file:
+missing_attr_msg	xinetd-master/xinetd/parsers.c	/^static void missing_attr_msg(const char *par, const char *item)$/;"	f	file:
+mmap_descriptor	xinetd-master/libs/src/sio/impl.h	/^struct mmap_descriptor$/;"	s
+mmap_descriptors	xinetd-master/libs/src/sio/siosup.c	/^static mapd_s *mmap_descriptors = NULL ;$/;"	v	file:
+module	xinetd-master/xinetd/init.c	/^struct module$/;"	s	file:
+msg	xinetd-master/xinetd/msg.c	/^void msg( int level, const char *func, const char *fmt, ...)$/;"	f
+msg_init	xinetd-master/xinetd/msg.c	/^const char *msg_init(void)$/;"	f
+msg_resume	xinetd-master/xinetd/msg.c	/^void msg_resume(void)$/;"	f
+msg_suspend	xinetd-master/xinetd/msg.c	/^void msg_suspend(void)$/;"	f
+mux	xinetd-master/xinetd/int.h	/^   void (*mux)() ;$/;"	m	struct:intercept_ops
+my_handler	xinetd-master/xinetd/signals.c	/^static void my_handler( int sig )$/;"	f	file:
+my_read	wrap.c	/^static ssize_t my_read(int fd, char *ptr)$/;"	f	file:
+n_vars	xinetd-master/libs/src/misc/m_env.h	/^   unsigned n_vars ;$/;"	m	struct:__env
+name	xinetd-master/xinetd/addr.c	/^   char            name[MAXHOSTNAMELEN+1] ;$/;"	m	struct:comp_addr	file:
+name	xinetd-master/xinetd/defs.h	/^   char   *name ;$/;"	m	struct:protocol_name_value
+name	xinetd-master/xinetd/defs.h	/^   const char   *name ;$/;"	m	struct:name_value
+name	xinetd-master/xinetd/init.c	/^   const char *name ;$/;"	m	struct:module	file:
+name_value	xinetd-master/xinetd/defs.h	/^struct name_value$/;"	s
+net_addr	xinetd-master/xinetd/addr.c	/^static result_e net_addr( const char *str_addr, statfunc op, pset_h addr_list )$/;"	f	file:
+new_string	xinetd-master/libs/src/str/strparse.c	/^char *new_string( const char *s )$/;"	f
+new_table	xinetd-master/xinetd/init.c	/^static pset_h new_table( unsigned size )$/;"	f	file:
+next_line	xinetd-master/xinetd/parsesup.c	/^char *next_line( int fd )$/;"	f
+next_word	xinetd-master/xinetd/itox.c	/^static char *next_word( const char *description )$/;"	f	file:
+nextb	xinetd-master/libs/src/sio/sio.h	/^	char *nextb ;                 \/* pointer to next byte to read\/write 	*\/$/;"	m	struct:__sio_input_descriptor
+nextb	xinetd-master/libs/src/sio/sio.h	/^	char *nextb ;                 \/* pointer to next byte to read\/write  *\/$/;"	m	struct:__sio_output_descriptor
+nice_parser	xinetd-master/xinetd/parsers.c	/^status_e nice_parser( pset_h values, $/;"	f
+no_access_parser	xinetd-master/xinetd/parsers.c	/^status_e no_access_parser( pset_h values, $/;"	f
+no_control_tty	xinetd-master/xinetd/util.c	/^void no_control_tty(void)$/;"	f
+no_more	xinetd-master/libs/src/str/strparse.h	/^   int no_more ;$/;"	m	struct:str_handle
+nsig	xinetd-master/xinetd/signals.c	/^static int nsig ;$/;"	v	file:
+num	xinetd-master/libs/src/sio/impl.h	/^	unsigned num ;$/;"	v
+numeric_addr	xinetd-master/xinetd/addr.c	/^static result_e numeric_addr( const char *str_addr, $/;"	f	file:
+nv_find_name	xinetd-master/xinetd/util.c	/^const struct name_value *nv_find_name( const struct name_value nv_array[], int value )$/;"	f
+nv_find_value	xinetd-master/xinetd/util.c	/^const struct name_value *nv_find_value( const struct name_value nv_array[], const char *name )$/;"	f
+nv_get_name	xinetd-master/xinetd/util.c	/^const char *nv_get_name( const struct name_value nv_array[], int value )$/;"	f
+on	xinetd-master/xinetd/defs.h	/^   bool_int on ;$/;"	m	struct:debug
+only_from_parser	xinetd-master/xinetd/parsers.c	/^status_e only_from_parser( pset_h values, $/;"	f
+openlog	xinetd-master/libs/src/xlog/slog.c	/^static void openlog()$/;"	f	file:
+ops	xinetd-master/libs/src/xlog/xlog.c	/^	struct xlog_ops	*ops ;$/;"	m	struct:lookup_table	typeref:struct:lookup_table::xlog_ops	file:
+ops_lookup_table	xinetd-master/libs/src/xlog/xlog.c	/^static struct lookup_table ops_lookup_table[] =$/;"	v	typeref:struct:lookup_table	file:
+opt_recognize	xinetd-master/xinetd/options.c	/^int opt_recognize( int argc, char *argv[] )$/;"	f
+orig_max_descriptors	xinetd-master/xinetd/state.h	/^   rlim_t      orig_max_descriptors ; \/* original soft rlimit                *\/$/;"	m	struct:read_only_state
+out_of_memory	xinetd-master/xinetd/util.c	/^void out_of_memory( const char *func )$/;"	f
+output_descriptor	xinetd-master/libs/src/sio/sio.h	/^		__sio_od_t output_descriptor ;$/;"	m	union:__sio_descriptor::__anon6
+packet	xinetd-master/xinetd/udpint.c	/^struct packet$/;"	s	file:
+packet_s	xinetd-master/xinetd/udpint.c	/^typedef struct packet packet_s ;$/;"	t	typeref:struct:packet	file:
+pad	xinetd-master/xinetd/defs.h	/^   char                pad[128];$/;"	m	union:xsockaddr
+page_size	xinetd-master/libs/src/sio/siosup.c	/^static size_t page_size = 0 ;               \/* bytes *\/$/;"	v	file:
+parent_access_control	xinetd-master/xinetd/access.c	/^access_e parent_access_control( struct service *sp, const connection_s *cp )$/;"	f
+parms	xinetd-master/libs/src/xlog/impl.h	/^		int	(*parms) 	( xlog_e, va_list ) ;$/;"	m	struct:xlog::xlog_ops
+parms	xinetd-master/libs/src/xlog/slog.c	/^static struct syslog_parms parms =$/;"	v	typeref:struct:syslog_parms	file:
+parse_all_digits	xinetd-master/xinetd/util.c	/^bool_int parse_all_digits(const char *ptr)$/;"	f
+parse_base10	xinetd-master/xinetd/util.c	/^int parse_base10(const char *str, int *res)$/;"	f
+parse_conf_file	xinetd-master/xinetd/parse.c	/^void parse_conf_file( int fd, struct configuration *confp, const char *filename)$/;"	f
+parse_end	xinetd-master/xinetd/parse.c	/^void parse_end(void)$/;"	f
+parse_entry	xinetd-master/xinetd/parse.c	/^static status_e parse_entry( entry_e entry_type, $/;"	f	file:
+parse_filelog	xinetd-master/xinetd/parsers.c	/^static status_e parse_filelog( struct filelog *flp, pset_h values )$/;"	f	file:
+parse_inet_addresses	xinetd-master/xinetd/parsers.c	/^static status_e parse_inet_addresses( pset_h values, $/;"	f	file:
+parse_inet_conf_file	xinetd-master/xinetd/inet.c	/^void parse_inet_conf_file( int fd, struct configuration *confp )$/;"	f
+parse_int	xinetd-master/xinetd/util.c	/^int parse_int(const char *str, int base, int term, int *res)$/;"	f
+parse_line	xinetd-master/xinetd/parsesup.c	/^status_e parse_line( char *line, $/;"	f
+parse_log_flags	xinetd-master/xinetd/parsers.c	/^static status_e parse_log_flags( pset_h values, $/;"	f	file:
+parse_syslog	xinetd-master/xinetd/parsers.c	/^static status_e parse_syslog( struct syslog *slp, pset_h values )$/;"	f	file:
+parse_ubase10	xinetd-master/xinetd/util.c	/^int parse_ubase10(const char *str, unsigned int *res)$/;"	f
+parse_uint	xinetd-master/xinetd/util.c	/^int parse_uint(const char *str, int base, int term, unsigned int *res)$/;"	f
+parse_ull	xinetd-master/xinetd/util.c	/^int parse_ull(const char *str, int base, int term, unsigned long long *res)$/;"	f
+parse_value_list	xinetd-master/xinetd/parsers.c	/^static status_e parse_value_list( pset_h values, $/;"	f	file:
+parsemsg	xinetd-master/xinetd/msg.c	/^void parsemsg( int msg_level, const char *func, const char *fmt, ...)$/;"	f
+passenv_parser	xinetd-master/xinetd/parsers.c	/^status_e passenv_parser( pset_h values, $/;"	f
+per_source_parser	xinetd-master/xinetd/parsers.c	/^status_e per_source_parser( pset_h values, $/;"	f
+periodic_check	xinetd-master/xinetd/internals.c	/^static void periodic_check(void)$/;"	f	file:
+perr_exit	simple.c	/^void perr_exit(const char* str)$/;"	f
+perr_exit	wrap.c	/^void perr_exit(const char *s)$/;"	f
+pid_file	xinetd-master/xinetd/state.h	/^   const char *pid_file ;             \/* where the pidfile is located        *\/$/;"	m	struct:read_only_state
+pid_t	xinetd-master/xinetd/server.h	/^typedef int pid_t ;$/;"	t
+port_parser	xinetd-master/xinetd/parsers.c	/^status_e port_parser( pset_h values, $/;"	f
+pos	xinetd-master/libs/src/str/strparse.h	/^   char *pos ;$/;"	m	struct:str_handle
+prepare_buffer	xinetd-master/xinetd/msg.c	/^prepare_buffer( int level, $/;"	f	file:
+print_defaults	xinetd-master/xinetd/xconv.pl	/^sub print_defaults$/;"	s
+print_header	xinetd-master/xinetd/xconv.pl	/^sub print_header$/;"	s
+print_line	xinetd-master/xinetd/itox.c	/^static void print_line( const char *name, const char *value )$/;"	f	file:
+priorities	xinetd-master/xinetd/msg.c	/^static const struct name_value priorities[] =$/;"	v	typeref:struct:name_value	file:
+process_limit	xinetd-master/xinetd/state.h	/^   rlim_t      process_limit ;        \/* if 0, there is no limit             *\/$/;"	m	struct:read_only_state
+process_sensor	xinetd-master/xinetd/sensor.c	/^void process_sensor( const struct service *sp, const union xsockaddr *addr)$/;"	f
+program_log	xinetd-master/xinetd/state.h	/^   xlog_h           program_log ;$/;"	m	struct:read_write_state
+program_modules	xinetd-master/xinetd/init.c	/^static const struct module program_modules[] = $/;"	v	typeref:struct:module	file:
+program_name	xinetd-master/xinetd/options.c	/^char *program_name ;$/;"	v
+program_state	xinetd-master/xinetd/state.h	/^struct program_state$/;"	s
+program_version	xinetd-master/xinetd/main.c	/^char program_version[] = XINETD_VERSION ;$/;"	v
+protocol_name_value	xinetd-master/xinetd/defs.h	/^struct protocol_name_value$/;"	s
+protocol_parser	xinetd-master/xinetd/parsers.c	/^status_e protocol_parser( pset_h values, $/;"	f
+prototypes	xinetd-master/configure	/^   function prototypes and stuff, but not '\\xHH' hex character constants.$/;"	f
+ps	xinetd-master/xinetd/main.c	/^struct program_state ps ;$/;"	v	typeref:struct:program_state
+pset	xinetd-master/libs/src/pset/pset.h	/^   pset_h pset ;$/;"	m	struct:__pset_iterator
+pset_add	xinetd-master/libs/src/pset/pset.c	/^__pset_pointer pset_add( pset_h pset, const __pset_pointer ptr )$/;"	f
+pset_apply	xinetd-master/libs/src/pset/ops.c	/^void pset_apply( register pset_h pset, void (*func)(), register void *arg )$/;"	f
+pset_clear	xinetd-master/libs/src/pset/pset.h	55;"	d
+pset_compact	xinetd-master/libs/src/pset/ops.c	/^void pset_compact( register pset_h pset )$/;"	f
+pset_count	xinetd-master/libs/src/pset/pset.h	56;"	d
+pset_create	xinetd-master/libs/src/pset/pset.c	/^pset_h pset_create( unsigned alloc_start, unsigned alloc_step )$/;"	f
+pset_delete	xinetd-master/libs/src/pset/pset.c	/^void pset_delete( register pset_h pset, register const __pset_pointer ptr )$/;"	f
+pset_destroy	xinetd-master/libs/src/pset/pset.c	/^void pset_destroy( pset_h pset )$/;"	f
+pset_h	xinetd-master/libs/src/pset/pset.h	/^typedef struct __pset *pset_h ;$/;"	t	typeref:struct:__pset
+pset_insert	xinetd-master/libs/src/pset/pset.c	/^static __pset_pointer pset_insert( pset_h pset, const __pset_pointer p )$/;"	f	file:
+pset_pointer	xinetd-master/libs/src/pset/pset.h	57;"	d
+pset_remove	xinetd-master/libs/src/pset/pset.h	47;"	d
+pset_remove_index	xinetd-master/libs/src/pset/pset.h	49;"	d
+pset_sort	xinetd-master/libs/src/pset/pset.h	59;"	d
+psi_create	xinetd-master/libs/src/pset/pset.c	/^psi_h psi_create( pset_h pset )$/;"	f
+psi_destroy	xinetd-master/libs/src/pset/pset.h	92;"	d
+psi_h	xinetd-master/libs/src/pset/pset.h	/^typedef struct __pset_iterator *psi_h ;$/;"	t	typeref:struct:__pset_iterator
+psi_next	xinetd-master/libs/src/pset/pset.h	88;"	d
+psi_remove	xinetd-master/libs/src/pset/pset.c	/^void psi_remove( psi_h iter )$/;"	f
+psi_start	xinetd-master/libs/src/pset/pset.h	84;"	d
+ptrs	xinetd-master/libs/src/pset/pset.h	/^   __pset_pointer *ptrs ;   \/* void Pointer to a Pointer *\/$/;"	m	struct:__pset
+quit_program	xinetd-master/xinetd/main.c	/^void quit_program(void)$/;"	f
+rcsid	xinetd-master/libs/src/portable/inet_aton.c	/^static char rcsid[] = "$OpenBSD: inet_addr.c,v 1.6 1999\/05\/03 22:31:14 yanick Exp $";$/;"	v	file:
+rcsid	xinetd-master/libs/src/portable/inet_ntop.c	/^static char rcsid[] = "$OpenBSD: inet_ntop.c,v 1.1 1997\/03\/13 19:07:32 downsj Exp $";$/;"	v	file:
+rcsid	xinetd-master/libs/src/portable/strerror.c	/^static const char rcsid[] =$/;"	v	file:
+rd_max_version	xinetd-master/xinetd/sconf.h	/^   unsigned long rd_max_version ;$/;"	m	struct:rpc_data
+rd_min_version	xinetd-master/xinetd/sconf.h	/^   unsigned long rd_min_version ;$/;"	m	struct:rpc_data
+rd_program_number	xinetd-master/xinetd/sconf.h	/^   unsigned long rd_program_number ;$/;"	m	struct:rpc_data
+read_only_state	xinetd-master/xinetd/state.h	/^struct read_only_state$/;"	s
+read_write_state	xinetd-master/xinetd/state.h	/^struct read_write_state$/;"	s
+readjust	xinetd-master/xinetd/reconfig.c	/^static status_e readjust( struct service *sp, $/;"	f	file:
+readjust_rpc_service	xinetd-master/xinetd/reconfig.c	/^static status_e readjust_rpc_service( struct service_config *old_scp, $/;"	f	file:
+received_packets	xinetd-master/xinetd/udpint.c	/^   unsigned received_packets ;$/;"	m	struct:idgram_private	file:
+redir_handler	xinetd-master/xinetd/redirect.c	/^void redir_handler( struct server *serp )$/;"	f
+redir_parser	xinetd-master/xinetd/parsers.c	/^status_e redir_parser(pset_h values, $/;"	f
+redir_sigpipe	xinetd-master/xinetd/redirect.c	/^static void redir_sigpipe( int signum ) $/;"	f	file:
+refcount_check	xinetd-master/xinetd/internals.c	/^static unsigned refcount_check( struct service *sp, $/;"	f	file:
+release_string_pset	xinetd-master/xinetd/sconf.c	/^static void release_string_pset( pset_h pset )$/;"	f	file:
+reload	xinetd-master/contrib/xinetd	/^reload(){$/;"	f
+remote_address_check	xinetd-master/xinetd/access.c	/^static status_e remote_address_check(const struct service *sp, $/;"	f	file:
+remove_disabled_services	xinetd-master/xinetd/confparse.c	/^static void remove_disabled_services( struct configuration *confp )$/;"	f	file:
+rename_process	xinetd-master/xinetd/child.c	/^static void rename_process( const char *name )$/;"	f	file:
+request_init	xinetd-master/configure	/^request_init ();$/;"	f
+reset_sigs	xinetd-master/xinetd/signals.c	/^static sigset_t reset_sigs ;$/;"	v	file:
+restart	xinetd-master/contrib/xinetd	/^restart(){$/;"	f
+restart_log	xinetd-master/xinetd/reconfig.c	/^static status_e restart_log( struct service *sp, $/;"	f	file:
+result_e	xinetd-master/xinetd/addr.c	/^typedef enum { CANT_PARSE, PARSED, ERROR } result_e ;$/;"	t	typeref:enum:__anon15	file:
+retries	xinetd-master/xinetd/state.h	/^   pset_h           retries ;              \/* table of servers to retry     *\/$/;"	m	struct:read_write_state
+retry_timer_running	xinetd-master/xinetd/retry.c	/^static int retry_timer_running ;$/;"	v	file:
+ring	xinetd-master/xinetd/builtins.c	/^static char *ring ;$/;"	v	file:
+ring_buf	xinetd-master/xinetd/builtins.c	/^static char *ring_buf = NULL ;$/;"	v	file:
+rlim_as_parser	xinetd-master/xinetd/parsers.c	/^status_e rlim_as_parser( pset_h values, $/;"	f
+rlim_cpu_parser	xinetd-master/xinetd/parsers.c	/^status_e rlim_cpu_parser( pset_h values, $/;"	f
+rlim_data_parser	xinetd-master/xinetd/parsers.c	/^status_e rlim_data_parser( pset_h values, $/;"	f
+rlim_rss_parser	xinetd-master/xinetd/parsers.c	/^status_e rlim_rss_parser( pset_h values, $/;"	f
+rlim_stack_parser	xinetd-master/xinetd/parsers.c	/^status_e rlim_stack_parser( pset_h values, $/;"	f
+ros	xinetd-master/xinetd/state.h	/^   struct read_only_state   ros ;$/;"	m	struct:program_state	typeref:struct:program_state::read_only_state
+rpc_data	xinetd-master/xinetd/sconf.h	/^struct rpc_data$/;"	s
+rpc_number_parser	xinetd-master/xinetd/parsers.c	/^status_e rpc_number_parser( pset_h values, $/;"	f
+rpc_version_parser	xinetd-master/xinetd/parsers.c	/^status_e rpc_version_parser( pset_h values, $/;"	f
+rws	xinetd-master/xinetd/state.h	/^   struct read_write_state  rws ;$/;"	m	struct:program_state	typeref:struct:program_state::read_write_state
+s6_addr	xinetd-master/libs/src/portable/libportable.h	/^	uint8_t		s6_addr[16];$/;"	m	struct:in6_addr
+sa	xinetd-master/xinetd/defs.h	/^   struct sockaddr     sa;$/;"	m	union:xsockaddr	typeref:struct:xsockaddr::sockaddr
+sa_flags	xinetd-master/xinetd/signals.c	/^   int          sa_flags ;$/;"	m	struct:sigaction	file:
+sa_handler	xinetd-master/xinetd/signals.c	/^   void         (*sa_handler)(int) ;$/;"	m	struct:sigaction	file:
+sa_in	xinetd-master/xinetd/defs.h	/^   struct sockaddr_in  sa_in;$/;"	m	union:xsockaddr	typeref:struct:xsockaddr::sockaddr_in
+sa_in6	xinetd-master/xinetd/defs.h	/^   struct sockaddr_in6 sa_in6;$/;"	m	union:xsockaddr	typeref:struct:xsockaddr::sockaddr_in6
+sa_mask	xinetd-master/xinetd/signals.c	/^   sigset_t     sa_mask ;$/;"	m	struct:sigaction	file:
+sc_access_times	xinetd-master/xinetd/sconf.h	/^   pset_h               sc_access_times ;$/;"	m	struct:service_config
+sc_alloc	xinetd-master/xinetd/sconf.c	/^struct service_config *sc_alloc( const char *name )$/;"	f
+sc_attributes_present	xinetd-master/xinetd/sconf.h	/^   mask_t               sc_attributes_present; \/* includes those from defaults*\/$/;"	m	struct:service_config
+sc_banner	xinetd-master/xinetd/sconf.h	/^   char                *sc_banner ;$/;"	m	struct:service_config
+sc_banner_fail	xinetd-master/xinetd/sconf.h	/^   char                *sc_banner_fail ;$/;"	m	struct:service_config
+sc_banner_success	xinetd-master/xinetd/sconf.h	/^   char                *sc_banner_success ;$/;"	m	struct:service_config
+sc_bind_addr	xinetd-master/xinetd/sconf.h	/^   union xsockaddr     *sc_bind_addr ;$/;"	m	struct:service_config	typeref:union:service_config::xsockaddr
+sc_builtin	xinetd-master/xinetd/sconf.h	/^   const builtin_s     *sc_builtin ;$/;"	m	struct:service_config
+sc_deny_time	xinetd-master/xinetd/sconf.h	/^   int                  sc_deny_time;         \/* Sensor deny access time:$/;"	m	struct:service_config
+sc_different_confs	xinetd-master/xinetd/sconf.c	/^bool_int sc_different_confs( struct service_config *scp1, $/;"	f
+sc_disabled	xinetd-master/xinetd/sconf.h	/^   pset_h               sc_disabled ;     \/* used only by the default entry *\/$/;"	m	struct:service_config
+sc_dump	xinetd-master/xinetd/sconf.c	/^void sc_dump( struct service_config *scp, $/;"	f
+sc_enabled	xinetd-master/xinetd/sconf.h	/^   pset_h               sc_enabled ;      \/* used only by the default entry *\/$/;"	m	struct:service_config
+sc_env_var_defs	xinetd-master/xinetd/sconf.h	/^   pset_h               sc_env_var_defs ;      \/* list of env strings         *\/$/;"	m	struct:service_config
+sc_environment	xinetd-master/xinetd/sconf.h	/^   struct environment   sc_environment ;$/;"	m	struct:service_config	typeref:struct:service_config::environment
+sc_free	xinetd-master/xinetd/sconf.c	/^void sc_free( struct service_config *scp )$/;"	f
+sc_gid	xinetd-master/xinetd/sconf.h	/^   gid_t                sc_gid ;               \/* gid corresponding to group  *\/$/;"	m	struct:service_config
+sc_groups	xinetd-master/xinetd/sconf.h	/^   boolean_e            sc_groups ;$/;"	m	struct:service_config
+sc_id	xinetd-master/xinetd/sconf.h	/^   char                *sc_id ;                \/* e.g. "echo-stream"          *\/$/;"	m	struct:service_config
+sc_instances	xinetd-master/xinetd/sconf.h	/^   int                  sc_instances ;$/;"	m	struct:service_config
+sc_libwrap	xinetd-master/xinetd/sconf.h	/^   char                *sc_libwrap;$/;"	m	struct:service_config
+sc_log	xinetd-master/xinetd/sconf.h	/^   struct log           sc_log ;$/;"	m	struct:service_config	typeref:struct:service_config::log
+sc_log_on_failure	xinetd-master/xinetd/sconf.h	/^   mask_t               sc_log_on_failure ;$/;"	m	struct:service_config
+sc_log_on_success	xinetd-master/xinetd/sconf.h	/^   mask_t               sc_log_on_success ;$/;"	m	struct:service_config
+sc_make_special	xinetd-master/xinetd/sconf.c	/^struct service_config *sc_make_special( const char *service_name, $/;"	f
+sc_max_load	xinetd-master/xinetd/sconf.h	/^   double               sc_max_load ;$/;"	m	struct:service_config
+sc_mdns	xinetd-master/xinetd/sconf.h	/^   boolean_e            sc_mdns;$/;"	m	struct:service_config
+sc_mdns_name	xinetd-master/xinetd/sconf.h	/^   char                *sc_mdns_name;$/;"	m	struct:service_config
+sc_name	xinetd-master/xinetd/sconf.h	/^   char                *sc_name;               \/* e g  "echo"                 *\/$/;"	m	struct:service_config
+sc_nice	xinetd-master/xinetd/sconf.h	/^   int                  sc_nice ;              \/* argument for nice(3) *\/$/;"	m	struct:service_config
+sc_no_access	xinetd-master/xinetd/sconf.h	/^   pset_h               sc_no_access ;$/;"	m	struct:service_config
+sc_only_from	xinetd-master/xinetd/sconf.h	/^   pset_h               sc_only_from ;$/;"	m	struct:service_config
+sc_orig_bind_addr	xinetd-master/xinetd/sconf.h	/^   char                *sc_orig_bind_addr ; \/* used only when dual stack *\/$/;"	m	struct:service_config
+sc_pass_env_vars	xinetd-master/xinetd/sconf.h	/^   pset_h               sc_pass_env_vars ;     \/* env vars to pass to server  *\/$/;"	m	struct:service_config
+sc_per_source	xinetd-master/xinetd/sconf.h	/^   int                  sc_per_source ;$/;"	m	struct:service_config
+sc_port	xinetd-master/xinetd/sconf.h	/^   uint16_t             sc_port ;              \/* in host byte order          *\/$/;"	m	struct:service_config
+sc_protocol	xinetd-master/xinetd/sconf.h	/^   struct protocol_name_value sc_protocol ;    \/* e.g. "TCP", IPPROTO_TCP     *\/$/;"	m	struct:service_config	typeref:struct:service_config::protocol_name_value
+sc_rd	xinetd-master/xinetd/sconf.h	/^   struct rpc_data      sc_rd ;$/;"	m	struct:service_config	typeref:struct:service_config::rpc_data
+sc_redir_addr	xinetd-master/xinetd/sconf.h	/^   union xsockaddr     *sc_redir_addr ;$/;"	m	struct:service_config	typeref:union:service_config::xsockaddr
+sc_rlim_as	xinetd-master/xinetd/sconf.h	/^   rlim_t               sc_rlim_as;$/;"	m	struct:service_config
+sc_rlim_cpu	xinetd-master/xinetd/sconf.h	/^   rlim_t               sc_rlim_cpu;$/;"	m	struct:service_config
+sc_rlim_data	xinetd-master/xinetd/sconf.h	/^   rlim_t               sc_rlim_data;$/;"	m	struct:service_config
+sc_rlim_rss	xinetd-master/xinetd/sconf.h	/^   rlim_t               sc_rlim_rss;$/;"	m	struct:service_config
+sc_rlim_stack	xinetd-master/xinetd/sconf.h	/^   rlim_t               sc_rlim_stack;$/;"	m	struct:service_config
+sc_server	xinetd-master/xinetd/sconf.h	/^   char                *sc_server ;$/;"	m	struct:service_config
+sc_server_argv	xinetd-master/xinetd/sconf.h	/^   char               **sc_server_argv ;$/;"	m	struct:service_config
+sc_socket_type	xinetd-master/xinetd/sconf.h	/^   int                  sc_socket_type ;       \/* e.g. SOCK_DGRAM             *\/$/;"	m	struct:service_config
+sc_specified_attributes	xinetd-master/xinetd/sconf.h	/^   mask_t               sc_specified_attributes; \/* specified attributes *\/$/;"	m	struct:service_config
+sc_time_conn	xinetd-master/xinetd/sconf.h	/^   time_t               sc_time_conn ;$/;"	m	struct:service_config
+sc_time_conn_max	xinetd-master/xinetd/sconf.h	/^   time_t               sc_time_conn_max ;$/;"	m	struct:service_config
+sc_time_limit	xinetd-master/xinetd/sconf.h	/^   time_t               sc_time_limit ;$/;"	m	struct:service_config
+sc_time_reenable	xinetd-master/xinetd/sconf.h	/^   time_t               sc_time_reenable ;$/;"	m	struct:service_config
+sc_time_wait	xinetd-master/xinetd/sconf.h	/^   time_t               sc_time_wait ;$/;"	m	struct:service_config
+sc_type	xinetd-master/xinetd/sconf.h	/^   mask_t               sc_type;               \/* RPC, UNLISTED etc           *\/$/;"	m	struct:service_config
+sc_uid	xinetd-master/xinetd/sconf.h	/^   uid_t                sc_uid ;$/;"	m	struct:service_config
+sc_umask	xinetd-master/xinetd/sconf.h	/^   mode_t               sc_umask;$/;"	m	struct:service_config
+sc_user_gid	xinetd-master/xinetd/sconf.h	/^   gid_t                sc_user_gid ;          \/* gid corresponding to uid    *\/$/;"	m	struct:service_config
+sc_v6only	xinetd-master/xinetd/sconf.h	/^   boolean_e            sc_v6only;$/;"	m	struct:service_config
+sc_wait	xinetd-master/xinetd/sconf.h	/^   boolean_e            sc_wait ;$/;"	m	struct:service_config
+sc_xflags	xinetd-master/xinetd/sconf.h	/^   mask_t               sc_xflags ;            \/* INTERCEPT etc               *\/$/;"	m	struct:service_config
+schedule_retry	xinetd-master/xinetd/retry.c	/^status_e schedule_retry( struct server *serp )$/;"	f
+scrub_global_access_list	xinetd-master/xinetd/sensor.c	/^static void scrub_global_access_list( void )$/;"	f	file:
+second_unit	xinetd-master/libs/src/sio/impl.h	/^	struct map_unit second_unit ;$/;"	m	struct:mmap_descriptor	typeref:struct:mmap_descriptor::map_unit
+send_data	xinetd-master/xinetd/udpint.c	/^static void send_data( int sd, char *buf, int len, union xsockaddr *addr )$/;"	f	file:
+send_error	xhttpd.c	/^void send_error(int status,char* title)$/;"	f
+send_header	xhttpd.c	/^void send_header(int status, char* title, char* filetype)$/;"	f
+sendsig	xinetd-master/xinetd/reconfig.c	/^static void sendsig( struct server *serp, int sig )$/;"	f	file:
+separator	xinetd-master/libs/src/str/strparse.h	/^   char *separator ;$/;"	m	struct:str_handle
+server	xinetd-master/xinetd/server.h	/^struct server$/;"	s
+server_alloc	xinetd-master/xinetd/server.c	/^struct server *server_alloc( const struct server *init_serp )$/;"	f
+server_args_parser	xinetd-master/xinetd/parsers.c	/^status_e server_args_parser( pset_h values, $/;"	f
+server_dump	xinetd-master/xinetd/server.c	/^void server_dump( const struct server *serp, int fd )$/;"	f
+server_end	xinetd-master/xinetd/server.c	/^void server_end( struct server *serp )$/;"	f
+server_internal	xinetd-master/xinetd/server.c	/^static void server_internal( struct server *serp )$/;"	f	file:
+server_lookup	xinetd-master/xinetd/server.c	/^struct server *server_lookup( pid_t pid )$/;"	f
+server_parser	xinetd-master/xinetd/parsers.c	/^status_e server_parser( pset_h values, $/;"	f
+server_release	xinetd-master/xinetd/server.c	/^void server_release( struct server *serp )$/;"	f
+server_retry	xinetd-master/xinetd/retry.c	/^static void server_retry(void)$/;"	f	file:
+server_run	xinetd-master/xinetd/server.c	/^status_e server_run( struct service *sp, connection_s *cp )$/;"	f
+server_start	xinetd-master/xinetd/server.c	/^status_e server_start( struct server *serp )$/;"	f
+servers	xinetd-master/xinetd/state.h	/^   pset_h           servers ;              \/* table of running servers      *\/$/;"	m	struct:read_write_state
+service	xinetd-master/xinetd/service.h	/^struct service$/;"	s
+service_attr_check	xinetd-master/xinetd/confparse.c	/^static status_e service_attr_check( struct service_config *scp )$/;"	f	file:
+service_attributes	xinetd-master/xinetd/parse.c	/^static const struct attribute service_attributes[] =$/;"	v	typeref:struct:attribute	file:
+service_config	xinetd-master/xinetd/sconf.h	/^struct service_config$/;"	s
+service_count_check	xinetd-master/xinetd/internals.c	/^static unsigned service_count_check( struct service *sp, $/;"	f	file:
+service_fill	xinetd-master/xinetd/confparse.c	/^static status_e service_fill( struct service_config *scp, $/;"	f	file:
+service_flags	xinetd-master/xinetd/nvlists.c	/^const struct name_value service_flags[] =$/;"	v	typeref:struct:name_value
+service_states	xinetd-master/xinetd/service.c	/^static const struct name_value service_states[] =$/;"	v	typeref:struct:name_value	file:
+service_types	xinetd-master/xinetd/nvlists.c	/^const struct name_value service_types[] =$/;"	v	typeref:struct:name_value
+services	xinetd-master/xinetd/state.h	/^   pset_h           services ;             \/* table of services             *\/$/;"	m	struct:read_write_state
+set_context	xinetd-master/xinetd/child.c	/^static int set_context( security_context_t cntx )$/;"	f	file:
+set_context_from_socket	xinetd-master/xinetd/child.c	/^static int set_context_from_socket( const struct service_config *scp, int fd )$/;"	f	file:
+set_credentials	xinetd-master/xinetd/child.c	/^static void set_credentials( const struct service_config *scp )$/;"	f	file:
+set_fd_limit	xinetd-master/xinetd/init.c	/^static void set_fd_limit(void)$/;"	f	file:
+set_fd_modes	xinetd-master/xinetd/service.c	/^static status_e set_fd_modes( struct service *sp )$/;"	f	file:
+setexeccon	xinetd-master/configure	/^setexeccon ();$/;"	f
+setup_environ	xinetd-master/xinetd/env.c	/^status_e setup_environ( struct service_config *scp, struct service_config *def )$/;"	f
+setup_file_descriptors	xinetd-master/xinetd/init.c	/^static void setup_file_descriptors(void)$/;"	f	file:
+setup_read_buffer	xinetd-master/libs/src/sio/siosup.c	/^static sio_status_e setup_read_buffer( __sio_id_t *idp, unsigned buf_size )$/;"	f	file:
+si_exit	xinetd-master/xinetd/tcpint.c	/^void si_exit(void)$/;"	f
+si_init	xinetd-master/xinetd/tcpint.c	/^struct intercept_s *si_init( struct server *serp )$/;"	f
+si_mux	xinetd-master/xinetd/tcpint.c	/^static void si_mux(void)$/;"	f	file:
+sig_name	xinetd-master/xinetd/signals.c	/^char *sig_name( int sig )$/;"	f
+sigaction	xinetd-master/xinetd/signals.c	/^int sigaction( int sig, struct sigaction *sap, struct sigaction *osap )$/;"	f
+sigaction	xinetd-master/xinetd/signals.c	/^struct sigaction$/;"	s	file:
+sigaddset	xinetd-master/xinetd/signals.c	75;"	d	file:
+sigalrm_handler	xinetd-master/xinetd/ident.c	/^static void sigalrm_handler(int signum)$/;"	f	file:
+sigemptyset	xinetd-master/xinetd/signals.c	74;"	d	file:
+sigfunc	xinetd-master/xinetd/signals.c	/^typedef void sigfunc( int );$/;"	t	file:
+sighandler_type	xinetd-master/xinetd/signals.c	/^typedef int (*sighandler_type)() ;$/;"	t	file:
+sigismember	xinetd-master/xinetd/signals.c	76;"	d	file:
+sigmask	xinetd-master/xinetd/signals.c	67;"	d	file:
+signal_default_state	xinetd-master/xinetd/signals.c	/^void signal_default_state(void)$/;"	f
+signal_init	xinetd-master/xinetd/signals.c	/^status_e signal_init(void)$/;"	f
+signals_pending	xinetd-master/xinetd/main.c	/^int signals_pending[2] = {-1, -1} ;$/;"	v
+sigpause	xinetd-master/xinetd/signals.c	69;"	d	file:
+sigprocmask	xinetd-master/xinetd/signals.c	/^int sigprocmask( int how, sigset_t *set, sigset_t *oset )$/;"	f
+sigset_t	xinetd-master/xinetd/signals.c	/^typedef int sigset_t ;$/;"	t	file:
+sigsetmask	xinetd-master/xinetd/signals.c	70;"	d	file:
+sigsuspend	xinetd-master/xinetd/signals.c	73;"	d	file:
+sin6_addr	xinetd-master/libs/src/portable/libportable.h	/^	struct in6_addr sin6_addr;$/;"	m	struct:sockaddr_in6	typeref:struct:sockaddr_in6::in6_addr
+sin6_family	xinetd-master/libs/src/portable/libportable.h	/^   unsigned short sin6_family;$/;"	m	struct:sockaddr_in6
+sin6_flowinfo	xinetd-master/libs/src/portable/libportable.h	/^	uint32_t sin6_flowinfo;$/;"	m	struct:sockaddr_in6
+sin6_port	xinetd-master/libs/src/portable/libportable.h	/^	uint16_t sin6_port;$/;"	m	struct:sockaddr_in6
+sio_memcopy	xinetd-master/libs/src/sio/impl.h	153;"	d
+sio_memcopy	xinetd-master/libs/src/sio/impl.h	156;"	d
+sio_memcopy	xinetd-master/libs/src/sio/impl.h	160;"	d
+sio_memscan	xinetd-master/libs/src/sio/impl.h	154;"	d
+sio_memscan	xinetd-master/libs/src/sio/sio.c	/^static char *sio_memscan( const char *from, size_t how_many, char ch )$/;"	f	file:
+sio_setup	xinetd-master/libs/src/sio/sio.c	/^int sio_setup(int fd, __sio_descriptor_t **dp, unsigned int type)$/;"	f
+sio_status_e	xinetd-master/libs/src/sio/impl.h	/^typedef enum { FAILURE, SUCCESS } sio_status_e ;$/;"	t	typeref:enum:__anon4
+sioexpand	xinetd-master/libs/src/sio/siosup.c	/^static char *sioexpand( char *area, unsigned old_size, unsigned new_size, int is_static )$/;"	f	file:
+size	xinetd-master/xinetd/udpint.c	/^   int                  size ;$/;"	m	struct:packet	file:
+skip_entry	xinetd-master/xinetd/parsesup.c	/^void skip_entry( int fd )$/;"	f
+sl_default_level	xinetd-master/libs/src/xlog/slog.h	/^	int sl_default_level ;$/;"	m	struct:syslog_s
+sl_facility	xinetd-master/libs/src/xlog/slog.h	/^	int sl_facility ;$/;"	m	struct:syslog_s
+sl_facility	xinetd-master/xinetd/log.h	/^   int sl_facility ;$/;"	m	struct:syslog
+sl_level	xinetd-master/xinetd/log.h	/^   int sl_level ;$/;"	m	struct:syslog
+slp_facility	xinetd-master/libs/src/xlog/slog.h	/^   int 		slp_facility ;$/;"	m	struct:syslog_parms
+slp_ident	xinetd-master/libs/src/xlog/slog.h	/^   const char  *slp_ident ;		\/* used at openlog *\/$/;"	m	struct:syslog_parms
+slp_logopts	xinetd-master/libs/src/xlog/slog.h	/^   int 		slp_logopts ;           \/* used at openlog *\/$/;"	m	struct:syslog_parms
+slp_n_xlogs	xinetd-master/libs/src/xlog/slog.h	/^   int 		slp_n_xlogs ;           \/* # of xlogs using syslog *\/$/;"	m	struct:syslog_parms
+sockaddr_in6	xinetd-master/libs/src/portable/libportable.h	/^struct sockaddr_in6 {$/;"	s
+sockaddr_storage	xinetd-master/libs/src/portable/libportable.h	/^struct sockaddr_storage {$/;"	s
+socket	xinetd-master/configure	/^socket ();$/;"	f
+socket_mask	xinetd-master/xinetd/state.h	/^   fd_set           socket_mask ;$/;"	m	struct:read_write_state
+socket_type	xinetd-master/xinetd/int.c	/^   int        socket_type ;$/;"	m	struct:lookup_table	file:
+socket_type_parser	xinetd-master/xinetd/parsers.c	/^status_e socket_type_parser( const pset_h values, $/;"	f
+socket_types	xinetd-master/xinetd/nvlists.c	/^const struct name_value socket_types[] =$/;"	v	typeref:struct:name_value
+spec_find	xinetd-master/xinetd/special.c	/^const builtin_s *spec_find( const char *service_name, int type )$/;"	f
+spec_include	xinetd-master/xinetd/special.c	/^void spec_include(void)$/;"	f
+spec_service_handler	xinetd-master/xinetd/special.c	/^status_e spec_service_handler( struct service *sp, connection_s *cp )$/;"	f
+spec_setup	xinetd-master/xinetd/special.c	/^static struct service *spec_setup( const char *name, int socket_type, $/;"	f	file:
+special_services	xinetd-master/xinetd/special.c	/^static const struct builtin_service special_services[] =$/;"	v	typeref:struct:builtin_service	file:
+ss_family	xinetd-master/libs/src/portable/libportable.h	81;"	d
+ss_sa	xinetd-master/libs/src/portable/libportable.h	/^	struct	sockaddr ss_sa;$/;"	m	struct:sockaddr_storage	typeref:struct:sockaddr_storage::sockaddr
+start	xinetd-master/contrib/xinetd	/^start(){$/;"	f
+start	xinetd-master/libs/src/sio/sio.h	/^	char *start ;                 \/* start of valid buffer contents   	*\/$/;"	m	struct:__sio_input_descriptor
+start	xinetd-master/libs/src/sio/sio.h	/^	char *start ;                 \/* start of valid buffer contents   	*\/$/;"	m	struct:__sio_output_descriptor
+start_filelog	xinetd-master/xinetd/logctl.c	/^static xlog_h start_filelog( const char *id, struct filelog *flp )$/;"	f	file:
+start_retry_timer	xinetd-master/xinetd/retry.c	/^static void start_retry_timer(void)$/;"	f	file:
+start_server	xinetd-master/xinetd/int.c	/^static void start_server( struct intercept_s *ip )$/;"	f	file:
+state_e	xinetd-master/xinetd/service.h	/^   } state_e ;$/;"	t	typeref:enum:__anon20
+statfunc	xinetd-master/xinetd/defs.h	/^typedef status_e (*statfunc)() ;$/;"	t
+static	xinetd-master/xinetd/itox.c	14;"	d	file:
+status_e	xinetd-master/xinetd/defs.h	/^typedef enum { FAILED = 0, OK } status_e ;$/;"	t	typeref:enum:__anon12
+stayalive_option	xinetd-master/xinetd/options.c	/^int stayalive_option=0;$/;"	v
+std_env	xinetd-master/xinetd/env.c	/^env_h std_env ;            \/* created from environ *\/$/;"	v
+step	xinetd-master/libs/src/pset/pset.h	/^   int step ;$/;"	m	struct:__pset_iterator
+stop	xinetd-master/contrib/xinetd	/^stop(){$/;"	f
+stop_interception	xinetd-master/xinetd/reconfig.c	/^static void stop_interception( struct service *sp )$/;"	f	file:
+stop_log	xinetd-master/xinetd/reconfig.c	/^static void stop_log( struct service *sp, $/;"	f	file:
+stop_retry_timer	xinetd-master/xinetd/retry.c	/^static void stop_retry_timer(void)$/;"	f	file:
+str_casefind	xinetd-master/libs/src/str/strutil.c	/^char *str_casefind( char *s1, const char *s2 )$/;"	f
+str_casefind	xinetd-master/libs/src/str/strutil.c	/^char *str_casefind( register char *str, char *sstr )$/;"	f
+str_component	xinetd-master/libs/src/str/strparse.c	/^char *str_component( str_h handle )$/;"	f
+str_endparse	xinetd-master/libs/src/str/strparse.c	/^void str_endparse( str_h handle )$/;"	f
+str_errno	xinetd-master/libs/src/str/strparse.c	/^static int str_errno ;$/;"	v	file:
+str_fill	xinetd-master/libs/src/str/strutil.c	/^void str_fill( char *s, char c )$/;"	f
+str_h	xinetd-master/libs/src/str/str.h	/^typedef void *str_h ;$/;"	t
+str_handle	xinetd-master/libs/src/str/strparse.h	/^struct str_handle$/;"	s
+str_parse	xinetd-master/libs/src/str/strparse.c	/^str_h str_parse( register char *str, const char *separ, int flags, int *errnop )$/;"	f
+str_setstr	xinetd-master/libs/src/str/strparse.c	/^int str_setstr( str_h handle, char *newstr )$/;"	f
+strcasecmp	xinetd-master/libs/src/portable/strcasecmp.c	/^strcasecmp(s1, s2)$/;"	f
+stream_chargen	xinetd-master/xinetd/builtins.c	/^static void stream_chargen( const struct server *serp )$/;"	f	file:
+stream_daytime	xinetd-master/xinetd/builtins.c	/^static void stream_daytime( const struct server *serp )$/;"	f	file:
+stream_discard	xinetd-master/xinetd/builtins.c	/^static void stream_discard( const struct server *serp )$/;"	f	file:
+stream_echo	xinetd-master/xinetd/builtins.c	/^static void stream_echo( const struct server *serp )$/;"	f	file:
+stream_intercept_state	xinetd-master/xinetd/tcpint.c	/^static struct intercept_s stream_intercept_state ;$/;"	v	typeref:struct:intercept_s	file:
+stream_logging	xinetd-master/xinetd/special.c	/^static void stream_logging( struct server *serp )$/;"	f	file:
+stream_status_e	xinetd-master/xinetd/tcpint.c	/^typedef enum { S_OK, S_SERVER_ERR, S_CLIENT_ERR } stream_status_e ;$/;"	t	typeref:enum:__anon9	file:
+stream_time	xinetd-master/xinetd/builtins.c	/^static void stream_time( const struct server *serp )$/;"	f	file:
+stream_type	xinetd-master/libs/src/sio/sio.h	/^	enum __sio_stream stream_type ;$/;"	m	struct:__sio_descriptor	typeref:enum:__sio_descriptor::__sio_stream
+strerror	xinetd-master/libs/src/portable/strerror.c	/^strerror(num)$/;"	f
+string	xinetd-master/libs/src/str/strparse.h	/^   char *string ;$/;"	m	struct:str_handle
+strp	xinetd-master/xinetd/itox.c	/^str_h strp ;$/;"	v
+strx_nprint	xinetd-master/libs/src/str/strprint.c	/^int strx_nprint( char *buf, int len, const char *format, ...)$/;"	f
+strx_nprintv	xinetd-master/libs/src/str/strprint.c	/^int strx_nprintv( char *buf, int len, const char *format, va_list ap )$/;"	f
+strx_print	xinetd-master/libs/src/str/strprint.c	/^void strx_print( int *ccp, char *buf, int len, const char *format, ... )$/;"	f
+strx_printv	xinetd-master/libs/src/str/strprint.c	/^void strx_printv( int *ccp, char *buf, int len, const char *format, va_list ap )$/;"	f
+strx_sprint	xinetd-master/libs/src/str/strprint.c	/^char *strx_sprint( char *buf, int len, const char *format, ... )$/;"	f
+success_log_options	xinetd-master/xinetd/nvlists.c	/^const struct name_value success_log_options[] =$/;"	v	typeref:struct:name_value
+svc_activate	xinetd-master/xinetd/service.c	/^status_e svc_activate( struct service *sp )$/;"	f
+svc_attempts	xinetd-master/xinetd/service.h	/^   unsigned               svc_attempts ; \/* # of attempts to start server *\/$/;"	m	struct:service
+svc_child_access_control	xinetd-master/xinetd/service.c	/^status_e svc_child_access_control( struct service *sp, connection_s *cp )$/;"	f
+svc_conf	xinetd-master/xinetd/service.h	/^   struct service_config *svc_conf ;    \/* service configuration *\/$/;"	m	struct:service	typeref:struct:service::service_config
+svc_deactivate	xinetd-master/xinetd/service.c	/^void svc_deactivate( struct service *sp )$/;"	f
+svc_dump	xinetd-master/xinetd/service.c	/^void svc_dump( const struct service *sp, int fd )$/;"	f
+svc_fd	xinetd-master/xinetd/service.h	/^   int                    svc_fd ;	\/* The Listening FD for the service *\/$/;"	m	struct:service
+svc_free	xinetd-master/xinetd/service.c	/^void svc_free( struct service *sp )$/;"	f
+svc_generic_handler	xinetd-master/xinetd/service.c	/^status_e svc_generic_handler( struct service *sp, connection_s *cp )$/;"	f
+svc_last_dgram_addr	xinetd-master/xinetd/service.h	/^   union xsockaddr                        *svc_last_dgram_addr ;$/;"	m	struct:service	typeref:union:service::xsockaddr
+svc_last_dgram_time	xinetd-master/xinetd/service.h	/^   time_t                                  svc_last_dgram_time ;$/;"	m	struct:service
+svc_log	xinetd-master/xinetd/service.h	/^   xlog_h                                  svc_log ;$/;"	m	struct:service
+svc_log_exit	xinetd-master/xinetd/log.c	/^void svc_log_exit( struct service *sp, const struct server *serp )$/;"	f
+svc_log_failure	xinetd-master/xinetd/log.c	/^void svc_log_failure( struct service *sp, $/;"	f
+svc_log_success	xinetd-master/xinetd/log.c	/^void svc_log_success( struct service *sp, const connection_s *cp, pid_t pid )$/;"	f
+svc_logprint	xinetd-master/xinetd/log.c	/^void svc_logprint( struct service *sp, const char *line_id, $/;"	f
+svc_make_special	xinetd-master/xinetd/service.c	/^struct service *svc_make_special( struct service_config *scp )$/;"	f
+svc_new	xinetd-master/xinetd/service.c	/^struct service *svc_new( struct service_config *scp )$/;"	f
+svc_not_generic	xinetd-master/xinetd/service.h	/^   int                    svc_not_generic ; \/* 1 spec_service, 0 generic *\/$/;"	m	struct:service
+svc_parent_access_control	xinetd-master/xinetd/service.c	/^status_e svc_parent_access_control( struct service *sp, connection_s *cp )$/;"	f
+svc_postmortem	xinetd-master/xinetd/service.c	/^void svc_postmortem( struct service *sp, struct server *serp )$/;"	f
+svc_ref_count	xinetd-master/xinetd/service.h	/^   int                    svc_ref_count ;   \/* # of pters to this struct *\/$/;"	m	struct:service
+svc_release	xinetd-master/xinetd/service.c	/^int svc_release( struct service *sp )$/;"	f
+svc_request	xinetd-master/xinetd/service.c	/^void svc_request( struct service *sp )$/;"	f
+svc_resume	xinetd-master/xinetd/service.c	/^void svc_resume( struct service *sp )$/;"	f
+svc_retry_servers	xinetd-master/xinetd/service.h	/^   unsigned               svc_retry_servers ;$/;"	m	struct:service
+svc_running_servers	xinetd-master/xinetd/service.h	/^   unsigned               svc_running_servers ;$/;"	m	struct:service
+svc_state	xinetd-master/xinetd/service.h	/^   state_e                svc_state ;$/;"	m	struct:service
+svc_suspend	xinetd-master/xinetd/service.c	/^void svc_suspend( struct service *sp )$/;"	f
+svcdisable_parser	xinetd-master/xinetd/parsers.c	/^status_e svcdisable_parser( pset_h values, $/;"	f
+svr_conn	xinetd-master/xinetd/server.h	/^   connection_s   *svr_conn ;$/;"	m	struct:server
+svr_exit_status	xinetd-master/xinetd/server.h	/^   int             svr_exit_status ;$/;"	m	struct:server
+svr_fork_failures	xinetd-master/xinetd/server.h	/^   int             svr_fork_failures ;   \/* number of fork(2) failures       *\/$/;"	m	struct:server
+svr_log_remote_user	xinetd-master/xinetd/server.h	/^   bool_int        svr_log_remote_user ;$/;"	m	struct:server
+svr_pid	xinetd-master/xinetd/server.h	/^   pid_t           svr_pid ;$/;"	m	struct:server
+svr_sp	xinetd-master/xinetd/server.h	/^   struct service *svr_sp ;              \/* service that owns this server    *\/$/;"	m	struct:server	typeref:struct:server::service
+svr_start_time	xinetd-master/xinetd/server.h	/^   time_t          svr_start_time ;$/;"	m	struct:server
+svr_writes_to_log	xinetd-master/xinetd/server.h	/^   bool_int        svr_writes_to_log ;   \/* needed because a service may be   *\/$/;"	m	struct:server
+sw_discovery_publish	xinetd-master/configure	/^sw_discovery_publish ();$/;"	f
+swap_defaults	xinetd-master/xinetd/reconfig.c	/^static void swap_defaults( struct configuration *new_conf )$/;"	f	file:
+sys_siglist	xinetd-master/configure	/^sys_siglist ();$/;"	f
+syscall_failed	xinetd-master/xinetd/init.c	/^static void syscall_failed( const char *call )$/;"	f	file:
+syslog	xinetd-master/libs/src/xlog/slog.c	/^static void syslog()$/;"	f	file:
+syslog	xinetd-master/xinetd/log.h	/^struct syslog$/;"	s
+syslog_control	xinetd-master/libs/src/xlog/slog.c	/^static int syslog_control( xlog_s *xp, xlog_cmd_e cmd, va_list ap )$/;"	f	file:
+syslog_facilities	xinetd-master/xinetd/nvlists.c	/^const struct name_value syslog_facilities[] =$/;"	v	typeref:struct:name_value
+syslog_fini	xinetd-master/libs/src/xlog/slog.c	/^static void syslog_fini( xlog_s *xp )$/;"	f	file:
+syslog_init	xinetd-master/libs/src/xlog/slog.c	/^static int syslog_init( xlog_s *xp, va_list ap )$/;"	f	file:
+syslog_levels	xinetd-master/xinetd/nvlists.c	/^const struct name_value syslog_levels[] = $/;"	v	typeref:struct:name_value
+syslog_option	xinetd-master/xinetd/options.c	/^int syslog_option ;$/;"	v
+syslog_option_arg	xinetd-master/xinetd/options.c	/^char * syslog_option_arg ;$/;"	v
+syslog_parms	xinetd-master/libs/src/xlog/slog.c	/^static int syslog_parms( xlog_e type, va_list ap )$/;"	f	file:
+syslog_parms	xinetd-master/libs/src/xlog/slog.h	/^struct syslog_parms$/;"	s
+syslog_s	xinetd-master/libs/src/xlog/slog.h	/^struct syslog_s$/;"	s
+syslog_write	xinetd-master/libs/src/xlog/slog.c	/^static int syslog_write( xlog_s *xp, const char buf[], int len, int flags, va_list ap )$/;"	f	file:
+tabprint	xinetd-master/xinetd/util.c	/^void tabprint( int fd, int tab_level, const char *fmt, ...)$/;"	f
+tcp_local_to_remote	xinetd-master/xinetd/tcpint.c	/^static stream_status_e tcp_local_to_remote( channel_s *chp )$/;"	f	file:
+tcp_remote_to_local	xinetd-master/xinetd/tcpint.c	/^static stream_status_e tcp_remote_to_local( channel_s *chp )$/;"	f	file:
+tcpmux_handler	xinetd-master/xinetd/builtins.c	/^static void tcpmux_handler( const struct server *serp )$/;"	f	file:
+terminate	xinetd-master/libs/src/sio/siosup.c	/^void terminate(const char *msg)$/;"	f
+terminate_program	xinetd-master/xinetd/main.c	/^void terminate_program(void)$/;"	f
+terminate_server	xinetd-master/xinetd/int.c	/^static void terminate_server( struct intercept_s *ip )$/;"	f	file:
+terminate_servers	xinetd-master/xinetd/reconfig.c	/^void terminate_servers( struct service *sp )$/;"	f
+thread_check	xinetd-master/xinetd/internals.c	/^static unsigned thread_check( struct service *sp, $/;"	f	file:
+ti_add	xinetd-master/xinetd/time.c	/^status_e ti_add( pset_h iset, const char *interval_str )$/;"	f
+ti_current_time_check	xinetd-master/xinetd/time.c	/^bool_int ti_current_time_check( const pset_h intervals )$/;"	f
+ti_dump	xinetd-master/xinetd/time.c	/^void ti_dump( pset_h iset, int fd )$/;"	f
+ti_free	xinetd-master/xinetd/time.c	/^void ti_free( pset_h iset )$/;"	f
+tied_fd	xinetd-master/libs/src/sio/sio.h	/^	int tied_fd ;$/;"	m	struct:__sio_input_descriptor
+time_interval	xinetd-master/xinetd/time.c	/^struct time_interval$/;"	s	file:
+time_protocol	xinetd-master/xinetd/builtins.c	/^static void time_protocol( unsigned char *timep )$/;"	f	file:
+timer_id	xinetd-master/xinetd/sensor.c	/^static int timer_id = 0;		      \/* Timer ID *\/$/;"	v	file:
+timerfunc	xinetd-master/xinetd/xtimer.h	/^	void     (*timerfunc)(void);$/;"	m	struct:xtime
+try_memory_mapping	xinetd-master/libs/src/sio/siosup.c	/^static sio_status_e try_memory_mapping( int fd, __sio_id_t *idp, const struct stat *stp )$/;"	f	file:
+try_memory_mapping	xinetd-master/libs/src/sio/siosup.c	339;"	d	file:
+type	xinetd-master/libs/src/xlog/xlog.c	/^	xlog_e		type ;$/;"	m	struct:lookup_table	file:
+type_parser	xinetd-master/xinetd/parsers.c	/^status_e type_parser( pset_h values, $/;"	f
+u_char	xinetd-master/libs/src/portable/strcasecmp.c	/^typedef unsigned char u_char;$/;"	t	file:
+u_wide_int	xinetd-master/libs/src/sio/sprint.c	/^typedef unsigned long long 		u_wide_int ;$/;"	t	file:
+udp_local_to_remote	xinetd-master/xinetd/udpint.c	/^static status_e udp_local_to_remote( channel_s *chp )$/;"	f	file:
+udp_remote_to_local	xinetd-master/xinetd/udpint.c	/^static void udp_remote_to_local( struct intercept_s *ip, channel_s **chpp )$/;"	f	file:
+umask_parser	xinetd-master/xinetd/parsers.c	/^status_e umask_parser( pset_h values, $/;"	f
+update_env_with_strings	xinetd-master/xinetd/env.c	/^static status_e update_env_with_strings( env_h env, pset_h strings )$/;"	f	file:
+usage	xinetd-master/xinetd/options.c	/^static void usage(void)$/;"	f	file:
+user_parser	xinetd-master/xinetd/parsers.c	/^status_e user_parser( pset_h values, $/;"	f
+user_requested_check	xinetd-master/xinetd/internals.c	/^void user_requested_check(void)$/;"	f
+v6only_parser	xinetd-master/xinetd/parsers.c	/^status_e v6only_parser( pset_h values, $/;"	f
+valid_bytes	xinetd-master/libs/src/sio/impl.h	/^	size_t valid_bytes ;$/;"	m	struct:map_unit
+value	xinetd-master/xinetd/defs.h	/^   int          value ;$/;"	m	struct:name_value
+value	xinetd-master/xinetd/defs.h	/^   int    value ;$/;"	m	struct:protocol_name_value
+vars	xinetd-master/libs/src/misc/m_env.h	/^   char **vars ;$/;"	m	struct:__env
+verify_line	xinetd-master/xinetd/ident.c	/^static char *verify_line( char *line, $/;"	f	file:
+version	xinetd-master/xinetd/addr.c	/^   char            version;   \/* v4 vs. v6 addresses\/masks *\/$/;"	m	struct:comp_addr	file:
+voidfunc	xinetd-master/libs/src/xlog/impl.h	/^typedef void (*voidfunc)() ;$/;"	t
+voidfunc	xinetd-master/xinetd/defs.h	/^typedef void (*voidfunc)() ;$/;"	t
+wait_child	xinetd-master/xinetd/int.c	/^static status_e wait_child( struct intercept_s *ip )$/;"	f	file:
+wait_parser	xinetd-master/xinetd/parsers.c	/^status_e wait_parser( pset_h values, $/;"	f
+weak_extern2	xinetd-master/libs/src/portable/cvt.c	/^weak_extern2 (FLOOR) weak_extern2 (LOG10) weak_extern2 (FABS)$/;"	f
+weak_extern2	xinetd-master/libs/src/portable/cvt.c	159;"	d	file:
+when	xinetd-master/xinetd/xtimer.h	/^	time_t   when;$/;"	m	struct:xtime
+wide_int	xinetd-master/libs/src/sio/sprint.c	/^typedef long long 			wide_int ;$/;"	t	file:
+write	xinetd-master/libs/src/xlog/impl.h	/^		int	(*write)	( struct xlog *, const char *, int, int, va_list ) ;$/;"	m	struct:xlog::xlog_ops
+write_buf	xinetd-master/xinetd/util.c	/^status_e write_buf( int fd, const char *buf, int len )$/;"	f
+xaddrname	xinetd-master/xinetd/log.c	/^const char *xaddrname(const union xsockaddr *inaddr)$/;"	f
+xaddrport	xinetd-master/xinetd/log.c	/^uint16_t xaddrport(const union xsockaddr *inaddr)$/;"	f
+xgetloadavg	xinetd-master/xinetd/xgetloadavg.c	/^double xgetloadavg(void)$/;"	f
+xinetd_mdns_deregister	xinetd-master/xinetd/xmdns.c	/^int xinetd_mdns_deregister(struct service_config *scp) {$/;"	f
+xinetd_mdns_init	xinetd-master/xinetd/xmdns.c	/^int xinetd_mdns_init(void) {$/;"	f
+xinetd_mdns_poll	xinetd-master/xinetd/xmdns.c	/^int xinetd_mdns_poll(void) {$/;"	f
+xinetd_mdns_register	xinetd-master/xinetd/xmdns.c	/^int xinetd_mdns_register(struct service_config *scp) {$/;"	f
+xinetd_mdns_svc_free	xinetd-master/xinetd/xmdns.c	/^int xinetd_mdns_svc_free(struct service_config *scp) {$/;"	f
+xinetd_mdns_svc_init	xinetd-master/xinetd/xmdns.c	/^int xinetd_mdns_svc_init(struct service_config *scp) {$/;"	f
+xl_callback	xinetd-master/libs/src/xlog/impl.h	/^	void 				(*xl_callback)() ;$/;"	m	struct:xlog
+xl_callback_arg	xinetd-master/libs/src/xlog/impl.h	/^	void 				*xl_callback_arg ;$/;"	m	struct:xlog
+xl_clients	xinetd-master/libs/src/xlog/impl.h	/^	struct xlog 	*xl_clients ;	\/* linked list of xlogs that use *\/$/;"	m	struct:xlog	typeref:struct:xlog::xlog
+xl_data	xinetd-master/libs/src/xlog/impl.h	/^	void 	*xl_data ;$/;"	m	struct:xlog
+xl_flags	xinetd-master/libs/src/xlog/impl.h	/^	int 				xl_flags ;$/;"	m	struct:xlog
+xl_id	xinetd-master/libs/src/xlog/impl.h	/^	char 				*xl_id ;$/;"	m	struct:xlog
+xl_ops	xinetd-master/libs/src/xlog/impl.h	/^	} 	*xl_ops ;$/;"	m	struct:xlog	typeref:struct:xlog::xlog_ops
+xl_type	xinetd-master/libs/src/xlog/impl.h	/^	xlog_e 			xl_type ;$/;"	m	struct:xlog
+xl_use	xinetd-master/libs/src/xlog/impl.h	/^	struct xlog 	*xl_use ;	\/* xlog we report errors to 		*\/$/;"	m	struct:xlog	typeref:struct:xlog::xlog
+xlog	xinetd-master/libs/src/xlog/impl.h	/^struct xlog$/;"	s
+xlog_cmd_e	xinetd-master/libs/src/xlog/xlog.h	/^	} xlog_cmd_e ;$/;"	t	typeref:enum:__anon2
+xlog_control	xinetd-master/libs/src/xlog/xlog.c	/^int xlog_control( xlog_h pxlog, xlog_cmd_e cmd, ... )$/;"	f
+xlog_create	xinetd-master/libs/src/xlog/xlog.c	/^xlog_h xlog_create( xlog_e type, const char *id, int flags, ... )$/;"	f
+xlog_destroy	xinetd-master/libs/src/xlog/xlog.c	/^void xlog_destroy( xlog_h pxlog )$/;"	f
+xlog_e	xinetd-master/libs/src/xlog/xlog.h	/^typedef enum { XLOG_SYSLOG, XLOG_FILELOG } xlog_e ;$/;"	t	typeref:enum:__anon1
+xlog_flags	xinetd-master/libs/src/xlog/xlog.c	/^static void xlog_flags( xlog_s *xp, xlog_cmd_e cmd, ... )$/;"	f	file:
+xlog_h	xinetd-master/libs/src/xlog/xlog.h	/^typedef void *xlog_h ;$/;"	t
+xlog_link	xinetd-master/libs/src/xlog/xlog.c	/^static void xlog_link( xlog_s *client, xlog_s *server )$/;"	f	file:
+xlog_ops	xinetd-master/libs/src/xlog/impl.h	/^	struct xlog_ops$/;"	s	struct:xlog
+xlog_ops_lookup	xinetd-master/libs/src/xlog/xlog.c	/^static struct xlog_ops *xlog_ops_lookup( xlog_e type )$/;"	f	file:
+xlog_parms	xinetd-master/libs/src/xlog/xlog.c	/^int xlog_parms( xlog_e type, ... )$/;"	f
+xlog_s	xinetd-master/libs/src/xlog/impl.h	/^typedef struct xlog xlog_s ;$/;"	t	typeref:struct:xlog
+xlog_unlink	xinetd-master/libs/src/xlog/xlog.c	/^static void xlog_unlink( xlog_s *xp )$/;"	f	file:
+xlog_write	xinetd-master/libs/src/xlog/xlog.c	/^void xlog_write( xlog_h pxlog, const char buf[], int len, int flags, ... )$/;"	f
+xmatch	xinetd-master/xinetd/addr.c	/^static bool_int xmatch(const char *addr1, const char *mask1, $/;"	f	file:
+xremove	xinetd-master/xinetd/addr.c	/^static status_e xremove( pset_h addr_list, const struct comp_addr *cap )$/;"	f	file:
+xsetmask	xinetd-master/xinetd/addr.c	/^static void xsetmask(char *mask, unsigned int bits, unsigned int len)$/;"	f	file:
+xsockaddr	xinetd-master/xinetd/defs.h	/^union xsockaddr {$/;"	u
+xtid	xinetd-master/xinetd/xtimer.h	/^	int xtid;$/;"	m	struct:xtime
+xtime	xinetd-master/xinetd/xtimer.h	/^struct xtime {$/;"	s
+xtime_h	xinetd-master/xinetd/xtimer.h	/^typedef struct xtime xtime_h;$/;"	t	typeref:struct:xtime
+xtimer_add	xinetd-master/xinetd/xtimer.c	/^int xtimer_add( void (*func)(void), time_t secs )$/;"	f
+xtimer_compfunc	xinetd-master/xinetd/xtimer.c	/^static int xtimer_compfunc( const void *_a, const void *_b )$/;"	f	file:
+xtimer_init	xinetd-master/xinetd/xtimer.c	/^static int xtimer_init( void )$/;"	f	file:
+xtimer_list	xinetd-master/xinetd/xtimer.c	/^static pset_h xtimer_list = NULL;$/;"	v	file:
+xtimer_nexttime	xinetd-master/xinetd/xtimer.c	/^time_t xtimer_nexttime(void)$/;"	f
+xtimer_poll	xinetd-master/xinetd/xtimer.c	/^int xtimer_poll(void)$/;"	f
+xtimer_remove	xinetd-master/xinetd/xtimer.c	/^int xtimer_remove(int xtid)$/;"	f
+yp_get_default_domain	xinetd-master/configure	/^yp_get_default_domain ();$/;"	f
