@@ -1,0 +1,131 @@
+0、转自 https://www.cnblogs.com/hiloves/p/6009707.html
+
+1、开源项目首页已经从https://code.google.com/p/google-glog/迁移到https://github.com/google/glog。当前主版本是0.3.4。
+
+2、下载代码后，双击根目录下的google-glog.sln，Visual Studio 2015提示先进行迁移，成功后就可以编译了。
+
+3、在解决方案下有四个工程：libglog（是动态链接库工程，生成libglog.dll和libglog.lib），libglog_static（是静态库工程，生成libglog_static.lib，运行时不需要libglog.dll），logging_unittest和logging_unittest_static是相应的测试工程。
+
+4、不需要更改工程属性。平台工具集是否是Windows XP(v140_xp)好像并不影响。Glog不支持Unicode宽字符集，工程属性字符集保持多字节字符集。“C/C++”-“代码生成”中的“运行库”，libglog动态库工程必须选择“多线程DLL”或“多线程调试DLL”，libglog_static静态库工程必须选择“多线程”或“多线程调试”。
+
+5、按需要编译库。以静态库为例，动态库多一步将libglog.dll拷贝到程序目录下。分别编译Debug和Release，将Debug版的重命名为libglog_static_d.lib。将编译的lib文件拷贝到根目录\src\glog下，\src\glog是头文件目录。这个版本的静态库在试用时并未发现有内存泄露问题。
+
+6、将\glog目录（包括了头文件和库文件）拷贝到自己的工程目录下。也可以新建另外的库目录，也可以在工程属性的附加目录中增加相应目录，这里采用在代码文件中控制。在工程资源管理器中添加glog头文件，如果先添加glog目录再添加头文件会提示glog头文件中的#include路径出错，手动删除路径中的“glog\”可解决。
+
+7、在需要的地方#include "glog/logging.h"。建议添加到stdafx.h中。 
+
+8、使用静态库必须添加#define GOOGLE_GLOG_DLL_DECL。动态库不必添加。
+
+9、因windows.h中定义的宏ERROR，与glog中定义的宏ERROR冲突，所以如果#include <windows.h>后要添加#define GLOG_NO_ABBREVIATED_SEVERITIES，并且代码中要用google::GLOG_ERROR来代替原来的google::ERROR，相应的其他也改为：GLOG_INFO、GLOG_WARNING、GLOG_FATAL。
+
+10、添加库文件：#pragma comment(lib,"glog/libglog_static.lib")。针对Debug和Release版，用#ifdef控制。
+复制代码
+
+1 #define GOOGLE_GLOG_DLL_DECL
+2 #define GLOG_NO_ABBREVIATED_SEVERITIES
+3 #include "glog/logging.h"
+4 
+5 #ifdef DEBUG
+6     #pragma comment(lib,"glog/libglog_static_d.lib")
+7 #else
+8     #pragma comment(lib,"glog/libglog_static.lib")
+9 #endif // DEBUG
+
+复制代码
+
+
+11、自己的工程使用静态库时，必须选择“多线程”或“多线程调试”。使用动态库则选择“多线程DLL”或“多线程调试DLL”。
+
+12、使用glog之前必须先初始化库，要生成日志文件只需在开始log之前调用一次：
+
+google::InitGoogleLogging(argv[0]);  //括号内是程序名
+
+当要结束glog时必须关闭库，否则会内存溢出：
+
+google::ShutdownGoogleLogging();
+
+13、设置日志文件保存目录，这个目录必须是已经存在的，否则不能生成日志文件。必须在初始化库之前调用。
+
+FLAGS_log_dir = "c:\\Logs";
+
+14、GLOG 有四个错误级别，枚举如下：
+复制代码
+
+enum SeverityLevel
+{
+　　google::INFO = 0,
+　　google::WARNING = 1,
+　　google::ERROR = 2,
+　　google::FATAL = 3,
+};
+
+复制代码
+
+15、输出日志：
+
+LOG(INFO) << "info test";  //输出一个Info日志
+LOG(WARNING) << "warning test";  //输出一个Warning日志
+LOG(ERROR) << "error test";  //输出一个Error日志
+LOG(FATAL) << "fatal test";  //输出一个Fatal日志，这是最严重的日志并且输出之后会中止程序
+
+16、条件输出：
+复制代码
+
+LOG_IF(INFO, num_cookies > 10) << "Got lots of cookies";  //当条件满足时输出日志
+
+LOG_EVERY_N(INFO, 10) << "Got the " << google::COUNTER << "th cookie";  //google::COUNTER 记录该语句被执行次数，从1开始，在第一次运行输出日志之后，每隔 10 次再输出一次日志信息
+
+LOG_IF_EVERY_N(INFO, (size > 1024), 10) << "Got the " << google::COUNTER << "th big cookie";  //上述两者的结合，不过要注意，是先每隔 10 次去判断条件是否满足，如果滞则输出日志；而不是当满足某条件的情况下，每隔 10 次输出一次日志信息
+
+LOG_FIRST_N(INFO, 20) << "Got the " << google::COUNTER << "th cookie";  //当此语句执行的前 20 次都输出日志，然后不再输出
+
+复制代码
+
+17、几个函数：
+
+google::SetLogDestination(google::GLOG_INFO, "log/prefix_");  //设置特定严重级别的日志的输出目录和前缀。第一个参数为日志级别，第二个参数表示输出目录及日志文件名前缀
+
+google::SetLogFilenameExtension("logExtension");  //在日志文件名中级别后添加一个扩展名。适用于所有严重级别
+
+google::SetStderrLogging(google::GLOG_INFO);  //大于指定级别的日志都输出到标准输出
+
+18、几个参数设置：
+复制代码
+
+FLAGS_logtostderr = true;  //设置日志消息是否转到标准输出而不是日志文件
+
+FLAGS_alsologtostderr = true;  //设置日志消息除了日志文件之外是否去标准输出
+
+FLAGS_colorlogtostderr = true;  //设置记录到标准输出的颜色消息（如果终端支持）
+
+FLAGS_log_prefix = true;  //设置日志前缀是否应该添加到每行输出
+
+FLAGS_logbufsecs = 0;  //设置可以缓冲日志的最大秒数，0指实时输出
+
+FLAGS_max_log_size = 10;  //设置最大日志文件大小（以MB为单位）
+
+FLAGS_stop_logging_if_full_disk = true;  //设置是否在磁盘已满时避免日志记录到磁盘
+
+复制代码
+
+ 19、例子：
+复制代码
+
+// Start google log system:
+FLAGS_log_dir = "c:\\Logs";
+google::InitGoogleLogging(argv[0]);
+google::SetLogDestination(google::GLOG_INFO, "c:\\Logs\\INFO_");
+google::SetStderrLogging(google::GLOG_INFO);
+google::SetLogFilenameExtension("log_");
+FLAGS_colorlogtostderr = true;  // Set log color
+FLAGS_logbufsecs = 0;  // Set log output speed(s)
+FLAGS_max_log_size = 1024;  // Set max log file size
+FLAGS_stop_logging_if_full_disk = true;  // If disk is full
+char str[20] = "hello log!";
+LOG(INFO) << str;
+CStringA cStr = "hello google!";
+LOG(INFO) << cStr;
+LOG(INFO) << "info test" << "hello log!";  //输出一个Info日志
+LOG(WARNING) << "warning test";  //输出一个Warning日志
+LOG(ERROR) << "error test";  //输出一个Error日志
+google::ShutdownGoogleLogging();
