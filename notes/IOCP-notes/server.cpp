@@ -105,8 +105,6 @@ DWORD WINAPI ServerWorkThread(LPVOID CompletionPortID)
 	return 0;
 }
 
-DWORD WINAPI ServerSendThread(LPVOID IpParam);  
-
 int main(int argc, char* argv[])
 {
 	//º”‘ÿsocket∂ØÃ¨¡¥Ω”ø‚
