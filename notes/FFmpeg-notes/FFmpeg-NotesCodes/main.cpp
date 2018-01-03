@@ -14,6 +14,7 @@ extern "C"
 #include "libavcodec/avcodec.h"
 #include "libavformat/avformat.h"
 #include "libswscale/swscale.h"
+#include "libswresample/swresample.h"
 #include "libavdevice/avdevice.h"
 }
 
@@ -30,6 +31,7 @@ extern "C"
 #define OUTVIDEO "../bin/video.yuv"
 #define OUTAUDIO "../bin/audio.pcm"
 #define OUTRGB	"../bin/video.rgb24"
+#define OUTS16	"../bin/s16.pcm"
 
 int main()
 {
@@ -40,6 +42,7 @@ int main()
 	FILE* fp_video = fopen(OUTVIDEO, "wb+");
 	FILE* fp_audio = fopen(OUTAUDIO, "wb+");
 	FILE* fp_rgb = fopen(OUTRGB, "wb+");
+	FILE* fp_s16 = fopen(OUTS16, "wb+");
 
 	//初始化FFMPEG  调用了这个才能正常适用编码器和解码器
 	av_register_all();
@@ -109,11 +112,18 @@ int main()
 	AVFrame rgbFrame;
 	AVPacket packet;
 	int got_picture;
-	int rgbsize = avpicture_get_size(PIX_FMT_RGB24, pVCodecCtx->width, pVCodecCtx->height);//算出该格式和分辨率下一帧图像的数据大小
+
+	int rgbsize = avpicture_get_size(PIX_FMT_YUV444P, pVCodecCtx->width, pVCodecCtx->height);//算出该格式和分辨率下一帧图像的数据大小
 	//uint8_t* rgbBuffer = (uint8_t *)av_malloc(rgbsize * sizeof(uint8_t));//分配保存图像的内存
 	//avpicture_fill((AVPicture *)&rgbFrame, rgbBuffer, PIX_FMT_RGB24, pVCodecCtx->width, pVCodecCtx->height);//将自己分配的内存绑定到rgbFrame的data数据区
-	avpicture_alloc((AVPicture *)&rgbFrame, PIX_FMT_RGB24, pVCodecCtx->width, pVCodecCtx->height);//为rgbFrame的data分配内存，不用自己分配
-	SwsContext *img_convert_ctx = sws_getContext(pVCodecCtx->width, pVCodecCtx->height, AV_PIX_FMT_YUV420P, pVCodecCtx->width, pVCodecCtx->height, PIX_FMT_RGB24, SWS_FAST_BILINEAR, NULL, NULL, NULL);//转换上下文
+	avpicture_alloc((AVPicture *)&rgbFrame, PIX_FMT_YUV444P, pVCodecCtx->width, pVCodecCtx->height);//为rgbFrame的data分配内存，不用自己分配
+	SwsContext *img_convert_ctx = sws_getContext(pVCodecCtx->width, pVCodecCtx->height, AV_PIX_FMT_YUV420P, pVCodecCtx->width, pVCodecCtx->height, PIX_FMT_YUV444P, SWS_FAST_BILINEAR, NULL, NULL, NULL);//转换上下文
+
+	struct SwrContext* swr_covert_ctx = swr_alloc_set_opts(NULL, av_get_default_channel_layout(pACodecCtx->channels), AV_SAMPLE_FMT_S16, pACodecCtx->sample_rate, av_get_default_channel_layout(pACodecCtx->channels), pACodecCtx->sample_fmt, pACodecCtx->sample_rate, 0, NULL);//转换上下文
+	swr_init(swr_covert_ctx);//初始化上下文
+	int samplessize = av_samples_get_buffer_size(NULL, pACodecCtx->channels, pACodecCtx->sample_rate, AV_SAMPLE_FMT_S16, 1);//计算1s的数据大小，使缓冲区足够大
+	uint8_t* sambuf = (uint8_t*)av_mallocz(samplessize);
+	
 	while (1)
 	{
 		//读取视频帧
@@ -167,14 +177,20 @@ int main()
 						for (int j = 0; j < Frame.channels; ++j)
 							fwrite(Frame.data[j] + i, 2, 1, fp_audio);
 					}
+
+					int samplenums = swr_convert(swr_covert_ctx, &sambuf, samplessize,(const uint8_t **)Frame.data, Frame.nb_samples);//转换，返回每个通道的样本数
+					fwrite(sambuf, av_samples_get_buffer_size(NULL, Frame.channels, samplenums, AV_SAMPLE_FMT_S16, 1), 1, fp_s16);
 				}
 			}
 		}
 		av_free_packet(&packet);//清除packet里面指向的缓冲区
 	}
 	avpicture_free((AVPicture*)&rgbFrame);//释放avpicture_alloc分配的内存
+	swr_free(&swr_covert_ctx);//释放swr_alloc_set_opts分配的转换上下文
+	av_free(sambuf);
 
 	fclose(fp_rgb);
+	fclose(fp_s16);
 	fclose(fp_video);
 	fclose(fp_audio);
 	avcodec_close(pVCodecCtx);//关闭解码器
